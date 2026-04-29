@@ -22,13 +22,19 @@ Data + AI Summit の公式アジェンダから全セッション情報を取得
 
 ## データソース
 
-### 1) hosted slim JSON（推奨・環境非依存）
+### 1) hosted JSON 2段構成（推奨・環境非依存）
 
-`scripts/fetch_sessions.py --format slim --with-metadata` の出力を公開URL（GitHub raw等）にホストして、そこから `WebFetch` で取得する。
+`scripts/fetch_sessions.py` の出力を2種類ホストし、`WebFetch` で取得する。
 
-- 配信URL: `https://raw.githubusercontent.com/akuwano/dotfiles/main/.claude/skills/dais-session-recommender/dais_sessions.slim.json`
+- **index URL** (body無し・compact、~150KB): `https://raw.githubusercontent.com/akuwano/dotfiles/main/.claude/skills/dais-session-recommender/dais_sessions.index.json`
+  - 全件取得用。WebFetch が要約せず全件返してくれるサイズ
+  - title / speakers / type / track / industry / category / level / areas / duration_min / url のみ
+- **slim URL** (body 600字含む、~390KB): `https://raw.githubusercontent.com/akuwano/dotfiles/main/.claude/skills/dais-session-recommender/dais_sessions.slim.json`
+  - 候補絞り込み後の詳細閲覧用。サイズ的に WebFetch だと部分的サマライズの可能性あり
 - 更新: GitHub Actions で日次自動（`.github/workflows/refresh-dais-sessions.yml`、03:00 JST）
 - Claude.ai アプリ含む全環境で WebFetch が使えれば動く
+
+**運用**: ヒアリング条件で index を読み込み → 候補30〜50件に絞る → 必要に応じて個別 session URL もしくは slim から body を確認。
 
 ### 2) agenda HTML 直取得（フォールバック）
 
@@ -89,16 +95,35 @@ hosted JSONが無い / 古すぎる / 取れない時は、Databricksの公式ag
 
 ### Step 2: セッション取得（3経路・上から順に試す）
 
-#### 2-1（主経路・環境非依存）: hosted slim JSON を WebFetch
+#### 2-1（主経路・環境非依存）: index → 必要なら slim の2段階 WebFetch
+
+**Step 2-1-a: まず index を全件取得**
+
+```
+WebFetch(
+  url="https://raw.githubusercontent.com/akuwano/dotfiles/main/.claude/skills/dais-session-recommender/dais_sessions.index.json",
+  prompt="このJSONの sessions 配列を全要素そのまま返してほしい。要約・抜粋せず全件。各要素は title / speakers / type / track / industry / category / level / areas / duration_min / url を持つ（bodyは無い）。"
+)
+```
+
+取得したら `generated_at` を確認し、**1週間以上古ければユーザーに「データが古い可能性あり、最新化しますか?」と一声かける**。`session_count` が実際の配列件数と一致するかも軽く確認する（要約が混じった場合の検知）。
+
+**Step 2-1-b: ヒアリング条件で候補をindex内で絞る**
+
+業界・レベル・トラック・関心技術で30〜50件程度の候補を内部で抽出。この段階では body が無くても title / speakers / industry / track / areas で十分判断できる。
+
+**Step 2-1-c: 候補の body が必要な場合のみ slim を取りに行く**
+
+最終 Top N の選定理由を書くために、上位候補の概要が欲しい時：
 
 ```
 WebFetch(
   url="https://raw.githubusercontent.com/akuwano/dotfiles/main/.claude/skills/dais-session-recommender/dais_sessions.slim.json",
-  prompt="このJSONの sessions 配列を丸ごと返してほしい。各要素は title / speakers / type / track / industry / category / level / areas / duration_min / url / body。要約せずそのまま。"
+  prompt="この sessions 配列のうち、以下のタイトルを含むエントリの body を返してほしい。タイトル: [...candidate titles...]"
 )
 ```
 
-取得したら `generated_at` を確認し、**1週間以上古ければユーザーに「データが古い可能性あり、最新化しますか?」と一声かける**。
+slim は ~390KB と大きいため WebFetch が一部サマライズする可能性があるが、個別 session の `url` を直接 WebFetch で開いて公式ページから body を取ってもよい（その方が確実）。
 
 #### 2-2（高鮮度経路・Bash/Python使えるとき）: スクリプトで最新化
 
@@ -109,6 +134,8 @@ python3 scripts/fetch_sessions.py --format slim --with-metadata --output /tmp/da
 - `--with-metadata`: `{generated_at, source_url, session_count, sessions}` でラップ（推奨）
 - `--format full`: 全フィールド版が必要な時のみ
 - `--body-chars N`: body切り詰め長さ（0=無制限）
+- `--no-body`: body フィールドを完全に落とす（index 生成用）
+- `--compact`: minified JSON で出力（index ファイル向け）
 
 Claude Code 等で使える。取得後は Read tool で読む。
 

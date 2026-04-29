@@ -77,12 +77,9 @@ def strip_html(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def slim(s: dict, body_chars: int = 600) -> dict:
+def slim(s: dict, body_chars: int = 600, drop_body: bool = False) -> dict:
     cats = s.get("categories", {}) or {}
-    body = strip_html(s.get("body") or "")
-    if body_chars and len(body) > body_chars:
-        body = body[:body_chars].rsplit(" ", 1)[0] + "…"
-    return {
+    out = {
         "title": s.get("title"),
         "speakers": [
             {
@@ -100,8 +97,13 @@ def slim(s: dict, body_chars: int = 600) -> dict:
         "areas": cats.get("areasofinterest") or [],
         "duration_min": s.get("duration"),
         "url": f"https://www.databricks.com{s['alias']}" if s.get("alias") else None,
-        "body": body,
     }
+    if not drop_body:
+        body = strip_html(s.get("body") or "")
+        if body_chars and len(body) > body_chars:
+            body = body[:body_chars].rsplit(" ", 1)[0] + "…"
+        out["body"] = body
+    return out
 
 
 def to_table(slim_sessions: list) -> str:
@@ -142,6 +144,17 @@ def main():
         default=600,
         help="Max chars of body to keep in slim/table mode (0 = unlimited)",
     )
+    ap.add_argument(
+        "--no-body",
+        action="store_true",
+        help="Drop the body field entirely (slim mode). Useful for an index "
+        "file small enough to be returned by WebFetch verbatim.",
+    )
+    ap.add_argument(
+        "--compact",
+        action="store_true",
+        help="Emit minified JSON (no indent, compact separators).",
+    )
     ap.add_argument("--output", default="-", help="Output file or '-' for stdout")
     ap.add_argument(
         "--with-metadata",
@@ -162,15 +175,21 @@ def main():
             "sessions": payload,
         }
 
+    dump_kwargs = (
+        {"separators": (",", ":")}
+        if args.compact
+        else {"indent": 2}
+    )
+
     if args.format == "full":
         payload = wrap(sessions) if args.with_metadata else sessions
-        data = json.dumps(payload, ensure_ascii=False, indent=2)
+        data = json.dumps(payload, ensure_ascii=False, **dump_kwargs)
     elif args.format == "slim":
-        slim_list = [slim(s, args.body_chars) for s in sessions]
+        slim_list = [slim(s, args.body_chars, drop_body=args.no_body) for s in sessions]
         payload = wrap(slim_list) if args.with_metadata else slim_list
-        data = json.dumps(payload, ensure_ascii=False, indent=2)
+        data = json.dumps(payload, ensure_ascii=False, **dump_kwargs)
     else:  # table
-        slim_list = [slim(s, args.body_chars) for s in sessions]
+        slim_list = [slim(s, args.body_chars, drop_body=args.no_body) for s in sessions]
         data = to_table(slim_list)
 
     if args.output == "-":
