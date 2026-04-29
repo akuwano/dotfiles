@@ -20,6 +20,7 @@ Claude-side usage:
      to Claude so edge cases and nuance are handled.
 """
 import argparse
+import datetime as _dt
 import html as html_mod
 import json
 import re
@@ -142,17 +143,32 @@ def main():
         help="Max chars of body to keep in slim/table mode (0 = unlimited)",
     )
     ap.add_argument("--output", default="-", help="Output file or '-' for stdout")
+    ap.add_argument(
+        "--with-metadata",
+        action="store_true",
+        help="Wrap JSON output as {generated_at, source_url, session_count, sessions: [...]}",
+    )
     args = ap.parse_args()
 
     html = fetch_html(args.url)
     sessions = extract_sessions(html)
     sys.stderr.write(f"Fetched {len(sessions)} sessions from {args.url}\n")
 
+    def wrap(payload):
+        return {
+            "generated_at": _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds"),
+            "source_url": args.url,
+            "session_count": len(sessions),
+            "sessions": payload,
+        }
+
     if args.format == "full":
-        data = json.dumps(sessions, ensure_ascii=False, indent=2)
+        payload = wrap(sessions) if args.with_metadata else sessions
+        data = json.dumps(payload, ensure_ascii=False, indent=2)
     elif args.format == "slim":
         slim_list = [slim(s, args.body_chars) for s in sessions]
-        data = json.dumps(slim_list, ensure_ascii=False, indent=2)
+        payload = wrap(slim_list) if args.with_metadata else slim_list
+        data = json.dumps(payload, ensure_ascii=False, indent=2)
     else:  # table
         slim_list = [slim(s, args.body_chars) for s in sessions]
         data = to_table(slim_list)
