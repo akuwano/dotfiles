@@ -134,9 +134,11 @@ def main():
     ap.add_argument("--url", default=DEFAULT_URL)
     ap.add_argument(
         "--format",
-        choices=["full", "slim", "table"],
+        choices=["full", "slim", "table", "jsonl"],
         default="slim",
-        help="Output format (default: slim)",
+        help="Output format (default: slim). 'jsonl' emits one slim "
+        "session JSON per line, prefixed by an optional metadata header line "
+        "with --with-metadata. Designed for the Read tool to ingest line-by-line.",
     )
     ap.add_argument(
         "--body-chars",
@@ -188,6 +190,21 @@ def main():
         slim_list = [slim(s, args.body_chars, drop_body=args.no_body) for s in sessions]
         payload = wrap(slim_list) if args.with_metadata else slim_list
         data = json.dumps(payload, ensure_ascii=False, **dump_kwargs)
+    elif args.format == "jsonl":
+        slim_list = [slim(s, args.body_chars, drop_body=args.no_body) for s in sessions]
+        lines = []
+        if args.with_metadata:
+            header = {
+                "generated_at": _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds"),
+                "source_url": args.url,
+                "session_count": len(sessions),
+                "_format": "jsonl",
+                "_note": "First line is metadata. Subsequent lines: one slim session per line.",
+            }
+            lines.append(json.dumps(header, ensure_ascii=False, separators=(",", ":")))
+        for s in slim_list:
+            lines.append(json.dumps(s, ensure_ascii=False, separators=(",", ":")))
+        data = "\n".join(lines) + "\n"
     else:  # table
         slim_list = [slim(s, args.body_chars, drop_body=args.no_body) for s in sessions]
         data = to_table(slim_list)
@@ -195,6 +212,10 @@ def main():
     if args.output == "-":
         sys.stdout.write(data)
     else:
+        import os as _os
+        out_dir = _os.path.dirname(_os.path.abspath(args.output))
+        if out_dir:
+            _os.makedirs(out_dir, exist_ok=True)
         with open(args.output, "w", encoding="utf-8") as f:
             f.write(data)
         sys.stderr.write(f"Wrote {args.output}\n")

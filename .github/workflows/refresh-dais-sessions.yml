@@ -22,6 +22,13 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Fetch JSONL (Read-friendly, primary)
+        run: |
+          python3 .claude/skills/dais-session-recommender/scripts/fetch_sessions.py \
+            --format jsonl \
+            --with-metadata \
+            --output .claude/skills/dais-session-recommender/dais_sessions.jsonl
+
       - name: Fetch slim JSON (with body, indented)
         run: |
           python3 .claude/skills/dais-session-recommender/scripts/fetch_sessions.py \
@@ -29,7 +36,7 @@ jobs:
             --with-metadata \
             --output .claude/skills/dais-session-recommender/dais_sessions.slim.json
 
-      - name: Fetch index JSON (no body, compact — WebFetch friendly)
+      - name: Fetch index JSON (no body, compact — WebFetch fallback)
         run: |
           python3 .claude/skills/dais-session-recommender/scripts/fetch_sessions.py \
             --format slim \
@@ -42,11 +49,12 @@ jobs:
         run: |
           git config user.name  "dais-refresh-bot"
           git config user.email "dais-refresh-bot@users.noreply.github.com"
-          git add .claude/skills/dais-session-recommender/dais_sessions.slim.json \
+          git add .claude/skills/dais-session-recommender/dais_sessions.jsonl \
+                  .claude/skills/dais-session-recommender/dais_sessions.slim.json \
                   .claude/skills/dais-session-recommender/dais_sessions.index.json
           if git diff --staged --quiet; then
             echo "No session changes."
           else
-            git commit -m "chore(dais): refresh sessions slim+index JSON"
+            git commit -m "chore(dais): refresh sessions jsonl+slim+index"
             git push
           fi

@@ -22,49 +22,28 @@ Data + AI Summit の公式アジェンダから全セッション情報を取得
 
 ## データソース
 
-### 1) hosted JSON 2段構成（推奨・環境非依存）
+GitHub Actions で日次自動更新（03:00 JST、`.github/workflows/refresh-dais-sessions.yml`）。3形式を同時にホスト：
 
-`scripts/fetch_sessions.py` の出力を2種類ホストし、`WebFetch` で取得する。
+| 用途 | URL | サイズ | 説明 |
+|---|---|---|---|
+| **主経路（curl + Read）** | `https://raw.githubusercontent.com/akuwano/dotfiles/main/.claude/skills/dais-session-recommender/dais_sessions.jsonl` | ~310KB / 270行 | 1セッション=1行のJSONL。先頭行はメタデータ。Read で全件確実に読める |
+| 詳細閲覧用 | `…/dais_sessions.slim.json` | ~390KB | indented JSON、body 600字含む |
+| WebFetch フォールバック | `…/dais_sessions.index.json` | ~150KB | body無し compact JSON。Bash 不可環境用 |
 
-- **index URL** (body無し・compact、~150KB): `https://raw.githubusercontent.com/akuwano/dotfiles/main/.claude/skills/dais-session-recommender/dais_sessions.index.json`
-  - 全件取得用。WebFetch が要約せず全件返してくれるサイズ
-  - title / speakers / type / track / industry / category / level / areas / duration_min / url のみ
-- **slim URL** (body 600字含む、~390KB): `https://raw.githubusercontent.com/akuwano/dotfiles/main/.claude/skills/dais-session-recommender/dais_sessions.slim.json`
-  - 候補絞り込み後の詳細閲覧用。サイズ的に WebFetch だと部分的サマライズの可能性あり
-- 更新: GitHub Actions で日次自動（`.github/workflows/refresh-dais-sessions.yml`、03:00 JST）
-- Claude.ai アプリ含む全環境で WebFetch が使えれば動く
+### なぜ JSONL を主にするか
 
-**運用**: ヒアリング条件で index を読み込み → 候補30〜50件に絞る → 必要に応じて個別 session URL もしくは slim から body を確認。
+- **WebFetch は要約する**: LLMベース抽出のため、大きな配列を勝手にサマライズしてしまう。コーナーケースのセッションを見落とす
+- **curl + Read なら要約ゼロ**: ファイルそのままを行単位で取得できる
+- **JSONL は1行=1要素**: Read のページングと相性が良い、行数 = セッション数 + 1（メタ行）で件数確認も簡単
 
-### 2) agenda HTML 直取得（フォールバック）
+### スキーマ（jsonl）
 
-hosted JSONが無い / 古すぎる / 取れない時は、Databricksの公式agendaをそのまま WebFetch する。サマライズされる可能性があるため最終手段。
-
-### スキーマ
-
-`--with-metadata` 付きスクリプト出力 = 配信JSON:
-
-```json
-{
-  "generated_at": "2026-04-23T05:21:24+00:00",
-  "source_url": "https://www.databricks.com/dataaisummit/agenda",
-  "session_count": 174,
-  "sessions": [
-    {
-      "title": "...",
-      "speakers": [{"name": "...", "role": "...", "company": "..."}],
-      "type": "Breakout | Lightning Talk | Paid Training | Keynote",
-      "track": "Data Engineering & Streaming 等",
-      "industry": ["Financial Services", ...],
-      "category": ["Lakebase", "Unity Catalog", ...],
-      "level": "Beginner | Intermediate | Advanced",
-      "areas": ["AI Agents", "Data Applications", ...],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/...",
-      "body": "概要600字まで"
-    }
-  ]
-}
+```
+# 1行目: メタデータ
+{"generated_at":"2026-04-30T...","source_url":"https://...","session_count":269,"_format":"jsonl",...}
+# 2行目以降: 1セッション = 1行（slim形式）
+{"title":"...","speakers":[{"name":"...","role":"...","company":"..."}],"type":"Breakout","track":"...","industry":[...],"category":[...],"level":"Intermediate","areas":[...],"duration_min":"40","url":"https://www.databricks.com/session/...","body":"概要600字まで"}
+{"title":"...",...}
 ```
 
 ### 各セッションの原フィールド対応
@@ -95,9 +74,59 @@ hosted JSONが無い / 古すぎる / 取れない時は、Databricksの公式ag
 
 ### Step 2: セッション取得（3経路・上から順に試す）
 
-#### 2-1（主経路・環境非依存）: index → 必要なら slim の2段階 WebFetch
+**実行環境を判定しつつ、上から順に試して最初に成功した経路を使う**。経路1がベスト、ダメなら2、最後に3。
 
-**Step 2-1-a: まず index を全件取得**
+WebFetch は LLM ベース抽出のため大きな配列を要約してしまう（実測：156KB 程度でも全件保証されない）。可能な限り経路1か2で **生のファイルを取得して Read で読む** 流れを優先する。
+
+---
+
+#### 経路1（主経路 / Claude Code 環境）: スクリプト直接実行
+
+```bash
+python3 ~/.claude/skills/dais-session-recommender/scripts/fetch_sessions.py \
+  --format jsonl \
+  --with-metadata \
+  --output ~/.claude/skills/dais-session-recommender/.cache/dais_sessions.jsonl
+```
+
+その後：
+```
+Read ~/.claude/skills/dais-session-recommender/.cache/dais_sessions.jsonl
+```
+
+- 常に最新（agenda から都度取得、~5秒）
+- Python スクリプトが auto-mkdir するので事前準備不要
+- `~` は macOS / Linux / Git Bash / WSL いずれでも展開される
+- スクリプトは標準ライブラリのみ（urllib, json, re）、追加 install 不要
+
+**Python が無い・スクリプトパスが解決できない場合は経路2へ**。
+
+---
+
+#### 経路2（フォールバック / Bash あるが Python なし）: hosted JSONL を curl で DL
+
+```bash
+mkdir -p ~/.claude/skills/dais-session-recommender/.cache
+curl -sL https://raw.githubusercontent.com/akuwano/dotfiles/main/.claude/skills/dais-session-recommender/dais_sessions.jsonl \
+  -o ~/.claude/skills/dais-session-recommender/.cache/dais_sessions.jsonl
+```
+
+その後：
+```
+Read ~/.claude/skills/dais-session-recommender/.cache/dais_sessions.jsonl
+```
+
+- GitHub Actions が日次更新している hosted ファイルを直接取得
+- ~310KB / 270行（先頭行はメタデータ、残り269行が1セッション=1行）
+- CDN 経由で速い（5分キャッシュ）
+
+**curl も無い・Bash 自体無い場合は経路3へ**。
+
+---
+
+#### 経路3（最終手段 / WebFetch のみ）: hosted index を WebFetch
+
+Claude.ai web app など Bash が使えない環境用：
 
 ```
 WebFetch(
@@ -106,51 +135,21 @@ WebFetch(
 )
 ```
 
-取得したら `generated_at` を確認し、**1週間以上古ければユーザーに「データが古い可能性あり、最新化しますか?」と一声かける**。`session_count` が実際の配列件数と一致するかも軽く確認する（要約が混じった場合の検知）。
+取得後、`session_count` と実際に返ってきた配列の件数を必ず比較。乖離がある場合は **WebFetch がサマライズしている** ので、ユーザーに「現環境では全件取得が保証されない、Bash 環境での再実行を勧める」と伝える。
 
-**Step 2-1-b: ヒアリング条件で候補をindex内で絞る**
+body が必要な候補は個別 session の `url` を WebFetch で開く（公式ページから1件ずつ取る方が確実）。
 
-業界・レベル・トラック・関心技術で30〜50件程度の候補を内部で抽出。この段階では body が無くても title / speakers / industry / track / areas で十分判断できる。
+---
 
-**Step 2-1-c: 候補の body が必要な場合のみ slim を取りに行く**
+### Step 2-α: 取得直後の健全性チェック（経路問わず必須）
 
-最終 Top N の選定理由を書くために、上位候補の概要が欲しい時：
+取得方法に関わらず、以下を確認：
 
-```
-WebFetch(
-  url="https://raw.githubusercontent.com/akuwano/dotfiles/main/.claude/skills/dais-session-recommender/dais_sessions.slim.json",
-  prompt="この sessions 配列のうち、以下のタイトルを含むエントリの body を返してほしい。タイトル: [...candidate titles...]"
-)
-```
-
-slim は ~390KB と大きいため WebFetch が一部サマライズする可能性があるが、個別 session の `url` を直接 WebFetch で開いて公式ページから body を取ってもよい（その方が確実）。
-
-#### 2-2（高鮮度経路・Bash/Python使えるとき）: スクリプトで最新化
-
-```bash
-python3 scripts/fetch_sessions.py --format slim --with-metadata --output /tmp/dais_sessions.slim.json
-```
-
-- `--with-metadata`: `{generated_at, source_url, session_count, sessions}` でラップ（推奨）
-- `--format full`: 全フィールド版が必要な時のみ
-- `--body-chars N`: body切り詰め長さ（0=無制限）
-- `--no-body`: body フィールドを完全に落とす（index 生成用）
-- `--compact`: minified JSON で出力（index ファイル向け）
-
-Claude Code 等で使える。取得後は Read tool で読む。
-
-#### 2-3（最終フォールバック）: agenda を WebFetch
-
-2-1 の配信JSONも 2-2 のCLIも使えない場合のみ:
-
-```
-WebFetch(
-  url="https://www.databricks.com/dataaisummit/agenda",
-  prompt="このページのHTML中には `\"sessions\":[ ... ]` という JSON 配列がDrupal経由で埋め込まれている。その配列を**要約せず**、可能な限りそのまま返してほしい。各要素は title / speakers / body / alias / duration / categories(type, track, industry, category, level, areasofinterest) を持つ。"
-)
-```
-
-WebFetchはサマライズされる可能性があるため**最終手段**。主経路ではない。
+1. **`generated_at` を読む**。1週間以上古ければユーザーに「データが古い可能性あり、最新化しますか?」と一声かける（経路1の再実行で最新化される）
+2. **件数照合**: `session_count` メタデータと実際にロードされた件数を比較
+   - JSONL: `wc -l` の値が `session_count + 1` （メタ行+1）と一致するか
+   - JSON 配列: `len(sessions)` と `session_count` が一致するか
+   - 不一致 → 経路2/3で取得が不完全。経路1へ昇格を試みる
 
 ### Step 3: Claude が読む＋判断する
 
