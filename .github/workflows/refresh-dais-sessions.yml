@@ -22,10 +22,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Fetch JSONL (Read-friendly, primary)
+      - name: Fetch JSONL (Read-friendly, primary, no body to fit Read size limit)
         run: |
           python3 .claude/skills/dais-session-recommender/scripts/fetch_sessions.py \
             --format jsonl \
+            --no-body \
             --with-metadata \
             --output .claude/skills/dais-session-recommender/dais_sessions.jsonl
 
