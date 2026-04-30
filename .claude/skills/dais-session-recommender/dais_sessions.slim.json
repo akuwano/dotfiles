@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T00:21:28+00:00",
+  "generated_at": "2026-04-30T18:41:14+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 269,
   "sessions": [
@@ -224,6 +224,34 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/accelerating-cortevas-data-source-onboarding-lakeflow",
       "body": "Onboarding a new data source at Corteva used to take 30–45 days. Now it’s 4–7 days, about 85% faster. The Lakeflow-first strategy and Unity Catalog helped standardize the ingestion‑to‑consumption pathway across 6 domains. Lakeflow Connect, Spark Declarative Pipelines and Jobs make pipeline runs repeatable and config‑driven. A lightweight metadata layer centralizes data cleansing, and an incremental DDL tool pushes schema changes safely through each environment.This pattern now underpins Corteva’s operational analytics. It accelerates root‑cause analysis linking field variability to dryer‑bin…"
+    },
+    {
+      "title": "Accelerating Data Utility at Toyota: How vista Unifies Data Access and Governance via Data Mesh",
+      "speakers": [
+        {
+          "name": "Maki Kawashima",
+          "role": "Platform Architect",
+          "company": "Toyota Motor Corporation"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Data Strategy",
+      "industry": [
+        "Manufacturing"
+      ],
+      "category": [
+        "AI/BI",
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Catalogs",
+        "Data Ingestion",
+        "Architecture & Interoperability"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/accelerating-data-utility-toyota-how-vista-unifies-data-access-and",
+      "body": "Toyota Motor Corporation, with over 70,000 employees, initially centralized corporate, vehicle and customer data into a data library. This caused scalability issues due to a central team lacking domain knowledge, resulting in delays of several months. To solve this information disparity, Toyota created “vista,” a platform offering a company-wide data view. Vista shifts from a centralized system to a decentralized data mesh, enabling domain experts to manage their own data. It uses a data fabric on Databricks Unity Catalog for centralized metadata governance and access control while keeping…"
     },
     {
       "title": "Accelerating Product Onboarding with a Multi Agent System on Databricks",
@@ -521,7 +549,7 @@
         },
         {
           "name": "Balaji Swamynathan",
-          "role": "Sr. Architect",
+          "role": "Sr. ",
           "company": "Foot Locker"
         }
       ],
@@ -2010,7 +2038,7 @@
       "speakers": [
         {
           "name": "Huey Han",
-          "role": null,
+          "role": "Staff Product Manager",
           "company": "Databricks, Inc."
         }
       ],
@@ -2618,7 +2646,7 @@
       "title": "Driving Enterprise Transformation With an AI‑Enabled Field Assistant",
       "speakers": [
         {
-          "name": "Thomas Raborn",
+          "name": "thomas raborn",
           "role": "Executive Director - Lilly USA Field Operations",
           "company": "Eli Lilly and Company"
         },
@@ -4947,6 +4975,11 @@
           "name": "Simon PREVOTEAUX",
           "role": "Pr Data Scientist",
           "company": "Thales"
+        },
+        {
+          "name": "Yann Nicolas",
+          "role": "Chief Data & AI Officer",
+          "company": "Thales Group"
         }
       ],
       "type": "Breakout",
@@ -5354,33 +5387,6 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/modernizing-data-governance-thailands-oldest-bank-prepare-ai-first-world",
       "body": "Founded in 1907, Siam Commercial Bank (SCB) is Thailand’s oldest bank and Asia’s third oldest operational bank. In 2022, SCB executed a landmark transformation, restructuring into a holding-company structure under SCBX. This shift separated the organization into 12 core subsidiaries —dramatically increasing the complexity of data governance, data security and data quality across the group. Today, SCBX operates its enterprise data platform on Databricks, supporting more than 1,000 daily active users, 30,000+ production jobs, 6,000+ governed tables and an aspiration to scale data quality to…"
-    },
-    {
-      "title": "Modernizing Threat Detection and Hunting Using Databricks Lakewatch",
-      "speakers": [
-        {
-          "name": "Bharat Gamini",
-          "role": "Lead Security Data Engineer",
-          "company": "Adobe"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Cybersecurity",
-      "industry": [
-        "Enterprise Technology",
-        "Communications, Media & Entertainment"
-      ],
-      "category": [
-        "Databricks SQL",
-        "Unity Catalog"
-      ],
-      "level": "Intermediate",
-      "areas": [
-        "Cybersecurity"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/modernizing-threat-detection-and-hunting-using-databricks-lakewatch",
-      "body": "Adobe is enhancing its threat detection and hunting capabilities by complementing existing SIEM-based workflows with Databricks Lakewatch for use cases that demand greater scalability, automation, and data unification. Lakewatch ingests and normalizes large volumes of cybersecurity telemetry into OCSF formatted tables, enabling detection and hunting logic written in SQL or PySpark to operate efficiently on both streaming and historical data. By leveraging Lakewatch’s rule management, Mitre ATT&CK alignment, and integrations with external case management systems, Adobe is automating…"
     },
     {
       "title": "Molecules, Merchants & Models: How Structure-First AI Makes Promotion Intelligence Trustworthy",
@@ -6574,8 +6580,8 @@
         },
         {
           "name": "Jarrad Taylor",
-          "role": null,
-          "company": "Skills SA - Department of State Development"
+          "role": "AI, Data & Integration Lead ",
+          "company": "Department of State Development"
         },
         {
           "name": "Claudia Kralik",
@@ -6645,8 +6651,8 @@
         },
         {
           "name": "Joel Castaneda",
-          "role": null,
-          "company": "Vantage Bank Texas"
+          "role": "Executive VP | Chief Risk Officer",
+          "company": "Vantage Bank"
         }
       ],
       "type": "Breakout",
@@ -7095,7 +7101,7 @@
       "speakers": [
         {
           "name": "Monika Hristova",
-          "role": "Principal Software Engineer",
+          "role": "Lead Software architect",
           "company": "DraftKings"
         },
         {
@@ -7984,7 +7990,7 @@
       "title": "Using AI to Migrate Semantic Models and Dashboards to Databricks Metric Views and AI/BI",
       "speakers": [
         {
-          "name": "jeff.mabeck jeff.mabeck",
+          "name": "Jeff Mabeck",
           "role": "Principal Analytics Architect",
           "company": "HP Inc."
         },
