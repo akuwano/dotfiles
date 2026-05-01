@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T18:41:14+00:00",
+  "generated_at": "2026-05-01T18:34:25+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 269,
   "sessions": [
@@ -632,6 +632,40 @@
       "body": "At CAVA, teams across all business domains rely on governed data in Databricks to drive decisions across the enterprise. This includes datasets used by Investor Relations to prepare earnings materials, support board reporting, and inform market-facing communications.To enable users seamlessly access and act on data across through a single interface, we built Ask Astro, an enterprise-scale agentic data copilot on Databricks that consolidates analytics, institutional knowledge, and operational workflows into one governed conversational experience.Ask Astro is powered by a Multi-Agent Supervisor…"
     },
     {
+      "title": "AskPorto - a unified Agentic AI solution for data analytics and discovery",
+      "speakers": [
+        {
+          "name": "THONG LOON TAN",
+          "role": "SENIOR DEPUTY DIRECTOR",
+          "company": "CENTRAL PROVIDENT FUND BOARD"
+        },
+        {
+          "name": "Benedict Ho",
+          "role": "Senior Deputy Director",
+          "company": "CPFB Singapore"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Public Sector"
+      ],
+      "category": [
+        "AI/BI",
+        "Databricks SQL",
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "AI Agents",
+        "Data Intelligence",
+        "Generative AI"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/askporto-unified-agentic-ai-solution-data-analytics-and-discovery",
+      "body": "The Central Provident Fund Baord (CPFB), Singapore's social security agency, manages complex data across multiple business lines with unique analytical requirements despite centralising on Databricks Lakehouse. Users struggled with traditional querying methods and fragmented governance documentation across multiple sources, creating analytical silos. Employees needed intelligent systems capable of querying multiple sources without technical expertise, requiring contextualised responses understanding domain-specific terminology and automatic validation. Solution: unified conversational…"
+    },
+    {
       "title": "AstraZeneca's Multi-Agent System: Lessons Scaling Agents by 10x With Agent Bricks",
       "speakers": [
         {
@@ -1198,34 +1232,6 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/building-data-telescope-study-vast-expanse-social-media",
       "body": "Researchers studying extremism and misinformation need massive social media datasets but face infrastructure and budget constraints. Traditional solutions offer dashboard access to pre-aggregated data, limiting flexibility. Princeton’s Accelerator gives researchers direct Databricks workspace access with pre-built Typical Activity Datasets, enabling custom queries and analysis. We built a multi-tenant data and AI-powered platform serving R1 institutions.Our medallion architecture ingests data via Lakeflow Spark Declarative Pipelines: Bronze captures raw data, Silver applies filtering/text…"
-    },
-    {
-      "title": "Building a Financial Services Customer 360 and Agentic Decision Engine on Databricks",
-      "speakers": [
-        {
-          "name": "Meggy Chung",
-          "role": "Head of Enterprise Data Platform",
-          "company": "Barclays Bank PLC"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Data Strategy",
-      "industry": [
-        "Financial Services"
-      ],
-      "category": [
-        "AI/BI",
-        "Databricks Apps"
-      ],
-      "level": "Beginner",
-      "areas": [
-        "AI Agents",
-        "Customer Data Platform",
-        "Marketing"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/building-financial-services-customer-360-and-agentic-decision-engine",
-      "body": "Barclays, a global financial services giant, is overhauling its customer data strategy to unify data across multiple business units and enable next-generation personalization. Join us as the Barclays Enterprise Data Platform (EDP) team and Databricks discuss their journey to build an “Open Party Platform\"” (C360) on the Databricks Lakehouse. This talk will cover how they are tackling critical, high-pain challenges including: mitigating vendor lock-in from legacy systems, achieving true cross-business unit data standardization and implementing advanced identity resolution and linking using…"
     },
     {
       "title": "Building a Lakehouse Data Strategy for Healthcare",
@@ -3081,7 +3087,7 @@
         },
         {
           "name": "Yicong Huang",
-          "role": null,
+          "role": "Software Engineer",
           "company": null
         }
       ],
@@ -3134,6 +3140,11 @@
           "name": "Junta Nakai",
           "role": "VP",
           "company": "Databricks"
+        },
+        {
+          "name": "Vlad Tenev",
+          "role": null,
+          "company": "Robinhood"
         }
       ],
       "type": "Special Interest",
@@ -4223,6 +4234,11 @@
           "name": "Michael Sanky",
           "role": "VP, Healthcare & Life Sciences GTM",
           "company": "Databricks"
+        },
+        {
+          "name": "Jawad Khan",
+          "role": "Chief Data and Analytics Officer",
+          "company": "Akron Children's Hospital"
         }
       ],
       "type": "Special Interest",
@@ -5052,8 +5068,8 @@
         },
         {
           "name": "Christian Jung",
-          "role": "Head of Digital, Data & AI Foundation",
-          "company": "TK Elevator"
+          "role": "VP of Digital, Data & AI Foundation",
+          "company": "TK Elevator GmbH"
         },
         {
           "name": "Marius Hagmann",
@@ -5096,17 +5112,17 @@
           "name": "Dan Morris",
           "role": "Global Head of Marketing Solutions",
           "company": "Databricks"
+        },
+        {
+          "name": "Bryce Macher",
+          "role": null,
+          "company": "FanDuel"
         }
       ],
       "type": "Special Interest",
-      "track": "Artificial Intelligence & Agents",
-      "industry": [
-        "Energy & Utilities"
-      ],
-      "category": [
-        "AI/BI",
-        "Unity Catalog"
-      ],
+      "track": null,
+      "industry": [],
+      "category": [],
       "level": "Beginner",
       "areas": [
         "Customer Data Platform",
@@ -5149,6 +5165,11 @@
           "name": "Sean Muzzy",
           "role": null,
           "company": "Acxiom"
+        },
+        {
+          "name": "Jared Chavez",
+          "role": null,
+          "company": "Pacers Sports and Entertainment"
         }
       ],
       "type": "Special Interest",
@@ -6001,6 +6022,31 @@
           "name": "Robert Snyder",
           "role": "Informatics Branch Chief",
           "company": "California Department of Public Health"
+        },
+        {
+          "name": "Callum McCann",
+          "role": null,
+          "company": "Anduril"
+        },
+        {
+          "name": "Rob Hayes",
+          "role": "Chief Data and AI Officer",
+          "company": "US Patent & Trademark Office (PTO)"
+        },
+        {
+          "name": "Marcie Kahbody",
+          "role": "IT Manager",
+          "company": "California State Transportation Agency"
+        },
+        {
+          "name": "Ryan Mosley",
+          "role": "Enterprise Modernization Division Chief",
+          "company": "Cal Department of Health Care Services"
+        },
+        {
+          "name": "Erin Mills",
+          "role": "Financial Systems Analyst",
+          "company": "DoD"
         }
       ],
       "type": "Special Interest",
@@ -6910,14 +6956,34 @@
           "company": "Databricks"
         },
         {
-          "name": "Steve Sobel",
-          "role": "Startup and Venture Programs",
-          "company": "Databricks"
-        },
-        {
           "name": "Andrew Ferguson",
           "role": "VP, Databricks Ventures",
           "company": "Databricks"
+        },
+        {
+          "name": "Josh Lillie",
+          "role": "Director, Startups",
+          "company": "Databricks"
+        },
+        {
+          "name": "Michael Pozmantier",
+          "role": "CEO",
+          "company": "Alpha Level"
+        },
+        {
+          "name": "Phil Mizrahi",
+          "role": "CEO",
+          "company": "Linkup"
+        },
+        {
+          "name": "Jennifer Li",
+          "role": null,
+          "company": "a16z"
+        },
+        {
+          "name": "Luyuan Fang",
+          "role": null,
+          "company": "CurativeAI"
         }
       ],
       "type": "Meetup",
@@ -7190,6 +7256,21 @@
           "name": "Rani Johnson",
           "role": "CIO",
           "company": "Workday"
+        },
+        {
+          "name": "Tristan Baker",
+          "role": "Chief Global Data Architect",
+          "company": "Intuit Inc."
+        },
+        {
+          "name": "Sheridan McDonald",
+          "role": "DNB VP Enterprise, Sales",
+          "company": "Databricks"
+        },
+        {
+          "name": "Shant Hovsepian",
+          "role": "Dream Granter",
+          "company": "Databricks"
         }
       ],
       "type": "Special Interest",
@@ -7238,6 +7319,11 @@
           "name": "Jaya Upadhyay",
           "role": "Sr Director, Enterprise Data Platform",
           "company": "Zillow"
+        },
+        {
+          "name": "Vaibhav Jajoo",
+          "role": "Head of Data Engineering & Data Platform",
+          "company": "DoorDash"
         }
       ],
       "type": "Breakout",
@@ -7536,14 +7622,19 @@
       "title": "The Intelligent Healthcare System: How Agentic AI is Redefining Care Delivery and Coverage",
       "speakers": [
         {
-          "name": "Aaron Zavora",
-          "role": "Global Lead Healthcare GTM",
-          "company": "Databricks"
+          "name": "Guneeti Sharma",
+          "role": "Sr. Principal in AI",
+          "company": "Slalom LLC"
         },
         {
-          "name": "Jawad Khan",
-          "role": "Chief Data and Analytics Officer",
-          "company": "Akron Children's Hospital"
+          "name": "Mark Tabor",
+          "role": "Senior Manager, DS & AI Platforms",
+          "company": "Centene"
+        },
+        {
+          "name": "Barrett Foat",
+          "role": "Senior Director, Machine Learning ",
+          "company": "Centene"
         }
       ],
       "type": "Breakout",
@@ -7968,7 +8059,7 @@
         }
       ],
       "type": "Lightning Talk",
-      "track": "Data Strategy",
+      "track": "Data Engineering & Streaming",
       "industry": [
         "Healthcare & Life Sciences",
         "Financial Services"
