@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T18:27:44+00:00",
+  "generated_at": "2026-05-03T18:27:46+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 399,
   "sessions": [
@@ -11141,8 +11141,8 @@
         },
         {
           "name": "Tristan Baker",
-          "role": "Chief Global Data Architect",
-          "company": "Intuit Inc."
+          "role": "Chief Data Architect",
+          "company": "Intuit"
         },
         {
           "name": "Sheridan McDonald",
