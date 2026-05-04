@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-03T18:27:46+00:00",
+  "generated_at": "2026-05-04T18:44:37+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
-  "session_count": 399,
+  "session_count": 402,
   "sessions": [
     {
       "title": " Sponsored by: Genpact | Enabling AI-Ready Data",
@@ -603,6 +603,36 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/apache-icebergtm-interoperability-first-class-open-support-databricks",
       "body": "Open data sharing across platform boundaries is now a reality. As organizations move toward multi-engine environments, collaborating across different catalogs and ecosystems is a strategic necessity. With the launch of first-class Iceberg support in Databricks Delta Sharing, you can maintain a single governance layer while supporting a diverse, multi-platform data estate.Key Highlights: First-Class Iceberg Support: Share Delta tables as native Iceberg tables via the Iceberg REST Catalog API for zero-copy sharing to Snowflake, Trino, and Spark. Bi-Directional Interoperability: Bring…"
+    },
+    {
+      "title": "AppKit: The Official Full-Stack SDK for Databricks Apps",
+      "speakers": [
+        {
+          "name": "Mario Cadenas",
+          "role": null,
+          "company": "Databricks"
+        },
+        {
+          "name": "Victor Ditadi",
+          "role": "Senior Software Engineer",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Application Development",
+      "industry": [
+        "Communications, Media & Entertainment"
+      ],
+      "category": [
+        "Databricks Apps"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Data Applications"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/appkit-official-full-stack-sdk-databricks-apps",
+      "body": ""
     },
     {
       "title": "Apps Factory on Databricks​: Provision, Standardize, Observe and Govern 100+ Apps​",
@@ -2622,6 +2652,11 @@
           "name": "Jonathan Sunberg",
           "role": "Sales Director - Telco",
           "company": "Databricks"
+        },
+        {
+          "name": "Malav Shah",
+          "role": null,
+          "company": "DirectTV"
         }
       ],
       "type": "Breakout",
@@ -3169,14 +3204,14 @@
       "title": "Financial Services Industry Forum",
       "speakers": [
         {
-          "name": "Junta Nakai",
-          "role": "VP",
-          "company": "Databricks"
-        },
-        {
           "name": "Vlad Tenev",
           "role": null,
           "company": "Robinhood"
+        },
+        {
+          "name": "Erin Butler",
+          "role": "VP Financial Services ",
+          "company": "Databricks"
         }
       ],
       "type": "Special Interest",
@@ -3814,6 +3849,45 @@
       "body": "Flutter SEA invested heavily in OCI, but platform limits—high costs, low observability and operational complexity—became blockers for real‑time engagement, event processing and fast delivery. The previous Spark Structured Streaming architecture used custom code with minimal monitoring, no standardized data quality and limited governance, causing slow iteration and high maintenance.This session shares the migration to a governed, observable Databricks Lakehouse using Spark Declarative Pipelines and Delta Lake, built by a “triforce” team: Flutter SEA, Databricks PS and Reply. We’ll cover…"
     },
     {
+      "title": "From Petabytes to Proactive Defense: Powering an AI Swarm with Databricks",
+      "speakers": [
+        {
+          "name": "Rajneesh Arora",
+          "role": "DSA",
+          "company": "Databricks"
+        },
+        {
+          "name": "Justin Lai",
+          "role": "Distinguished Data Architect",
+          "company": "Arctic Wolf"
+        },
+        {
+          "name": "Mike Mylrea",
+          "role": "AI Technical Fellow | PhD",
+          "company": "Arctic Wolf"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Cybersecurity",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Databricks SQL",
+        "Lakeflow",
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Cybersecurity",
+        "Streaming pipelines",
+        "Performance & Cost Optimizations"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/petabytes-proactive-defense-powering-ai-swarm-databricks",
+      "body": "As AI accelerates cyber offense in a post-Mythos world, the constraint in security operations is no longer data—it’s the speed of the OODA loop. At Arctic Wolf, we process trillions of events daily across 10,000+ organizations, where delayed access to data means delayed defense. We re-architected our platform on the Databricks Data Intelligence Platform—combining Delta Lake, Unity Catalog, Liquid Clustering, and AI/Genie—to enable real-time, agentic security operations at petabyte scale. Liquid Clustering and Predictive Optimization eliminated data skew and costly acceleration layers,…"
+    },
+    {
       "title": "From Power BI DAX to Metric View KPIs: How Mercedes-Benz Korea Built “Talk to Your Data” at Scale",
       "speakers": [
         {
@@ -3980,6 +4054,42 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/search-sql-how-glean-agents-tap-databricks-genie-everyday-analytics",
       "body": "Modern enterprises need both the “what” from governed metrics and the “why” from surrounding context. We’ll show how customers use Glean Agents with Databricks AI/BI Genie and SQL actions to turn natural‑language questions into live warehouse queries that any employee can run. A single agent can route a prompt to Genie, execute the generated SQL on Databricks, then combine resulting tables with unstructured context from email, docs, tickets, and Wikis in one answer, all while respecting app‑level permissions. Attendees will leave with concrete architecture and prompt patterns they can use to…"
+    },
+    {
+      "title": "From SIEM to Lakehouse: A Practical Path to an AI-powered SOC",
+      "speakers": [
+        {
+          "name": "David Lugo",
+          "role": "GTM",
+          "company": "Anvilogic"
+        },
+        {
+          "name": "Alan Mazankiewicz",
+          "role": "Sr. Solution Architect",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Cybersecurity",
+      "industry": [
+        "Enterprise Technology",
+        "Manufacturing",
+        "Financial Services"
+      ],
+      "category": [
+        "AI/BI",
+        "Databricks SQL",
+        "Unity Catalog"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "AI Agents",
+        "Cybersecurity",
+        "Migrations & Modernizations"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/siem-lakehouse-practical-path-ai-powered-soc",
+      "body": "Security teams are hitting the limits of traditional SIEM architecture. Rising ingestion costs, fragmented telemetry, and brittle detections force tradeoffs between visibility and budget.This session outlines a practical, phased path from SIEM-centric operations to lakehouse-driven security analytics. We will explain how SOC teams have cut costs and boosted performance by offloading telemetry from legacy SIEMs to Databricks, without breaking detections. We’ll also show how security teams run and correlate detections natively across their data sources, and use AI agents to automate detection…"
     },
     {
       "title": "From Two Hours to Two Minutes: Panasonic’s Global Scale Engineering With the Data Intelligence Platform",
@@ -6790,12 +6900,12 @@
         {
           "name": "Jarrad Taylor",
           "role": "AI, Data & Integration Lead ",
-          "company": "Department of State Development"
+          "company": "Department of State Development SA, AUS"
         },
         {
           "name": "Claudia Kralik",
-          "role": null,
-          "company": "Government of South Australia, Department of State Development"
+          "role": "Senior Business Analyst/AI Lead",
+          "company": "Skills SA, Dept. of State Development"
         }
       ],
       "type": "Breakout",
@@ -6892,6 +7002,16 @@
           "name": "Joel Castaneda",
           "role": "Executive VP | Chief Risk Officer",
           "company": "Vantage Bank"
+        },
+        {
+          "name": "Bruno Paronetti",
+          "role": "Global Head of Finance Transformation",
+          "company": "Santander Group - Getnet"
+        },
+        {
+          "name": "Christian Diez Girona",
+          "role": "Chief Financial Officer and VP of Global Strategy at Santander Pagonxt",
+          "company": "Santander Group"
         }
       ],
       "type": "Breakout",
@@ -11272,7 +11392,7 @@
         },
         {
           "name": "Sachin Chickballapur",
-          "role": "Chief Technology & Product Officer ",
+          "role": "CTPO",
           "company": "Airties"
         },
         {
@@ -11419,6 +11539,11 @@
           "name": "Adam Towne",
           "role": "Director of Product, Scaled Analytics & Funds",
           "company": "LSEG"
+        },
+        {
+          "name": "Mark Nigro",
+          "role": null,
+          "company": "Franklin Templeton"
         }
       ],
       "type": "Breakout",
