@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-06T18:45:32+00:00",
+  "generated_at": "2026-05-07T18:45:39+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
-  "session_count": 530,
+  "session_count": 562,
   "sessions": [
     {
       "title": " Sponsored by: Genpact | Enabling AI-Ready Data",
@@ -191,6 +191,42 @@
       "body": "Ensemble Health Partners manages revenue cycle operations for 30+ health systems, processing 25 billion+ transactions across 800TB of healthcare financial data. Legacy SQL Server sprawl —1 5 individual databases with separate schemas —c reated silos that blocked cross-client insights and slowed AI innovation in an industry where providers operate on 1% margins. This session shows how Ensemble consolidated onto Databricks Lakebase as their AI-ready transactional layer, eliminating brittle pipelines and enabling self-service pods to materialize views directly from harmonized Delta tables. The…"
     },
     {
+      "title": "A Unified Approach to Data Exfiltration Protection and Egress Monitoring to Build Secure Agents",
+      "speakers": [
+        {
+          "name": "JD Braun",
+          "role": "Staff Security Field Engineer",
+          "company": "Databricks"
+        },
+        {
+          "name": "Robert Zhang",
+          "role": "Product Manager",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology",
+        "Healthcare & Life Sciences",
+        "Financial Services"
+      ],
+      "category": [
+        "Databricks SQL",
+        "Unity Catalog",
+        "Agent Bricks"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "Thought Leadership",
+        "Security & Compliance",
+        "Architecture & Interoperability"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/unified-approach-data-exfiltration-protection-and-egress-monitoring",
+      "body": "Data exfiltration is one of the most serious security risks organizations face. It can expose sensitive information, leading to reputational damage and regulatory penalties. The challenge is that exfiltration can happen in many ways, including external attackers, poorly configured AI agents, insider mistakes, or malicious insiders, and is often hard to detect until the damage is done. In this lightning talk, we'll break down where exfiltration risks come from and what they may look like in Databricks (spoiler: it's not always a malicious actor!). We'll then introduce a framework for…"
+    },
+    {
       "title": "A Unified Future for Delta and Apache Iceberg™",
       "speakers": [
         {
@@ -313,40 +349,6 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/accelerating-data-utility-toyota-how-vista-unifies-data-access-and",
       "body": "Toyota Motor Corporation, with over 70,000 employees, initially centralized corporate, vehicle and customer data into a data library. This caused scalability issues due to a central team lacking domain knowledge, resulting in delays of several months. To solve this information disparity, Toyota created “vista,” a platform offering a company-wide data view. Vista shifts from a centralized system to a decentralized data mesh, enabling domain experts to manage their own data. It uses a data fabric on Databricks Unity Catalog for centralized metadata governance and access control while keeping…"
-    },
-    {
-      "title": "Accelerating Product Onboarding with a Multi Agent System on Databricks",
-      "speakers": [
-        {
-          "name": "Prakul Sharma",
-          "role": "Principal/Partner",
-          "company": "Deloitte Consulting LLP"
-        },
-        {
-          "name": "Sankar Chidambaram",
-          "role": "Sr. Director Data and AI",
-          "company": "Southern Glazers Wine and Spirits"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Artificial Intelligence & Agents",
-      "industry": [
-        "Retail & Consumer Goods"
-      ],
-      "category": [
-        "AI/BI",
-        "Delta Sharing",
-        "Unity Catalog"
-      ],
-      "level": "Intermediate",
-      "areas": [
-        "AI Agents",
-        "Customer Data Platform",
-        "ML/LLMOps"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/accelerating-product-onboarding-multi-agent-system-databricks",
-      "body": "The session explores how a Multi Agent System (MAS) architecture, built on Databricks, transforms product onboarding by orchestrating specialized AI agents for tasks such as site item setup, eCommerce attribution, supplier validation, and more. Leveraging Databricks’ robust data engineering, ML/LLM Ops, and security layers, MAS reduces onboarding time and effort through agent collaboration, human-in-the-loop validation, and seamless integration with enterprise applications. Attendees will learn how agent orchestration, context sharing, and secure deployment enable scalable, auditable, and…"
     },
     {
       "title": "Accelerating the Monthly Financial Closing with Genie",
@@ -615,7 +617,7 @@
       "speakers": [
         {
           "name": "Sumedh Datar",
-          "role": "Staff Engineer",
+          "role": "Staff Engineer - Manager",
           "company": "7-Eleven"
         }
       ],
@@ -637,6 +639,34 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/ai-agents-frontline-7-elevens-genai-maintenance-assistant",
       "body": "Maintenance technicians at 7-Eleven rely on preventive maintenance, catalogue and parts documents for equipment like HVACs and ovens — often using only their phones. These documents span thousands of files in formats like PDFs and spreadsheets stored in shared drives, making it hard to find the right information quickly. High attrition and missed training sessions compounds knowledge gaps. To address this, 7-Eleven developed a GenAI agentic system using Mosaic AI, Agent Bricks and Databricks Hybrid Search that enables technicians to 1) Retrieve relevant maintenance documents with concise…"
+    },
+    {
+      "title": "AI Can’t Wait: How to Overcome GPU Scarcity and Keep Workloads Running",
+      "speakers": [
+        {
+          "name": "Alex Esibov",
+          "role": "Sr. Staff Product Manager",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Databricks SQL",
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Data Lakehouse",
+        "Lakehouse Implementation",
+        "Architecture & Interoperability"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/ai-cant-wait-how-overcome-gpu-scarcity-and-keep-workloads-running",
+      "body": "GPU scarcity, cloud capacity constraints, and regional outages are challenges enterprises simply cannot afford: they block model training and serving, and leave mission-critical workloads queuing or failing with no good recourse. By intelligently routing workloads to the optimal compute while preserving each customer's data residency, security controls, and compliance boundary, Databricks is solving both problems transparently. In this talk, we'll show how we're delivering GPU access to customers who are capacity-constrained in their home region, and offering enterprise-grade availability…"
     },
     {
       "title": "AI Will Go Wrong and the Blueprint to Get It Right",
@@ -790,10 +820,43 @@
       "body": "Alinta Energy has modernized its enterprise data estate by standardizing on the Databricks Data Intelligence Platform. Unifying over 90 systems and 2.4K objects, ADH now supports 36,000+ daily queries via an automated, reliable release pattern. This governed, cost-efficient foundation powers analytics and AI across generation, trading and retail.Key session insights: Business leaders: Learn how a single platform and operating model reduce risk and cost while accelerating time-to-insight through enterprise-scale adoption and repeatable savings. Tech teams: Explore “Pilot for Teams” for…"
     },
     {
+      "title": "An Intro to Building and Scaling Agentic Apps",
+      "speakers": [
+        {
+          "name": "Nicolas Pelaez",
+          "role": "Tech Marketing Engineer",
+          "company": "Databricks"
+        },
+        {
+          "name": "Robert Mosley",
+          "role": "AI Product Specialist",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Enterprise Technology",
+        "Communications, Media & Entertainment"
+      ],
+      "category": [
+        "AI/BI",
+        "Databricks Apps",
+        "Agent Bricks"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "AI Agents"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/intro-building-and-scaling-agentic-apps",
+      "body": "Agents have promised a lot lately, but most people just have a job they want done and don't want to spend time on endless science experiments. Teams stall on integration, struggle with scale, and wrestle with how to deliver agents to users safely and reliably inside a real application.This intro session shows how to build and scale agentic apps end-to-end on Databricks. You'll see how Agent Bricks lets you create managed, production-ready agents; how Databricks Apps delivers them to users with governance and observability built in; and how Lakebase powers the transactional backend so your app…"
+    },
+    {
       "title": "Anthropic + Adidas + Databricks: Unlocking 400 Hours of Productivity Weekly with Conversational AI",
       "speakers": [
         {
-          "name": "Vikalo Yadav",
+          "name": "Vikalp Yadav",
           "role": "Sr Director Of Digital",
           "company": "adidas AG"
         }
@@ -823,7 +886,7 @@
       "speakers": [
         {
           "name": "Tia Chang",
-          "role": null,
+          "role": "Product Manager",
           "company": "Databricks, Inc."
         },
         {
@@ -916,7 +979,7 @@
       "speakers": [
         {
           "name": "Sai Kiran Uppu",
-          "role": "Senior Security Researcher",
+          "role": "Senior Security and AI Researcher",
           "company": "Adobe"
         }
       ],
@@ -1039,7 +1102,7 @@
       "title": "Atlassian's Journey of Using AI/BI Genie From Pilot to Production and What's Next?",
       "speakers": [
         {
-          "name": "Prakash Reddy",
+          "name": "preddy preddy",
           "role": "Head of Data Engineering",
           "company": "Atlassian"
         },
@@ -1305,7 +1368,7 @@
         },
         {
           "name": "Yanic Motte",
-          "role": "Member of field engineering staff",
+          "role": "Senior Specialist Solutions Architect",
           "company": "Databricks"
         }
       ],
@@ -1760,7 +1823,7 @@
           "company": "Databricks"
         },
         {
-          "name": "Phoenix Majumder",
+          "name": "Phoenix U Majumder",
           "role": "Senior Director, Data and AI",
           "company": "Workday"
         }
@@ -1974,35 +2037,6 @@
       "body": "At 84.51˚, we replaced legacy ETL processing in our retail sales data mart with Lakeflow Spark Declarative Pipelines to simplify development while improving reliability at scale. In this session, we’ll walk through how a low-code, declarative approach enables dimensional modeling for both slowly changing dimensions and high-volume fact data.You’ll see how to use AUTO CDC to handle data updates across batch and streaming pipelines, supporting continuously arriving sales transactions alongside rapidly changing product, store and customer attributes. Our ETL crunches approximately 8 million…"
     },
     {
-      "title": "Building a Unified Data Platform: easyJet's Strategic Evolution With Databricks",
-      "speakers": [
-        {
-          "name": "Shiv Nayak",
-          "role": "Head of Data & AI Architecture",
-          "company": "easyJet"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Data Strategy",
-      "industry": [
-        "Travel & Hospitality"
-      ],
-      "category": [
-        "Lakeflow",
-        "Unity Catalog",
-        "Lakebase"
-      ],
-      "level": "Beginner",
-      "areas": [
-        "Customer Data Platform",
-        "Industry Experience",
-        "Lakebase"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/building-unified-data-platform-easyjets-strategic-evolution-databricks",
-      "body": "Three years ago, easyJet's data estate was primarily focused on centralizing data from multiple operational systems, with most workloads running in batch and limited real-time capability.This session describes the strategic evolution of easyJet's Data Strategy by adopting Databricks as a single enterprise foundation for data and AI across the organization. It will cover the transition from basic data consolidation to supporting streaming and near-real-time processing, enabling teams to work from a shared, governed Enterprise data platform.The session will also explain how Lakebase was…"
-    },
-    {
       "title": "Building Agentic Applications on Databricks",
       "speakers": [],
       "type": "Paid Training",
@@ -2201,6 +2235,33 @@
       "body": "Building a data-driven application is easy; building one that is secure, performant, and scalable is where most teams struggle. This session provides a definitive field guide to the architectural patterns used by the most successful builders on the Databricks App platform. We will break down the \"\"how-to\"\" for the most in-demand app categories: Internal Tools, AI Copilots, Agentic Workflows, and Customer-Facing Products. For each pattern, we will dive into the technical specifics that matter most: - Connectivity & State: Best practices for integrating with Databricks SQL and Lakebase.-…"
     },
     {
+      "title": "Building Custom Models That Know Your Enterprise Knowledge with Reinforcement Learning",
+      "speakers": [
+        {
+          "name": "Jonathan Frankle",
+          "role": "Chief AI Scientist",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Deep Dive",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Agent Bricks"
+      ],
+      "level": "Advanced",
+      "areas": [
+        "AI Agents",
+        "Generative AI",
+        "Machine Learning"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/building-custom-models-know-your-enterprise-knowledge-reinforcement",
+      "body": "In this session, we will discuss how Databricks is using reinforcement learning to customize open source models to power our internal agents at a fraction of the cost and much higher speed. We will also discuss how our customers are using the same tools on Databricks AI Runtime (AIR) to do the same thing for their enterprise agents. We will go over the ingredients needed to successfully perform custom RL, the process of developing custom models using RL, and the novel tools and RL methods we have developed at Databricks to make this powerful technology available for enterprises."
+    },
+    {
       "title": "Building Data Pipelines with Lakeflow Spark Declarative Pipelines",
       "speakers": [],
       "type": "Paid Training",
@@ -2360,6 +2421,38 @@
       "body": "Building production data products demands operational excellence beyond architecture. This session reveals MiQ's Historical Data Cube (HDC) transformation: from Unity Catalog design managing 700T+ advertising signals to fully automated Databricks Asset Bundle deployments, powering AI agents and Genie analytics.We demonstrate the complete lifecycle: 1. Unity Catalogue schema supporting AI agent APIs 2. Genie conversational queries across 10-year trends 3. Data quality frameworks ensuring LLM agent accuracy, 4. Asset Bundles achieving infrastructure-as-code with multi-environment promotion—…"
     },
     {
+      "title": "Building Production-Grade SQL ETL on the Lakehouse",
+      "speakers": [
+        {
+          "name": "Shanelle Roman",
+          "role": "Senior Product Manager",
+          "company": "Databricks"
+        },
+        {
+          "name": "Mengfei Ren",
+          "role": "Engineering Manager",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Data Warehousing",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Databricks SQL"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "Data Ingestion",
+        "ETL",
+        "Data Lakehouse"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/building-production-grade-sql-etl-lakehouse",
+      "body": "ETL pipelines are often the most brittle part of the analytics stack — spread across tools, written in multiple languages, and hard to operate at scale. This session shows how teams build production-grade SQL ETL on Databricks Lakehouse using a unified, SQL-first approach. We’ll cover how to ingest, transform, and manage data using declarative pipelines, apply governance and quality controls consistently, author and optimize with AI, and deliver reliable datasets directly to analytics and downstream workloads. The focus is on simplifying architecture, reducing operational overhead, and…"
+    },
+    {
       "title": "Building Query Expert MCP: Using RAG to Build an Analytics Agent That Goes Beyond Text-to-SQL",
       "speakers": [
         {
@@ -2405,6 +2498,35 @@
       "duration_min": "240",
       "url": "https://www.databricks.com/session/building-rag-agents-agent-bricks",
       "body": "This hands-on course teaches you how to build retrieval-augmented generation (RAG) agents on Databricks using Agent Bricks’ tooling—including Vector Search, AI Playground, and the Foundation Model APIs. First, you'll begin with prompt engineering and the fundamentals of retrieval and augmented generation. Next, you'll learn how to ingest, process, and prepare documents for use in a retrieval pipeline. Then you'll explore embedding vectors, vector database design, and how to use Vector Search in a Databricks environment. Finally, you will build a retrieval agent end-to-end and trace its…"
+    },
+    {
+      "title": "Building Secure AI-Powered Analytics Experiences Across Organizational Boundaries",
+      "speakers": [
+        {
+          "name": "DJ Sharkey",
+          "role": "Staff Software Engineer",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Data Sharing & Collaboration",
+      "industry": [
+        "Communications, Media & Entertainment",
+        "Retail & Consumer Goods",
+        "Financial Services"
+      ],
+      "category": [
+        "Data Marketplace",
+        "AI/BI",
+        "Delta Sharing"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Collaboration"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/building-secure-ai-powered-analytics-experiences-across-organizational",
+      "body": "Data sharing between organizations has come a long way — but the next wave is about much more than moving files or granting table access. It's about delivering rich, intelligent experiences to partners, customers, and collaborators while keeping sensitive information protected on both sides. In this talk, we explore how the collaboration landscape is evolving: smarter defaults, stronger privacy guarantees, and AI-powered capabilities that make shared data more useful without increasing risk. You'll hear about the engineering principles behind building privacy-safe collaboration features at…"
     },
     {
       "title": "Building Secure Retail Data Sharing at Walmart With Databricks Delta Sharing",
@@ -2857,7 +2979,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/comprehensive-data-warehouse-migrations-lakebridge",
-      "body": "Databricks Lakebridge is a free, comprehensive solution for migrating legacy data warehouses from a wide range of source systems. See how we accelerate migrations from legacy data warehouses to Databricks SQL, achieving 50% faster migration than traditional methods. We'll cover the tool’s automated migration process: Discovery: Source system profiling Assessment: Legacy code analysis Conversion: Advanced code transpilation Reconciliation: Data validation This comprehensive approach increases the predictability of migration projects, allowing businesses to plan and execute migrations with…"
+      "body": "Lakebridge is Databricks' free, AI-powered solution for migrating legacy data warehouses to the Lakehouse. Migrating from a legacy warehouse means confronting decades-old code, converting proprietary dialects, and reconciling bespoke differences between source and target systems. With Lakebridge, AI agents handle that automatically. We'll show how Lakebridge uses Genie Code to accelerate the migration lifecycle: Assessment: analyze legacy code automatically to surface complexity, dependencies, and risk before work begins Conversion: Use agents to convert proprietary dialects into open ANSI…"
     },
     {
       "title": "Consumer Industries Forum | Sponsored by: Deloitte ",
@@ -2962,34 +3084,6 @@
       "body": "Coding agents like Claude Code, Codex, and Gemini CLI are transforming how software gets built, but without observability they remain a black box. This talk shows how to take control of your coding agents using MLflow. We cover tracing agent sessions to understand token usage and tool calls, evaluating output quality with LLM judges and custom scorers, routing LLM traffic through AI Gateway for cost control, and automating workflows with MCP and skills. Walk away with practical techniques to monitor, measure, and maximize your coding agent investment."
     },
     {
-      "title": "Creating Better Travel Experiences for All — Confronting Airline Pricing Pressures From Legacy Tools",
-      "speakers": [
-        {
-          "name": "Dennis Michon",
-          "role": "Head of Data Product",
-          "company": "easyJet"
-        }
-      ],
-      "type": "Lightning Talk",
-      "track": "Lakebase",
-      "industry": [
-        "Travel & Hospitality"
-      ],
-      "category": [
-        "Unity Catalog",
-        "Databricks Apps",
-        "Lakebase"
-      ],
-      "level": "Intermediate",
-      "areas": [
-        "Data Applications",
-        "Data Lakehouse"
-      ],
-      "duration_min": "20",
-      "url": "https://www.databricks.com/session/creating-better-travel-experiences-all-confronting-airline-pricing",
-      "body": "easyJet carried nearly 90 million passengers last year, flying more than 1,200 routes, with a fleet of 300+ planes. Even as one of Europe’s leading low-cost airlines, the company faced mounting pressure to modernize, as traveler expectations necessitate seamless booking, flexible changes and personalized offers. Across Europe, high costs, thin margins and digital-first competitors only raised the stakes for all airlines. With core systems still tied to a decade-old desktop app and one of the region’s largest SQL Server databases, easyJet struggled with frequent engineering bottlenecks,…"
-    },
-    {
       "title": "Cross-Cloud Delta Sharing: Eliminate Egress cost with Delta Sharing Global Distribution",
       "speakers": [
         {
@@ -3076,6 +3170,19 @@
       "duration_min": "20",
       "url": "https://www.databricks.com/session/dabs-do-pro-all-best-tips-tricks",
       "body": "This session is a live, practical deep dive into Databricks Asset Bundles (DABS) — focused on how to use them like a pro in real projects, not just in docs.Instead of theory, I’ll run a live demo showing the most valuable patterns, shortcuts, and real-world tricks that dramatically improve how you build, deploy, and manage Databricks workflows.The session combines: proven techniques from my articles on Databrickster (Medium) battle-tested practices from real projects hidden features and non-obvious behaviors you won’t find in basic tutorials"
+    },
+    {
+      "title": "Data After Hours",
+      "speakers": [],
+      "type": "Evening Event",
+      "track": null,
+      "industry": [],
+      "category": [],
+      "level": null,
+      "areas": [],
+      "duration_min": "180",
+      "url": "https://www.databricks.com/session/data-after-hours",
+      "body": "Kick back at Data After Hours for drinks and dialogue with new (and old) friends. Enjoy live music, drinks, food and good company!"
     },
     {
       "title": "Data Analytics with Multi-Modal Data",
@@ -3200,6 +3307,33 @@
       "body": "This hands-on course explores how to achieve seamless data interoperability between systems using Databricks Unity Catalog as a unified governance layer, using both Delta and Iceberg open table formats. Participants will learn to implement, manage and optimize a data environment where tables can be accessed by both Delta and Iceberg clients, enabling cross platform analytics and eliminating data silos. Note: Hands-on training courses will be updated to reflect the newest product and feature announcements from Data + AI Summit in June 2026. Prerequisites Basic understanding of Lakehouse and…"
     },
     {
+      "title": "Data Privacy at Databricks",
+      "speakers": [
+        {
+          "name": "Li Yang",
+          "role": "Senior Engineering Manager",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Collaboration",
+        "Security & Compliance",
+        "Lakehouse Implementation"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/data-privacy-databricks",
+      "body": "Handling PII and sensitive data is a top priority, especially for the platform storing the world's data. This session details the privacy architecture used by the Databricks legal and security teams. We will show how we use Unity Catalog's fine-grained access controls, dynamic masking, and attribute-based access control (ABAC) to enforce GDPR and CCPA compliance internally. See how we ensure data utility for our engineers without ever compromising on privacy."
+    },
+    {
       "title": "Databricks Apps for Everyone: Build Custom Apps Without Writing a Line of Code",
       "speakers": [
         {
@@ -3319,6 +3453,11 @@
           "name": "Nicholas Stanisha",
           "role": "Data Scientist",
           "company": "Databricks"
+        },
+        {
+          "name": "Donghan Zhang",
+          "role": "Sr. Software Engineer",
+          "company": "Databricks"
         }
       ],
       "type": "Breakout",
@@ -3335,7 +3474,7 @@
       ],
       "duration_min": "0",
       "url": "https://www.databricks.com/session/databricks-databricks-build-your-own-experimentation-platform",
-      "body": "Commercial experimentation platforms bundle three things: feature enablement, metrics, and analysis. The lakehouse gives you all the pieces to easily build experimentation for yourself.At Databricks, we run A/B testing and sequential analysis for release automation, supporting hundreds of feature releases per month. We have also scaled innovations from our in-house data scientists—methodologies and workflows not available in commercial offerings.We use Unity Catalog to centralize & govern our feature enablement data, Metric Views to define and share metric definitions, and Lakeflow to trigger…"
+      "body": "Commercial experimentation platforms promise everything – feature flags, metrics, and analysis, but often limit flexibility when you want to go beyond the basics. At Databricks, we took a different approach: we built our own full-stack experimentation platform entirely on our internal Databricks and used it to power hundreds of product releases every month. In this talk, we’ll show how you can do the same. You’ll learn how we: Use Unity Catalog to centralize and govern feature enablement data Define reusable, trustworthy metrics with our internal Metrics Platform Run scalable experiment…"
     },
     {
       "title": "Databricks Performance Optimization",
@@ -3410,6 +3549,39 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/deep-dive-streaming-and-batch-etls-lakeflow-spark-declarative-pipelines",
       "body": "Let's deep dive into the new declarative ETL pipeline framework in Apache Spark™, Lakeflow Spark Declarative Pipelines (SDP). Let's peel it off to learn how SDP's high-level Python and SQL abstractions translate into lower-level Spark SQL and Spark Structured Streaming queries. During the talk, you will learn how SDP automatically resolves complex dependencies and builds optimized Directed Acyclic Graphs (DAGs) for both batch and streaming workloads. We will walk through the internal state management and orchestration logic that allows SDP to handle retries and incremental processing out of…"
+    },
+    {
+      "title": "Deep Dive Into Streaming on Databricks",
+      "speakers": [
+        {
+          "name": "Navneeth Nair",
+          "role": "Staff Product Manager",
+          "company": "Databricks"
+        },
+        {
+          "name": "Victoria Bukta",
+          "role": "Member of Product Staff",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Deep Dive",
+      "track": "Data Engineering & Streaming",
+      "industry": [
+        "Enterprise Technology",
+        "Manufacturing",
+        "Financial Services"
+      ],
+      "category": [
+        "Lakeflow"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Data Ingestion",
+        "Streaming pipelines"
+      ],
+      "duration_min": "90",
+      "url": "https://www.databricks.com/session/deep-dive-streaming-databricks",
+      "body": "A factory detects an equipment anomaly and needs the alert in seconds. A financial platform needs to process a transaction, enrich it with account history, and flag it for fraud—all before the customer closes the app. These workloads both involve streaming data, but they have very different requirements under the hood. This session introduces the two core streaming capabilities on Databricks, Real-Time Mode and Zerobus Ingest, and how to match them to your workload. Real-Time Mode on Apache Spark™ Structured Streaming is for when data needs to be acted upon, not just stored. With sub-second,…"
     },
     {
       "title": "Delta Kernel <> Catalog-Managed Tables",
@@ -3751,7 +3923,7 @@
         },
         {
           "name": "Aleksandar Tomic",
-          "role": null,
+          "role": "Senior Staff Software Engineer",
           "company": "Databricks"
         }
       ],
@@ -4178,40 +4350,36 @@
       "body": "The promise of digitization in healthcare has long been overshadowed by administrative toil, a landscape of \"clicks and fragmentation\" where 73% of physician office hours are spent away from patients. To address this, ModMed is building the \"AI-Powered Practice,\" fueled by a clinical engine processing 3PB of data monthly, including three trillion data points. The AI-Powered Practice will bring powerful AI assistants to automate the entire medical practice including clinical, billing, front-office & patient engagement.Learn how the Databricks Platform is supporting this end-to-end AI solution…"
     },
     {
-      "title": "Enrich your Customer360 with Data from External Partners, without Compromising the Privacy of Your Sensitive Data",
+      "title": "Enterprise Cost Management for Data Warehousing with Databricks Lakehouse",
       "speakers": [
         {
-          "name": "Nikhil Gaekwad",
-          "role": "Product Lead",
+          "name": "Joo Ho Yeo",
+          "role": "Product Manager",
           "company": "Databricks"
         },
         {
-          "name": "DJ Sharkey",
+          "name": "Jiabin Hu",
           "role": "Staff Software Engineer",
           "company": "Databricks"
         }
       ],
       "type": "Breakout",
-      "track": "Data Sharing & Collaboration",
+      "track": "Data Warehousing",
       "industry": [
-        "Healthcare & Life Sciences",
-        "Communications, Media & Entertainment",
-        "Retail & Consumer Goods"
+        "Enterprise Technology"
       ],
       "category": [
-        "Data Marketplace",
-        "Delta Sharing",
-        "Unity Catalog"
+        "Databricks SQL"
       ],
-      "level": "Intermediate",
+      "level": "Beginner",
       "areas": [
-        "Collaboration",
-        "Customer Data Platform",
-        "Marketing"
+        "Data Lakehouse",
+        "Lakehouse Implementation",
+        "Performance & Cost Optimizations"
       ],
       "duration_min": "40",
-      "url": "https://www.databricks.com/session/enrich-your-customer360-data-external-partners-without-compromising",
-      "body": "AI is accelerating the need for cross-company data collaboration—but collaboration must be privacy-centric by design. Databricks Clean Rooms enable organizations to securely collaborate across clouds and platforms in a governed, isolated environment where raw data remains protected. In this session, we’ll explore how clean rooms support advanced collaboration patterns, with a focus on privacy-preserving identity resolution to safely match and reconcile records across partners. You’ll learn how to: Collaborate securely across organizations and platforms Perform privacy-safe identity resolution…"
+      "url": "https://www.databricks.com/session/enterprise-cost-management-data-warehousing-databricks-lakehouse",
+      "body": "This session shows you how to gain visibility into your Databricks Lakehouse spend and ensure cost efficiency. Learn about the latest features for AI-driven insights into Lakehouse expenses so you can easily monitor and control your costs. Find out how to enable cost attribution to internal projects, improve performance and cost with agentic workload optimizations, and take advantage of intelligent compute and storage capabilities that do the tuning for you."
     },
     {
       "title": "Enterprise Observability with ZeroBus and OTEL at Scale with Databricks",
@@ -4308,7 +4476,7 @@
       "speakers": [
         {
           "name": "Stephen Moss",
-          "role": "VP, Incubation and Commercialization",
+          "role": "VP, Bus. Insights and Commercialization",
           "company": "Databricks"
         },
         {
@@ -4646,11 +4814,16 @@
       "body": "At McAfee, we transformed our data platform by migrating over a third of production workloads to Databricks Serverless and empowering 1,000+ end users through SQL Serverless while unifying governance with Unity Catalog. This shift cut idle cluster overhead, delivered $350K in projected annual savings and drove a 34% increase in active monthly users—all with a lean platform team. Our phased, data-driven migration playbook made adoption safe, reversible and repeatable, using decision dashboards and clear revert-to-classic paths to de-risk modernization. So far, we’ve achieved 39% infrastructure…"
     },
     {
-      "title": "Forecasting Friction: Unpacking the Trust, Accuracy, and Data Gaps in SaaS Consumption Models",
+      "title": "Forecasting at Databricks: One Framework Behind Consumption and Infra Cost",
       "speakers": [
         {
           "name": "Ginger Holt",
           "role": "Sr Staff Data Scientist",
+          "company": "Databricks"
+        },
+        {
+          "name": "Alex Wang",
+          "role": "Sr. Data Scientist",
           "company": "Databricks"
         }
       ],
@@ -4668,8 +4841,8 @@
         "Industry Experience"
       ],
       "duration_min": "20",
-      "url": "https://www.databricks.com/session/forecasting-friction-unpacking-trust-accuracy-and-data-gaps-saas",
-      "body": "Forecasting consumption for usage-based SaaS, like Databricks $DBU, faces challenges in three areas:Trust & Adoption: The core issue is the \"black box\" problem, where forecasts lack explanation. Forecasts with high volatility week over week undermine stakeholder trust. Model Accuracy: Structural limitations lead to inconsistency between account-level and higher-level forecasts. The model also struggles to correctly interpret one-time consumption spikes (e.g., migrations), often misrepresenting them as perpetual growth.Data Signal Quality: Reliable leading indicators are difficult to find.…"
+      "url": "https://www.databricks.com/session/forecasting-databricks-one-framework-behind-consumption-and-infra-cost",
+      "body": "Consumption forecasting and infrastructure cost forecasting at Databricks share three challenges: trust and stakeholder adoption, model accuracy under hierarchy and outliers, and data signal quality. We addressed them on a unified Databricks-native stack. For trust and adoption: a self-serve human-in-the-loop Databricks App lets infra cost owners review recommended forecasts and inject inorganic shifts the model won’t see, while AI/BI dashboards and Genie Spaces let users self-serve insights, and decomposition keeps consumption forecasts explainable. For model accuracy: Unified Forecasting…"
     },
     {
       "title": "Fox One: Video Content Personalization Powered by GenAI",
@@ -5040,7 +5213,7 @@
           "company": "Databricks"
         },
         {
-          "name": "cassidy louch",
+          "name": "Cassidy Louch",
           "role": "Lead Data Engineer",
           "company": "ASDA"
         }
@@ -5150,40 +5323,6 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/fresh-data-big-impact-afresh-and-lakebase-fuel-retail-innovation",
       "body": "In grocery retail, every hour on the shelf raises spoilage and margin risk. Afresh combats this with data-driven inventory insights delivered directly to fresh department order writers. But running these workloads on standard PostgreSQL caused contention, table locks, ETL failures and heavy maintenance, limiting innovation.This session details how Afresh migrated its mission-critical Postgres instance to Databricks Lakebase—a fully managed, serverless PostgreSQL engine natively integrated with the Databricks Lakehouse. Using Lakebase’s separation of storage and compute, Afresh eliminated…"
-    },
-    {
-      "title": "From Imperative to Declarative: Modernizing ETL with Lakeflow Spark Declarative Pipelines",
-      "speakers": [
-        {
-          "name": "Tomasz Bacewicz",
-          "role": "Solution Architect",
-          "company": "Databricks"
-        },
-        {
-          "name": "Aleksandra Chashchina",
-          "role": "Specialist Solutions Architect",
-          "company": "Databricks"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Data Engineering & Streaming",
-      "industry": [
-        "Energy & Utilities",
-        "Manufacturing",
-        "Financial Services"
-      ],
-      "category": [
-        "Lakeflow"
-      ],
-      "level": "Intermediate",
-      "areas": [
-        "ETL",
-        "Streaming pipelines",
-        "Data Modeling"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/imperative-declarative-modernizing-etl-lakeflow-spark-declarative",
-      "body": "Did you ever wonder why Lakeflow Spark Declarative Pipelines (SDP) do not allow dynamic parameters or partial recalculations for specific dates? Or why for-loops are restricted in table definitions? Furthermore, how do you choose between a Streaming Table and a Materialized View? These are common struggles users face when starting. While often perceived as tool limitations, these hurdles usually stem from attempting to apply imperative habits to a declarative framework. In this session we will discuss real-world customer examples to demonstrate how to transition from imperative to declarative…"
     },
     {
       "title": "From Job Clusters to DBSQL Serverless: How GetYourGuide Improved DBT Pipelines",
@@ -5327,12 +5466,7 @@
         },
         {
           "name": "Justin Lai",
-          "role": "Distinguished Data Architect",
-          "company": "Arctic Wolf"
-        },
-        {
-          "name": "Mike Mylrea",
-          "role": "AI Technical Fellow | PhD",
+          "role": "Distinguished Developer",
           "company": "Arctic Wolf"
         }
       ],
@@ -5880,7 +6014,7 @@
         },
         {
           "name": "David Nasi",
-          "role": null,
+          "role": "Director, Product Management",
           "company": "Databricks"
         }
       ],
@@ -5908,7 +6042,7 @@
       "speakers": [
         {
           "name": "April Dai",
-          "role": null,
+          "role": "Engineering Manager",
           "company": null
         },
         {
@@ -5933,6 +6067,35 @@
       "duration_min": "0",
       "url": "https://www.databricks.com/session/getting-most-out-ai-bi-dashboard-creation-intelligent-insights",
       "body": "AI is rapidly reshaping business intelligence but for many teams, it’s still unclear how to move beyond isolated features to real, end-to-end impact.In Databricks, AI is embedded across the entire BI workflow. From using Genie Code to build and maintain dashboards, to applying AI-driven capabilities like forecasting and key driver analysis, to enabling conversational exploration directly within dashboards, AI becomes part of how analytics is created, delivered, and used.This shift allows teams to move faster, reduce manual work, and unlock deeper insights without adding complexity.In this…"
+    },
+    {
+      "title": "Getting the Most Out of Spark Declarative Pipelines: Deep Dive on What’s New and Best Practices",
+      "speakers": [
+        {
+          "name": "Michael Armbrust",
+          "role": "Distinguished Software Engineer",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Deep Dive",
+      "track": "Data Engineering & Streaming",
+      "industry": [
+        "Healthcare & Life Sciences",
+        "Manufacturing",
+        "Financial Services"
+      ],
+      "category": [
+        "Lakeflow"
+      ],
+      "level": "Advanced",
+      "areas": [
+        "Data Ingestion",
+        "ETL",
+        "Streaming pipelines"
+      ],
+      "duration_min": "110",
+      "url": "https://www.databricks.com/session/getting-most-out-spark-declarative-pipelines-deep-dive-whats-new-and",
+      "body": "Declarative pipelines are becoming the default way teams scale production data pipelines in Spark. Maximizing their value requires understanding the execution model, tradeoffs, and best practices. In this 90-minute-deep dive, distinguished engineer Michael Armbrust explores how to get the most out of Lakeflow Spark Declarative Pipelines (SDP), drawing on real-world usage and the latest platform advancements. You’ll learn how to: Apply proven design patterns for building reliable, maintainable pipelines Use SDP effectively across batch and streaming workloads Avoid common pitfalls as pipeline…"
     },
     {
       "title": "Goldman Sach's Fully-Interoperable Lakehouse With Iceberg",
@@ -6019,6 +6182,11 @@
           "name": "Vivek Nema",
           "role": "Director",
           "company": "UBS"
+        },
+        {
+          "name": "Bill Fenick",
+          "role": null,
+          "company": "Glean"
         }
       ],
       "type": "Breakout",
@@ -6205,6 +6373,37 @@
       "body": "Don’t miss this year’s Healthcare and Life Sciences Industry Forum. Leaders across health systems, biopharma, medtech and payers will discuss how they’re putting data and AI to work where it matters most. Through candid conversations and real-world use cases, this forum will examine how the industry is streamlining healthcare operations, accelerating research and discovery and driving measurable improvements in patient outcomes."
     },
     {
+      "title": "High-Throughput, Low-Latency: The Databricks Playbook for Production Model Serving",
+      "speakers": [
+        {
+          "name": "Anshul Gupta",
+          "role": "Sr. Staff Software Engineer",
+          "company": "Databricks"
+        },
+        {
+          "name": "Mike Del Balso",
+          "role": null,
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Agent Bricks"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Generative AI",
+        "Machine Learning"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/high-throughput-low-latency-databricks-playbook-production-model-serving",
+      "body": "Modern AI applications don’t just need accurate models, they need to serve them at massive scale, with low latency and strict reliability guarantees. In this session, we’ll go under the hood of Databricks Model Serving to show how we support high QPS (300K+ QPS), production-grade workloads on a unified Lakehouse platform. We’ll walk through the serving architecture, autoscaling strategies, and optimizations across GPU/CPU utilization, request routing, and caching that enable sustained high throughput without sacrificing latency or cost. You’ll see real patterns from customer deployments,…"
+    },
+    {
       "title": "How Data Warehousing Changes in the World of Agents",
       "speakers": [
         {
@@ -6264,6 +6463,34 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/how-databricks-apps-facilitated-model-retraining",
       "body": "At Bridgestone, our mission is “serving society with superior quality.” As the world’s largest manufacturer of tire products, Bridgestone has a unique opportunity to leverage data and insights to improve manufacturing efficiency. Bridgestone’s Bandag Retread Solutions has over 65 years leading retread innovations. In this talk, we will focus on how our data scientists used Databricks Apps to improve a computer vision model that facilitates decision-making during the tire retread process. We will show how in 3 weeks, a fully-fledged computer vision labeling application could be built using…"
+    },
+    {
+      "title": "How Databricks Runs Databricks Across Clouds and Regions",
+      "speakers": [
+        {
+          "name": "Bruce Wong",
+          "role": "Sr. Director, Data Platform",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Delta Sharing",
+        "Lakeflow",
+        "Unity Catalog"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "Lakehouse Implementation",
+        "Architecture & Interoperability"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/how-databricks-runs-databricks-across-clouds-and-regions",
+      "body": "Running a data platform on one cloud is standard. Running it across AWS, Azure, and GCP simultaneously is advanced. But running it across 100+ distinct regions while maintaining a unified experience? That is the Databricks Data Platform team's daily reality. In this session, we reveal the architecture of our massive internal global mesh. We will dive into the challenges of data gravity, cross-region replication, and unified identity at a scale few companies face. Learn how we abstract away the chaos of 100+ regions to provide a seamless, singular \"Databricks experience\" to our internal…"
     },
     {
       "title": "How Databricks Ships AI Safely: Inside the Team Enabling Secure Innovation",
@@ -6517,6 +6744,40 @@
       "body": "Pfizer has transformed clinical trial data exchange by moving from manual, batch-oriented ingestion to a real-time, cross-organizational architecture. Previously, fragmented systems delayed data access and complicated collaboration with research partners. This session explains how Pfizer and RCC used Delta Sharing and UC to enable secure, live data access across different cloud providers and platforms. What you will learn Real-time architecture: move from 24-hr batch cycles to 5-min readiness Cross-cloud sharing: share live data between Azure, AWS and external CDMS platforms without egress…"
     },
     {
+      "title": "How Photon Unlocks New Performance Gains for Streaming",
+      "speakers": [
+        {
+          "name": "Siying Dong",
+          "role": "Senior Staff Software Engineer",
+          "company": "Databricks"
+        },
+        {
+          "name": "Arsenii Krasikov",
+          "role": "Staff Software Engineer",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Data Engineering & Streaming",
+      "industry": [
+        "Enterprise Technology",
+        "Communications, Media & Entertainment",
+        "Financial Services"
+      ],
+      "category": [
+        "Lakeflow"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Data Ingestion",
+        "ETL",
+        "Streaming pipelines"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/how-photon-unlocks-new-performance-gains-streaming",
+      "body": "Databricks’ Photon engine has revolutionized Spark execution, delivering state-of-the-art query performance and cost efficiency. While many Structured Streaming workloads already benefit from this vectorized execution engine, a subset of streaming-specific operators has historically relied on the standard JVM execution model, leaving potential optimization on the table. Until now. In this session, we reveal our recent engineering initiatives to expand Photon coverage to these critical streaming operators. We will dive into the technical journey of “Photonizing” these components, detailing the…"
+    },
+    {
       "title": "How Samsara Built a Multi-Agent System to Drive a 36x Lift in Meeting Bookings on Databricks",
       "speakers": [
         {
@@ -6590,14 +6851,14 @@
       "title": "How TBC Bank Uses AI and Lakebase to Stop Money Laundering",
       "speakers": [
         {
-          "name": "Konstantine Khoperia",
-          "role": null,
-          "company": "TBC Bank"
-        },
-        {
           "name": "Istvan Viz",
           "role": "AE",
           "company": "Databricks"
+        },
+        {
+          "name": "Konstantine Khoperia",
+          "role": "Chief Data & AI Officer",
+          "company": "TBC Bank"
         }
       ],
       "type": "Breakout",
@@ -6619,6 +6880,40 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/how-tbc-bank-uses-ai-and-lakebase-stop-money-laundering",
       "body": "Anti-money laundering (AML) teams are buried under fragmented tools, scattered data, and manual workflows. Adding more rules has not solved the problem. TBC Bank took a different path, consolidating intelligence on Databricks to create a unified, AI-powered investigation environment.This session shows the production use cases in action: a counterparty AML search engine across sanctions, internal, and external watchlists; an AI engine comparing invoices, contracts, and customs documents; a transaction purpose scanner detecting dual-use and restricted goods; and Genie for natural-language…"
+    },
+    {
+      "title": "How the FDA Is Scaling Secure AI with Databricks for Government",
+      "speakers": [
+        {
+          "name": "Filippo Seracini",
+          "role": "Staff Product Manager",
+          "company": "Databricks"
+        },
+        {
+          "name": "Bhagath Yarlagadda",
+          "role": "Operations Research Analyst",
+          "company": "FDA"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Governance & Security",
+      "industry": [
+        "Manufacturing",
+        "Public Sector"
+      ],
+      "category": [
+        "Databricks SQL",
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Customer Data Platform",
+        "Security & Compliance",
+        "Industry Experience"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/how-fda-scaling-secure-ai-databricks-government",
+      "body": "AI in the public sector has moved from pilot to mission critical, and the agencies leading the way are the ones that have mastered the path from experimentation to production in FedRAMP and IL5 environments.In this session, we will share the best practices customers should follow to get their AWS GovCloud environment ready for the most secure and mission-critical workloads — covering infrastructure-as-code security patterns, governed foundation model access, lineage and auditability, and the networking configurations needed to connect Unity Catalog to the right data sources. The U.S. Food and…"
     },
     {
       "title": "How to Be An Agentic Analyst",
@@ -6649,6 +6944,173 @@
       "duration_min": "110",
       "url": "https://www.databricks.com/session/how-be-agentic-analyst",
       "body": "AI is changing the data analyst role. Staying competitive requires a shift from manual tasks to architecting intelligent systems. This session provides a roadmap for analysts to move beyond technical toil toward building governed AI intelligence layers. We'll explore new ways of working and delivering value throughout the analytics lifecycle, and how Databricks can help.We will cover the following typical analyst journeys:Accelerating data discovery and wrangling with agent mode in Databricks Assistant.Ensuring data consistency by defining business semantics in the Metric View UI.Enabling…"
+    },
+    {
+      "title": "How to Bridge the Gap Between No-Code and Pro-Code with Lakeflow Designer",
+      "speakers": [
+        {
+          "name": "Germaine Ong",
+          "role": "Senior Solutions Engineer",
+          "company": "Databricks"
+        },
+        {
+          "name": "Nan Chulpaibul",
+          "role": "Senior Solution Engineer",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Data Engineering & Streaming",
+      "industry": [
+        "Retail & Consumer Goods",
+        "Travel & Hospitality",
+        "Transportation"
+      ],
+      "category": [
+        "Databricks SQL",
+        "Lakeflow",
+        "Unity Catalog"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "Data Ingestion",
+        "Developer Experience",
+        "ETL"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/how-bridge-gap-between-no-code-and-pro-code-lakeflow-designer",
+      "body": "Data engineering has a bottleneck: there are too many pipelines to build, not enough engineers to build them. Lakeflow Designer changes the equation by giving SQL analysts and citizen developers a visual, no-code interface to create production-grade ETL pipelines, backed by the same engine that powers Lakeflow Spark Declarative Pipelines (SDP). This session explores the full Lakeflow spectrum. We'll start with Lakeflow Designer's drag-and-drop canvas and GenAI assistant, showing how a business analyst can build a medallion pipeline in minutes without writing code. Then we'll show how a data…"
+    },
+    {
+      "title": "How to Build Agentic Pipelines with OSS Spark Declarative Pipelines",
+      "speakers": [
+        {
+          "name": "Allison Wang",
+          "role": "Staff Software Engineer",
+          "company": "Databricks"
+        },
+        {
+          "name": "Scott Haines",
+          "role": "Staff Developer Advocate & OSS Engineer",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Data Engineering & Streaming",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Lakeflow",
+        "Unity Catalog",
+        "Agent Bricks"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "AI Agents",
+        "Data Ingestion",
+        "Data Lakehouse"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/how-build-agentic-pipelines-oss-spark-declarative-pipelines",
+      "body": "Apache Spark's pipeline story has evolved dramatically— from DStreams to Spark Structured Streaming and now Lakeflow Spark Declarative Pipelines— each generation simplified how we reason about data. But with the rise of agentic AI and vibe coding, how do we ensure our most critical data pipelines remain deterministic, testable, and production-ready? In this session, Scott Haines (Staff Developer Advocate) and Allison Wang (Staff Software Engineer, Databricks and Spark Contributor) will dive into Spark's new Declarative Pipelines API, exploring how to harness the productivity gains of agentic…"
+    },
+    {
+      "title": "How to Govern and Audit Your Coding Agent Usage with Databricks",
+      "speakers": [
+        {
+          "name": "Aarushi Shah",
+          "role": "Software Engineer",
+          "company": "Databricks"
+        },
+        {
+          "name": "Ankit Mathur",
+          "role": null,
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Agent Bricks"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "AI Agents",
+        "Generative AI"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/how-govern-and-audit-your-coding-agent-usage-databricks",
+      "body": "As coding agents like GitHub Copilot, Cursor, and Claude Code become embedded in daily development workflows, enterprises face a new challenge: how to govern and audit AI-assisted code generation at scale. Without centralized visibility, organizations risk exposing sensitive data, losing track of usage, and failing to meet security and compliance requirements.In this session, we'll show how Databricks enables end-to-end governance for coding agents across the enterprise. You'll learn how to enforce fine-grained permissions, track usage and costs across teams, and capture complete audit trails…"
+    },
+    {
+      "title": "How to Modernize Your ETL with Declarative Pipelines",
+      "speakers": [
+        {
+          "name": "Tomasz Bacewicz",
+          "role": "Product Specialist - Lakeflow",
+          "company": "Databricks"
+        },
+        {
+          "name": "Aleksandra Chashchina",
+          "role": "Specialist Solutions Architect",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Data Engineering & Streaming",
+      "industry": [
+        "Energy & Utilities",
+        "Manufacturing",
+        "Financial Services"
+      ],
+      "category": [
+        "Lakeflow"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "ETL",
+        "Streaming pipelines",
+        "Data Modeling"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/how-modernize-your-etl-declarative-pipelines",
+      "body": "Did you ever wonder why Lakeflow Spark Declarative Pipelines (SDP) do not allow dynamic parameters or partial recalculations for specific dates? Or why for-loops are restricted in table definitions? Furthermore, how do you choose between a Streaming Table and a Materialized View? These are common struggles users face when starting. While often perceived as tool limitations, these hurdles usually stem from attempting to apply imperative habits to a declarative framework. In this session we will discuss real-world customer examples to demonstrate how to transition from imperative to declarative…"
+    },
+    {
+      "title": "How to Scale Enterprise Governance and Administration with Unity Catalog",
+      "speakers": [
+        {
+          "name": "Zeashan Pappa",
+          "role": "Staff Product Manager",
+          "company": "Databricks"
+        },
+        {
+          "name": "Akash Shah",
+          "role": "Senior Director, Product Management",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Catalogs",
+        "Lakehouse Implementation",
+        "Architecture & Interoperability"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/how-scale-enterprise-governance-and-administration-unity-catalog",
+      "body": "As organizations scale data and AI, governance often becomes fragmented across disparate environments, metastores, and teams. When assets are distributed, policies drift and visibility becomes limited, making it increasingly complex to manage access consistently at scale. In this session, we will preview new architectural enhancements within Unity Catalog designed to bridge these infrastructure boundaries. We’ll share a first look at upcoming capabilities that move beyond traditional silos to enable a single, consolidated view of your entire data and AI estate. Discover how we are building an…"
     },
     {
       "title": "How to scale governance to External Engines with Unity Catalog Open APIs",
@@ -6684,6 +7146,71 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/how-scale-governance-external-engines-unity-catalog-open-apis",
       "body": "Enterprises are increasingly challenged to scale data and AI initiatives across diverse tools, clouds, and teams without fragmenting governance or slowing innovation. This session explores how organizations are using Unity Catalog as a unified governance layer for enabling secure, interoperable data access across engines and open table formats such as Delta Lake and Apache Iceberg with fine-grained controls. By simplifying access management through automated, identity-based credentials and applying a single, consistent policy framework, enterprises can reduce operational complexity while…"
+    },
+    {
+      "title": "How to Securely Access data with Lakehouse Federation Across AWS Glue, Snowflake, BigQuery, and Fabric to Innovate Faster",
+      "speakers": [
+        {
+          "name": "John Spencer",
+          "role": "Product Manager",
+          "company": "Databricks"
+        },
+        {
+          "name": "Dmitar Redzic",
+          "role": "Engineering Manager",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Delta Sharing",
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Data Lakehouse",
+        "Lakehouse Implementation",
+        "Architecture & Interoperability"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/how-securely-access-data-lakehouse-federation-across-aws-glue-snowflake",
+      "body": "Your data can be spread across multiple data vendors: AWS Glue, Snowflake, BigQuery, Postgres, etc. This is the session that provides you insight on how to govern, secure, and query it across different teams without having to copy data.In this session we will cover Lakehouse Federation and how Unity Catalog can be the catalog of catalogs for your entire estate. We'll demo how federation works, how customers are using it at scale in production, and talk about how the Iceberg ecosystem is evolving and what you should plan ahead for next. We'll show how you can use Databricks' latest AI features…"
+    },
+    {
+      "title": "How to Solve the Context Gap: Engineering Reliable AI Agents",
+      "speakers": [
+        {
+          "name": "Maria Zervou",
+          "role": "Chief AI Officer - EMEA",
+          "company": "Databricks"
+        },
+        {
+          "name": "Michelle JanneyCoyle",
+          "role": "AI Forward Deployed Engineer",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Enterprise Technology",
+        "Communications, Media & Entertainment",
+        "Consulting & Services"
+      ],
+      "category": [
+        "Agent Bricks"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "AI Agents"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/how-solve-context-gap-engineering-reliable-ai-agents",
+      "body": "The biggest hurdle to production AI isn't the model — it's the context window. What an agent sees, when, and in what format determines whether it reasons correctly or hallucinates. Most teams stitch together RAG, tools, and state management ad hoc, then struggle to evaluate whether their context decisions actually work.This session is a deep dive into context engineering on Databricks: the systematic practice of designing what agents see at every step. You'll learn how to configure RAG systems that go beyond basic retrieval, use Model Context Protocol (MCP) for secure tool and API…"
     },
     {
       "title": "How to Turn Every Business User Into a Decision Maker With AI/BI and Databricks One",
@@ -6788,7 +7315,7 @@
         },
         {
           "name": "Alan Lee",
-          "role": null,
+          "role": "Software Engineer",
           "company": "Databricks"
         }
       ],
@@ -6992,6 +7519,64 @@
       "body": "Enterprise knowledge is often trapped in PDFs, images and office docs—out of reach for AI. This lightning talk will walk you through the end-to-end process for intelligent document processing.We’ll showcase a demo of how to ingest this unstructured data securely and with governance using Lakeflow Connect—preserving permissions, metadata and lineage.Then, see how to activate the data by deploying production-grade agentic workflows with Agent Bricks for functions like search, summarization and business intelligence.We'll highlight customer success stories demonstrating how this process…"
     },
     {
+      "title": "Interoperability With Unity Catalog: Enabling Governed Data Access Across Platforms Beyond Databricks",
+      "speakers": [
+        {
+          "name": "Liran Bareket",
+          "role": "Lead Product Specialist",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology",
+        "Healthcare & Life Sciences",
+        "Financial Services"
+      ],
+      "category": [
+        "AI/BI",
+        "Databricks SQL",
+        "Unity Catalog"
+      ],
+      "level": "Advanced",
+      "areas": [
+        "Catalogs",
+        "Lakehouse Implementation",
+        "Architecture & Interoperability"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/interoperability-unity-catalog-enabling-governed-data-access-across",
+      "body": "Many enterprises run their data across multiple platforms — Snowflake, BigQuery, OneLake, AWS Glue, Postgres. In 20 minutes we'll show you how Lakehouse Federation makes Unity Catalog the catalog of catalogs for your entire data estate. You'll see demos on how to connect an external platform to UC, then run Genie across federated data with row-level security applied uniformly across every source."
+    },
+    {
+      "title": "Introducing Indexes for the Lakehouse",
+      "speakers": [
+        {
+          "name": "Sirui Sun",
+          "role": "Sr. Manager, Product Management",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Databricks SQL",
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Cybersecurity",
+        "SQL"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/introducing-indexes-lakehouse",
+      "body": "Substring searches that take hours. Point lookups that scan terabytes. Pattern-matching queries that force you to maintain a separate tools alongside your lakehouse. These are problems that traditional databases solved decades ago — and that the lakehouse is now solving too. In this session, we'll introduce two new indexing capabilities coming to Databricks: Full-Text Search indexes for fast substring, regex, and IP-address matching with up to 20x query speedup; Standard (Secondary) indexes for needle-in-a-haystack point lookups with 30-60x speedup on non-clustered columns; We'll cover how…"
+    },
+    {
       "title": "Introducing the Vibe to Value Workshop: Your Fast Track to Building Databricks Apps",
       "speakers": [
         {
@@ -7019,11 +7604,6 @@
     {
       "title": "Introduction to Lakeflow Spark Declarative Pipelines: Reliable Data Pipelines Made Easy",
       "speakers": [
-        {
-          "name": "Ray Zhu",
-          "role": "Director, Product Management",
-          "company": "Databricks"
-        },
         {
           "name": "Zoé Durand",
           "role": "Staff Product Manager",
@@ -7158,7 +7738,7 @@
         },
         {
           "name": "Yanic Motte",
-          "role": "Member of field engineering staff",
+          "role": "Senior Specialist Solutions Architect",
           "company": "Databricks"
         }
       ],
@@ -7590,6 +8170,36 @@
       "body": "At lululemon, our CRM Audience Data Science team operates PAVE—an ML platform scoring millions of guest profiles for personalized marketing across email, push, web and paid media.With growth came pain: data scientists managing deployments instead of building models, no path to production, and marketing waiting weeks for new segments. The bottleneck was never the model. We came to DAIS 2025 with these problems and left with a plan: DABS, Unity Catalog, and MLflow 3.0 as the foundation for a live system.Key areas we will cover: DABS: parameterized pipelines that any team member can deploy in…"
     },
     {
+      "title": "Magnite's Journey of Interoperability on a Petabyte of Iceberg Data",
+      "speakers": [
+        {
+          "name": "Brian Likosar",
+          "role": "Sr. Specialist Solution Architect",
+          "company": null
+        },
+        {
+          "name": "Kayvon Raphael",
+          "role": "Head of Data Engineering",
+          "company": "Magnite"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Data Formats"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/magnites-journey-interoperability-petabyte-iceberg-data",
+      "body": "For Magnite's business, they have a need to handle the ingest of 900TB of data every 10 days, while offering subsets of that data to many different customers (internal and external). Join this session to learn how Magnite successfully accomplished this while centralizing their data access via Unity Catalog while improving performance and handling many different engines (including Apache Spark, DuckDB, and Snowflake). We'll discuss the different approaches required, best practices followed, and rough edges encountered along the way. This lively presentation will be beneficial to anyone looking…"
+    },
+    {
       "title": "Manufacturing & Transportation Industry Forum | Sponsored by: SAP",
       "speakers": [
         {
@@ -7886,7 +8496,7 @@
       "title": "Millisecond Pricing: High-Velocity Feature Serving on the Lakebase",
       "speakers": [
         {
-          "name": "Laurence Ryszka",
+          "name": "Wawrzyniec Ryszka",
           "role": "Senior Solutions Architect",
           "company": "Databricks"
         },
@@ -7921,7 +8531,7 @@
       "speakers": [
         {
           "name": "Ankit Mathur",
-          "role": null,
+          "role": "Sr. Staff Software Engineer",
           "company": "Databricks"
         },
         {
@@ -8024,7 +8634,7 @@
       "body": "This hands-on course is designed for data professionals who want to explore the data warehousing capabilities of Databricks. Assuming no prior knowledge of Databricks, it provides an introduction to leveraging Databricks as a modern cloud-based data warehousing solution. Learners will explore how use the Databricks Data Intelligence Platform to ingest, transform, govern, and analyze data efficiently. Learners will also explore Genie, an innovative Databricks feature that simplifies data exploration through natural language queries. By the end of this course, participants will be equipped with…"
     },
     {
-      "title": "Modernization Without Illusions: Migrating a Business-Critical Equities Data Warehouse to Databricks",
+      "title": "Modernization Without Illusions: Migrating a Barclays Business-Critical Equities Data Warehouse to Databricks",
       "speakers": [
         {
           "name": "Alex Anghel",
@@ -8054,7 +8664,7 @@
         "Architecture & Interoperability"
       ],
       "duration_min": "40",
-      "url": "https://www.databricks.com/session/modernization-without-illusions-migrating-business-critical-equities",
+      "url": "https://www.databricks.com/session/modernization-without-illusions-migrating-barclays-business-critical",
       "body": "Transitioning a mission-critical data platform is rarely straightforward—especially when the legacy system already works and the environment is tightly regulated.This session shares real-world lessons from moving a high-stakes post-trade data platform to a cloud-native Databricks architecture, focusing on the trade-offs that determine whether teams merely migrate or truly land well. We explore how decisions around design, execution, and platform-native patterns shape performance, cost and business SLAs from day one—and why treating migration and modernization as a binary choice often leads to…"
     },
     {
@@ -8223,6 +8833,34 @@
       "body": "As analytics and AI workloads grow, most enterprises scale by adding more Databricks workspaces and infrastructure. Over time, this leads to admin overhead, duplicated standards, slow onboarding, and analytics, ML, and GenAI teams operating in silos.In this session, we share our lessons learned at Procter & Gamble, one of the largest Databricks workspace deployments. We show how we reversed that pattern by designing a multi-tenant Databricks architecture built to adapt to constant change and scale with minimal admin effort. Databricks is a multi-tenant platform—this session shows how to…"
     },
     {
+      "title": "Navigating the Realities of AI Policy: The 2026 Data + AI Policy Intelligence Brief",
+      "speakers": [
+        {
+          "name": "Alan Davidson",
+          "role": "Head of Government Affairs",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Unity Catalog",
+        "Agent Bricks"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "Generative AI",
+        "Thought Leadership",
+        "Security & Compliance"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/navigating-realities-ai-policy-2026-data-ai-policy-intelligence-brief",
+      "body": "Artificial Intelligence and how to regulate it is top of mind for companies, governments, and policymakers everywhere. Today, industry faces a “Deregulation Paradox”: While the current US Government takes executive action to dismantle AI rules, states are doubling down on their own policies and enforcement. In 2025, U.S. legislators introduced over 1200 AI-related bills, threatening a regulatory patchwork that is colliding with a federal push for preemption. To separate the signal from noise, join leading experts for a deep dive into the the policy and politics surrounding AI and data…"
+    },
+    {
       "title": "NBCUniversal Media Group's Journey to Databricks",
       "speakers": [
         {
@@ -8317,42 +8955,6 @@
       "body": "The Move to Cloud initiative represents far more than a technological migration; it marks a milestone in the bank’s digital transformation journey. Delivered through collaboration across data platform, data engineering, infrastructure, architecture and centralized ingestion, it established a new foundation for data. The program migrated 16 petabytes from Cloudera and ScyllaDB environments to a modern, secure and scalable cloud architecture, increasing speed, efficiency and resilience for business growth and data-driven decisions. It also generated USD 40 million in projected cost avoidance…"
     },
     {
-      "title": "No-Code to Pro-Code: Lakeflow Designer and the Data Engineering Spectrum",
-      "speakers": [
-        {
-          "name": "Germaine Ong",
-          "role": "Senior Solutions Engineer",
-          "company": "Databricks"
-        },
-        {
-          "name": "Nan Chulpaibul",
-          "role": "Senior Solution Engineer",
-          "company": "Databricks"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Data Engineering & Streaming",
-      "industry": [
-        "Retail & Consumer Goods",
-        "Travel & Hospitality",
-        "Transportation"
-      ],
-      "category": [
-        "Databricks SQL",
-        "Lakeflow",
-        "Unity Catalog"
-      ],
-      "level": "Beginner",
-      "areas": [
-        "Data Ingestion",
-        "Developer Experience",
-        "ETL"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/no-code-pro-code-lakeflow-designer-and-data-engineering-spectrum",
-      "body": "Data engineering has a bottleneck: there are too many pipelines to build, not enough engineers to build them. Lakeflow Designer changes the equation by giving SQL analysts and citizen developers a visual, no-code interface to create production-grade ETL pipelines, backed by the same engine that powers Lakeflow Spark Declarative Pipelines (SDP). This session explores the full Lakeflow spectrum. We'll start with Lakeflow Designer's drag-and-drop canvas and GenAI assistant, showing how a business analyst can build a medallion pipeline in minutes without writing code. Then we'll show how a data…"
-    },
-    {
       "title": "O(n*m) Architecture in Open Source. What Could Possibly Go Wrong?",
       "speakers": [
         {
@@ -8427,7 +9029,7 @@
       "speakers": [
         {
           "name": "Hans Norheim",
-          "role": null,
+          "role": "Principal Software Engineer",
           "company": "Databricks"
         }
       ],
@@ -8547,6 +9149,34 @@
       "duration_min": "20",
       "url": "https://www.databricks.com/session/open-streaming-meets-governed-lakehouse-running-apache-flink-unity",
       "body": "As organizations adopt open streaming engines like Apache Flink alongside centralized governance platforms, interoperability becomes critical. This talk explores how the Flink Delta Connector bridges Flink’s real-time processing model with Delta Lake tables managed by Unity Catalog. We’ll explain how the connector preserves Delta’s ACID guarantees, integrates with UC-managed metadata, and respects centralized governance when writes originate from external Flink clusters. Through architectural deep dives and practical examples, we show how teams can build end-to-end streaming pipelines that…"
+    },
+    {
+      "title": "Open Table Formats for Dummies",
+      "speakers": [
+        {
+          "name": "Holly Smith",
+          "role": "DevRel",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Delta Sharing",
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "ETL",
+        "Open Source",
+        "Data Lakehouse"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/open-table-formats-dummies",
+      "body": "With the enormous amount of discussion about open storage formats between nerds and even not-nerds, it can be hard to keep track of who’s doing what and how this actually makes any impact on day to day data projects. Let's take a closer look at the three big projects in this space; Delta, Hudi and Iceberg. They’re all trying to solve for similar data problems and have tackled the various challenges in different ways. This talk with start with the very basics of how we got here, what the history is before diving deep into the underlying tech, their roadmaps, and their impacts on the data…"
     },
     {
       "title": "OpenAI + Hertz Global + Databricks: Turning Customer Feedback into Business Impact",
@@ -8885,7 +9515,7 @@
         },
         {
           "name": "Ioannis Papavasileiou",
-          "role": "Machine Learning Modeling Engineer",
+          "role": "Staff Machine Learning Engineer",
           "company": "Corning Inc"
         },
         {
@@ -8978,6 +9608,42 @@
       "duration_min": "20",
       "url": "https://www.databricks.com/session/press-start-gaming-real-time-analytics-databricks-apps",
       "body": "What if classic video games could teach you new tricks — and what if community gameplay data could power automation? Join Andrew Sitz (Databricks MVP) and Scott Haines (Staff Developer Advocate) as they build a live gaming environment on Databricks. We'll load a Game from Unity Catalog Volumes, host interactive gameplay through Databricks Apps, and capture every input and state change as streaming data. Using Lakebase and Delta Lake, we persist player sessions, track progress, and serve real-time leaderboards with low latency and full ACID guarantees. From there, we explore how aggregate play…"
+    },
+    {
+      "title": "Privacy-Centric Identity Resolution for Analytics and Activation",
+      "speakers": [
+        {
+          "name": "Nikhil Gaekwad",
+          "role": "Product Lead",
+          "company": "Databricks"
+        },
+        {
+          "name": "Lisa Cramer",
+          "role": "Director of Product",
+          "company": "LiveRamp"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Data Sharing & Collaboration",
+      "industry": [
+        "Healthcare & Life Sciences",
+        "Communications, Media & Entertainment",
+        "Retail & Consumer Goods"
+      ],
+      "category": [
+        "Data Marketplace",
+        "Delta Sharing",
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Collaboration",
+        "Customer Data Platform",
+        "Marketing"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/privacy-centric-identity-resolution-analytics-and-activation",
+      "body": "Identity resolution sits at the core of modern data and AI. As signals disappear and privacy constraints tighten, the ability to unify fragmented customer records across partners directly impacts data quality, analytics accuracy, and model performance. In this session, we show how Databricks Clean Rooms enable organizations to build a trusted view of customer data by resolving identities across datasets without exposing raw PII. Join us for a technical deep dive with LiveRamp as we demonstrate how a durable identity backbone supports accurate, privacy-safe matching across organizations. You…"
     },
     {
       "title": "Production Lakebase Patterns: OAuth Token Lifecycle, Async Pooling, and Caching for Databricks Apps",
@@ -9162,7 +9828,7 @@
       "speakers": [
         {
           "name": "Navneeth Nair",
-          "role": "Sr. PM",
+          "role": "Staff Product Manager",
           "company": "Databricks"
         }
       ],
@@ -9509,6 +10175,73 @@
       "body": "In aviation, \"bad data\" is an operational risk. For large enterprises with hundreds of data products, manual stewardship stifles innovation. To ensure \"safe skies,\" we transformed governance and quality into engineering disciplines.This session explores our \"Governance as Code\" architecture using DQX and Ontos on Unity Catalog. We demonstrate using GenAI to bootstrap trust, scanning raw data to auto-generate Open Data Contract Standards (ODCSq). We then show how DQX acts as the enforcer, compiling contracts into pipelines that quarantine violations and alert on drift.AI-assisted contracts:…"
     },
     {
+      "title": "SAP and Databricks: Unlock the Full Potential of Databricks on Your SAP Data",
+      "speakers": [
+        {
+          "name": "Akram Chetibi",
+          "role": null,
+          "company": "Databricks"
+        },
+        {
+          "name": "Jon Petralanda",
+          "role": "Head of Data & AI Centre of Excellence",
+          "company": "CAF"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Data Sharing & Collaboration",
+      "industry": [
+        "Manufacturing",
+        "Transportation"
+      ],
+      "category": [
+        "Delta Sharing"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Collaboration",
+        "Data Intelligence",
+        "Data Lakehouse"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/sap-and-databricks-unlock-full-potential-databricks-your-sap-data",
+      "body": "The SAP BDC Connector on the Databricks Platform enables, for the first time, the unification of core SAP ERP, supply-chain, and financial data with operational and IoT telemetry in a single lakehouse, unlocking predictive maintenance, supply-chain optimization, and AI-driven insights that were previously out of reach. In this session, we also discuss new innovations in SAP BDC Connector and how customers are leveraging it. Then, you'll hear from CAF (Construcciones y Auxiliar de Ferrocarriles), a global leader in rail and bus manufacturing. CAF became one of the first adopters of SAP BDC,…"
+    },
+    {
+      "title": "Scale Trust, Not Headcount: AI-Powered Semantic Engineering at Southern Glazer’s Wine & Spirits",
+      "speakers": [
+        {
+          "name": "Sankar Chidambaram",
+          "role": "Sr. Director Data and AI",
+          "company": "Southern Glazers Wine and Spirits"
+        },
+        {
+          "name": "Anoop Kuriakose",
+          "role": "Managing Director, AI & Data",
+          "company": "Deloitte"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Retail & Consumer Goods"
+      ],
+      "category": [
+        "AI/BI",
+        "Delta Sharing",
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "AI Agents",
+        "Customer Data Platform",
+        "ML/LLMOps"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/scale-trust-not-headcount-ai-powered-semantic-engineering-southern",
+      "body": "Trust in business decisions erode when reports, AI Agents, and operational systems provide different values for the same KPIs. The solution is a unified semantic fabric in which KPIs are managed as versioned, testable, and reusable assets—like software—implemented entirely within Databricks without added tooling overhead. Organizations no longer need hordes of data and semantic engineers, manually coding pipelines and maintaining definitions. With AI agents automating data transformations, semantic alignment, and business rule updates, organizations can reduce manual engineering effort,…"
+    },
+    {
       "title": "Scaling a Multi-Agent App Platform with Databricks @ SKULD ",
       "speakers": [
         {
@@ -9605,13 +10338,8 @@
       "body": "Managing AI at the scale of Mercedes-Benz requires more than just models—it requires a unified AI ecosystem. With thousands of practitioners across global business units, the challenge was providing a single point of entry for AI capabilities while maintaining strict governance across multi-cloud and multi-model environments. In this session, we go under the hood of the Mercedes-Benz AI Ecosystem. We will detail the technical architecture that integrates Databricks Agent Framework, Model Serving, and AI Gateway to create a governed interoperability for AI agents. We’ll discuss the \"how-to\"…"
     },
     {
-      "title": "Scaling at Scale: The Journey of RAIP and DS Genie at Repsol",
+      "title": "Scaling at Scale: The Journey of RAIP and Genie Code at Repsol",
       "speakers": [
-        {
-          "name": "EMILIO MARTIN GALLARDO,",
-          "role": null,
-          "company": "REPSOL"
-        },
         {
           "name": "Victor Vaquero Soto",
           "role": "Senior Data Scientist",
@@ -9633,8 +10361,8 @@
         "Data Science"
       ],
       "duration_min": "40",
-      "url": "https://www.databricks.com/session/scaling-scale-journey-raip-and-ds-genie-repsol",
-      "body": "Since launching its digital transformation program in 2018, Repsol has developed RAIP, Repsol Artificial Intelligence Products, a framework that encapsulates years of analytical expertise and supports hundreds of production-grade AI models across the organization. Within RAIP, solutions such as REPSENS for time series forecasting have been validated in demanding industrial environments.With the rise of generative AI, rather than treating it as a separate paradigm, we focus on integrating generative capabilities with proven AI assets to maximize impact. In this session, we present how DS Genie…"
+      "url": "https://www.databricks.com/session/scaling-scale-journey-raip-and-genie-code-repsol",
+      "body": "Since launching its digital transformation program in 2018, Repsol has developed RAIP, Repsol Artificial Intelligence Products, a framework that encapsulates years of analytical expertise and supports hundreds of production-grade AI models across the organization. Within RAIP, solutions such as REPSENS for time series forecasting have been validated in demanding industrial environments.With the rise of generative AI, rather than treating it as a separate paradigm, we focus on integrating generative capabilities with proven AI assets to maximize impact. In this session, we present ho Genie…"
     },
     {
       "title": "Scaling Custom LLMs with vLLM and Databricks Model Serving: Fast, Flexible, and Production-Ready",
@@ -9800,7 +10528,7 @@
       "speakers": [
         {
           "name": "Marina Zhou",
-          "role": "Senior Business Operation Analyst",
+          "role": "Strategy & Execution Manager",
           "company": "Databricks, Inc."
         },
         {
@@ -10065,6 +10793,37 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/scaling-trustworthy-ai-takedas-self-service-ai-foundation-databricks",
       "body": "Takeda and ZS share a bold vision for the future of enterprise AI—one where innovation scales through a secure, self-service AI foundation with governance built in by design. In this session, Takeda and ZS share how they are building a unified AI foundation on Databricks, enabling teams to develop, deploy and operate AI confidently in a highly regulated environment. We will walk through Takeda’s AI foundation architecture—built on the Databricks Mosaic AI framework and leveraging managed model serving endpoints and enterprise wide vectorization patterns—while also demonstrating how automated,…"
+    },
+    {
+      "title": "Secure External Data Access with Connections, Secrets, and Functions in Unity Catalog",
+      "speakers": [
+        {
+          "name": "Jakob Mund",
+          "role": "Staff Product Manager",
+          "company": "Databricks"
+        },
+        {
+          "name": "Vladislav Mantic-Lugo",
+          "role": "Senior Product Manager",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Catalogs",
+        "Architecture & Interoperability"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/secure-external-data-access-connections-secrets-and-functions-unity",
+      "body": "Modern data platforms are rarely islands; they exist in a sprawling ecosystem of external databases, APIs, and third-party services. However, managing the \"connective tissue\"—JDBC drivers, secret rotation, and custom logic—often creates security silos and governance gaps. In this session, we will hands-on demonstrate how the next generation of Unity Catalog Connections, Secrets and Functions work in concert to centralize external data access, eliminate hardcoded credentials, and deploy governed UDFs across any compute type. Attendees will learn how to build a \"zero-trust\" data architecture…"
     },
     {
       "title": "Securing the Databricks Lakehouse — a Multi-Layered Defense Against Outside and Inside Threats",
@@ -10505,7 +11264,7 @@
       "speakers": [
         {
           "name": "Cheria Coram",
-          "role": "Director, Tax Technology&Data Enablement",
+          "role": "Director, Tax Tech & Data Enablement",
           "company": "Starbucks"
         }
       ],
@@ -11039,11 +11798,11 @@
         {
           "name": "Paul Cappelluzzo",
           "role": "Principal Data Architect",
-          "company": "Grainger"
+          "company": "W.W. Grainger, Inc."
         },
         {
-          "name": "Pradeep Nagisetty",
-          "role": "Sr Manager Product Platform Engineering",
+          "name": "PRADEEP NAGISETTY",
+          "role": "Sr Manager Product&Platform Engineering",
           "company": "Grainger"
         }
       ],
@@ -11188,33 +11947,6 @@
       "body": "In this session, discover how Dataiku extends the Databricks lakehouse to accelerate AI and agent development, orchestration, and governance. We will explore how teams can rapidly build AI and GenAI applications using visual, collaborative workflows; create and orchestrate intelligent agents leveraging Databricks capabilities like Vector Search and Genie; and ensure enterprise-grade governance with built-in lifecycle management, monitoring, and controls. Learn how organizations are moving from experimentation to production faster by combining Databricks’ powerful data platform with Dataiku’s…"
     },
     {
-      "title": "Sponsored by: dbt Labs | Automating Multi-Tenant Analytics from Zero to Production",
-      "speakers": [
-        {
-          "name": "Sohan Chatterjee",
-          "role": "Head of Data",
-          "company": "isolved"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Governance & Security",
-      "industry": [
-        "Enterprise Technology",
-        "Consulting & Services"
-      ],
-      "category": [
-        "Delta Sharing",
-        "Unity Catalog"
-      ],
-      "level": "Intermediate",
-      "areas": [
-        "Architecture & Interoperability"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/sponsored-dbt-labs-automating-multi-tenant-analytics-zero-production",
-      "body": "isolved is an HR and payroll platform operating in a multi-tenant software architecture. Each instance of isolved must be securely isolated, onboarded quickly, and made analytics-ready without manual overhead. With rapid growth through new tenant launches, isolved modernized on Databricks and adopted dbt to standardize ingestion, governance, and delivery at scale. In this session, isolved’s Head of Data, Sohan Chatterjee, will share a repeatable and production-tested pattern for metadata-driven acceleration: provisioning per-tenant ingestion infrastructure via IaC , auto-generating dbt source…"
-    },
-    {
       "title": "Sponsored by: dbt Labs | dbt + Databricks Partner Well Architected Framework for AI Apps",
       "speakers": [
         {
@@ -11241,6 +11973,33 @@
       "duration_min": "20",
       "url": "https://www.databricks.com/session/sponsored-dbt-labs-dbt-databricks-partner-well-architected-framework-ai",
       "body": "Building AI apps on Databricks is straightforward. Building AI apps that are trusted, governed, and production-ready is a different challenge entirely. In this talk, we walk through the Databricks Partner Well-Architected Framework with dbt as the data foundation. We’ll show how structured, tested, and semantically rich data flows from dbt into Unity Catalog, and from Unity Catalog into any AI application running on Databricks. We'll deploy a live managed app on Databricks that pulls governed assets directly from Unity Catalog with lineage, contracts, and semantic definitions built end-to-end…"
+    },
+    {
+      "title": "Sponsored by: dbt Labs | Your BI Copilot Is Blind - Crafting an Agent That Goes Beyond the Dashboard into dbt",
+      "speakers": [
+        {
+          "name": "Mars Dauer",
+          "role": "Senior Director, Enterprise Data + AI",
+          "company": "Integral Ad Science"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology",
+        "Consulting & Services"
+      ],
+      "category": [
+        "Delta Sharing",
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Architecture & Interoperability"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/sponsored-dbt-labs-your-bi-copilot-blind-crafting-agent-goes-beyond",
+      "body": "BI copilots can answer questions about what's on screen: filters, dimensions, chart values. But ask \"why is this number wrong?\" or \"where does this column come from?\" and they hit a wall. They can't see past the dashboard.Integral Ad Science built an AI agent that goes deeper. Directly within the BI layer, it connects to your dbt project through MCP and validates findings in Databricks SQL (Unity Catalog) via the Databricks SQL MCP server. The agent extracts context from the report, reads compiled SQL, traces column-level lineage from mart to source, explains the business logic in each…"
     },
     {
       "title": "Sponsored by: definity | From Observability to Agentic Data Engineering: What It Actually Takes",
@@ -11341,7 +12100,7 @@
         },
         {
           "name": "Anoop Kuriakose",
-          "role": "Managing Director",
+          "role": "Managing Director, AI & Data",
           "company": "Deloitte"
         }
       ],
@@ -11917,11 +12676,6 @@
           "name": "Ed Anuff",
           "role": "CPO, Data, IBM Software",
           "company": "IBM"
-        },
-        {
-          "name": "Praveen Vemulapalli",
-          "role": "Director- Data & GenAI Architecture",
-          "company": "AT&T"
         }
       ],
       "type": "Breakout",
@@ -13545,7 +14299,7 @@
       "title": "Sponsored by: Salesforce | Tableau & Databricks: Demystifying the Open Semantic Interchange (OSI)",
       "speakers": [
         {
-          "name": "Lauren Giurata",
+          "name": "Nick Brisoux",
           "role": null,
           "company": "Salesforce"
         }
@@ -13574,8 +14328,13 @@
       "title": "Sponsored by: Salesforce | Turn Databricks Data into Action with Trusted Context from Salesforce Data 360",
       "speakers": [
         {
-          "name": "Maggie McClain",
-          "role": "Strategic Events Manager",
+          "name": "Bobby  Brill",
+          "role": null,
+          "company": "Salesforce"
+        },
+        {
+          "name": "Kunal Goyal",
+          "role": null,
           "company": "Salesforce"
         }
       ],
@@ -13950,7 +14709,7 @@
       "speakers": [
         {
           "name": "Majaz Mohammed",
-          "role": "VP,  Supply Chain",
+          "role": "Chief Business Officer, CPG",
           "company": "Tredence Analytics"
         },
         {
@@ -14121,7 +14880,7 @@
       ],
       "duration_min": "20",
       "url": "https://www.databricks.com/session/sql-still-your-superpower-building-production-ready-data-pipelines-using",
-      "body": "SQL didn’t get weaker, data platforms got better.In this session, we’ll build a complete end to end data pipeline using only SQL, taking it from proof of concept to production on Databricks. You’ll see how modern SQL capabilities enable real-time ingestion, transformations, data quality, testing, and clean promotion across environments, without relying on Python or complex frameworks.The session walks through a full Medallion architecture, implemented purely in SQL, including expectations and validation rules embedded directly into pipelines. We’ll also show how SQL-based pipelines can be…"
+      "body": "SQL didn’t get weaker, data platforms got better. In this session, we demonstrate how modern data engineering on Databricks can be delivered end-to-end using SQL alone on the Lakehouse, without dependency on Python or external frameworks, including SQL AI functions and Geospatial Functions. Designed for organisations with strong BI/SQL foundations, this session shows how to transition to production-grade data engineering with minimal upskilling. We showcase how pipelines are built using Lakeflow Spark Declarative Pipelines via the Pipeline Editor, with ingestion, transformation, and data…"
     },
     {
       "title": "SQL Programming and Procedural Logic",
@@ -14222,7 +14981,7 @@
       "speakers": [
         {
           "name": "Andre Furlan Bueno",
-          "role": null,
+          "role": "Sr. Staff Software Engineer",
           "company": "Databricks"
         }
       ],
@@ -14288,7 +15047,7 @@
         },
         {
           "name": "Navneeth Nair",
-          "role": "Sr. PM",
+          "role": "Staff Product Manager",
           "company": "Databricks"
         }
       ],
@@ -14564,7 +15323,7 @@
         },
         {
           "name": "Sheridan McDonald",
-          "role": "DNB VP Enterprise, Sales",
+          "role": "GM - Digital Natives",
           "company": "Databricks"
         },
         {
@@ -14611,7 +15370,7 @@
           "company": "Databricks"
         },
         {
-          "name": "Phoenix Majumder",
+          "name": "Phoenix U Majumder",
           "role": "Senior Director, Data and AI",
           "company": "Workday"
         },
@@ -14685,7 +15444,7 @@
       "speakers": [
         {
           "name": "Ivan Trusov",
-          "role": "Senior Specialist Solutions Architect",
+          "role": "Lead Specialist Solutions Architect",
           "company": "Databricks"
         },
         {
@@ -14834,12 +15593,12 @@
         },
         {
           "name": "Adam Towne",
-          "role": "Director of Product, Scaled Analytics & Funds",
+          "role": "Director of Product",
           "company": "LSEG"
         },
         {
           "name": "Mark Nigro",
-          "role": null,
+          "role": "Head of Portfolio Research",
           "company": "Franklin Templeton"
         }
       ],
@@ -14960,7 +15719,7 @@
       "title": "The Evolution of Prompting: From Artisan Craft to Algorithmic Optimization",
       "speakers": [
         {
-          "name": "Hanna Farooq Moazam",
+          "name": "Hanna Moazam",
           "role": "Senior Solutions Architect",
           "company": "Databricks"
         }
@@ -15013,6 +15772,40 @@
       "duration_min": "20",
       "url": "https://www.databricks.com/session/full-databricks-app-experience",
       "body": "What does a real Databricks App look like in production? In this session, we walk through an internal tool we use every day: an agentic Lakeflow generation system built entirely on the Databricks platform. Starting from raw Unity Catalog tables, the app uses foundational models orchestrated in a LangGraph loop to profile data, design pipelines, validate transformations, and generate fully deployable Lakeflow artefacts from Silver through to Gold.We’ll show how application state, specifications, and user preferences are managed in Lakebase, enabling a seamless, iterative build experience…"
+    },
+    {
+      "title": "The Future of Cross-Company Collaboration on Databricks",
+      "speakers": [
+        {
+          "name": "Tia Chang",
+          "role": "Product Manager",
+          "company": "Databricks, Inc."
+        },
+        {
+          "name": "Akram Chetibi",
+          "role": null,
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Data Sharing & Collaboration",
+      "industry": [
+        "Enterprise Technology",
+        "Retail & Consumer Goods"
+      ],
+      "category": [
+        "Data Marketplace",
+        "Databricks Apps"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "AI Agents",
+        "Collaboration",
+        "Data Applications"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/future-cross-company-collaboration-databricks",
+      "body": "For years, cross-company collaboration meant sharing files, tables, and dashboards. That era is ending. In this session, we explore the next era of collaboration — one where organizations share intelligence, not just data.Databricks is reimagining what it means to work across organizational boundaries. Instead of exchanging static assets, partners and customers will interact through AI-native experiences — governed, secure, and designed for a world where every company runs on agents. We'll paint the picture of a new ecosystem of tools and services that turns every data relationship into…"
     },
     {
       "title": "The Intelligent Healthcare System: How Agentic AI is Redefining Care Delivery and Coverage",
@@ -15162,6 +15955,38 @@
       "body": "Client demand is shifting. They don’t want our data; they want it in their platform. We solved the “Vendor Lock-in” crisis by building an Open Data Passport. This session deconstructs how we leveraged Delta Sharing and Apache Iceberg UniForm to deliver high-scale healthcare products to clients without moving a single byte of raw data. We’ll share the engineering “scars” of managing cross-cloud permissions and how we turned an interoperability headache into a competitive product advantage for our global ecosystem. Demo: A live cross-platform “handshake” between a Databricks source and a…"
     },
     {
+      "title": "The Right Model for the Job: A Practical Framework for AI  ",
+      "speakers": [
+        {
+          "name": "Viktoria Semaan",
+          "role": "Principal Technical Evangelist",
+          "company": "Databricks"
+        },
+        {
+          "name": "Nuno Castro",
+          "role": "Director AI FDE",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Agent Bricks"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "AI Agents",
+        "Generative AI",
+        "ML/LLMOps"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/right-model-job-practical-framework-ai",
+      "body": "Not every problem needs the biggest model — and not every model works out of the box. With frontier models, small open models, and fine-tuning all on the table, the hardest question isn't \"can we do AI?\" It's \"which model is actually right for this?\"In this session, we walk through how to match models to use cases across real enterprise workloads. You'll see when a frontier model earns its cost, when a small open model wins on latency, and when fine-tuning turns a generic model into a specialist that knows your business. We'll put the tradeoffs in action — quality, cost, latency, control —…"
+    },
+    {
       "title": "The Talent Engineering Playbook : How Yanolja Built a High-Performance Data Culture",
       "speakers": [
         {
@@ -15256,6 +16081,34 @@
       "body": "Ever wondered how to bridge the gap between analytical data and operational workflows without breaking your lakehouse architecture? What if business users could edit data directly in a web app while maintaining a single source of truth? Traditional lakehouses excel at analytics but struggle with user-driven updates, often creating silos or complex workarounds.There’s a better way—in this session we’ll cover a full writeback loop where lakehouse (Unity Catalog) syncs to PostgreSQL (Lakebase) for operational speed, a Databricks app offers an intuitive editing interface and Lakeflow jobs sync…"
     },
     {
+      "title": "Thinking Fast & Slow: How Databricks Built High-Speed and Deep Research Agents",
+      "speakers": [
+        {
+          "name": "Michael Bendersky",
+          "role": "Director (Research)",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Unity Catalog",
+        "Agent Bricks"
+      ],
+      "level": "Advanced",
+      "areas": [
+        "AI Agents",
+        "Generative AI",
+        "Orchestration"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/thinking-fast-slow-how-databricks-built-high-speed-and-deep-research",
+      "body": "In today's competitive agentic search landscape, two operating modes are mission-critical. The first is a low-latency, low-cost mode for consumer-facing scale. It must meet strict tail-latency budgets for real-time, high-throughput use cases at minimal per-query cost, without sacrificing quality. The second is a compute-intensive deep research mode enabling expert-level analysis—from financial due diligence and technology mapping to clinical review and manufacturing diagnostics. The system must plan multi-step retrieval, triangulate sources, and synthesize coherent answers. Using our…"
+    },
+    {
       "title": "Tips and Tricks for Postgres Observability at Scale",
       "speakers": [
         {
@@ -15264,7 +16117,7 @@
           "company": "Databricks"
         }
       ],
-      "type": "Breakout",
+      "type": "Lightning Talk",
       "track": "Lakebase",
       "industry": [
         "Enterprise Technology"
@@ -15368,6 +16221,19 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/travel-hospitality-making-modern-hospitality-experience-humans-data-and",
       "body": "The best hospitality has always been about anticipation— knowing what a guest needs before they ask. AI is now making that possible at scale, but only when it's built on unified, governed data. With customer information still fragmented across legacy systems and siloed tools, most brands can't recognize the same traveler across channels, let alone act on real-time context. The brands pulling ahead are the ones turning data into a moat and AI into a co-pilot for every guest-facing and operational moment.Hear from leading travel and hospitality brands on how they're doing exactly that with…"
+    },
+    {
+      "title": "Tuesday Keynote",
+      "speakers": [],
+      "type": "Keynote",
+      "track": null,
+      "industry": [],
+      "category": [],
+      "level": null,
+      "areas": [],
+      "duration_min": "180",
+      "url": "https://www.databricks.com/session/tuesday-keynote",
+      "body": "See the latest innovations from Databricks, live demos and unscripted conversations with the leaders shaping enterprise AI."
     },
     {
       "title": "Turning Data Requests Into Self-Service: Building an AI-Powered Analytics Product Users Love",
@@ -15562,6 +16428,33 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/unified-sre-observability-how-workday-democratizes-multi-platform",
       "body": "As Workday’s infrastructure scaled across multi-cloud environments, the Site Reliability Engineering (SRE) teams faced a common hurdle: fragmented data silos. Monitoring reliability across Databricks, Snowflake, ServiceNow and FiveTran required pivoting between tools, leading to delayed insights and manual reporting toil. To solve this, Workday built a unified cross-platform KPI dashboard on Databricks, centralizing telemetry into a single pane of glass for platform adoption, job performance and ITSM health. This session explores the architecture behind this “one-stop shop”—leveraging…"
+    },
+    {
+      "title": "Unify Your Data + AI Ecosystem via Databricks Marketplace",
+      "speakers": [
+        {
+          "name": "Stephen Orban",
+          "role": "SVP, Product Ecosystem & Partnerships",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Data Sharing & Collaboration",
+      "industry": [
+        "Communications, Media & Entertainment",
+        "Retail & Consumer Goods",
+        "Financial Services"
+      ],
+      "category": [
+        "Data Marketplace"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "Collaboration"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/unify-your-data-ai-ecosystem-databricks-marketplace",
+      "body": "The average enterprise depends on dozens of third-party data and AI providers. Yet discovering, evaluating, and operationalizing those products remains fragmented, slow, and siloed. In this lightning talk, we'll explore how Databricks Marketplace is becoming the central hub for organizations to discover, access, and manage third-party data, apps, and AI models. Whether you're a data leader looking to streamline your vendor ecosystem or a provider looking to grow your reach, this session covers the vision and roadmap.You'll learn:How Marketplace simplifies discovery and access to third-party…"
     },
     {
       "title": "Unifying Upstream Intelligence with Generative AI",
@@ -15824,13 +16717,13 @@
       "title": "Using Genie to Speed Traditional Machine Learning Tasks",
       "speakers": [
         {
-          "name": "Ben Doan",
-          "role": "Sr. Machine Learning Solutions Architect",
+          "name": "Nemanja Petrović",
+          "role": "Principal Software Engineer",
           "company": "Databricks"
         },
         {
-          "name": "Nemanja Petrović",
-          "role": "Principal Software Engineer",
+          "name": "Mike Del Balso",
+          "role": null,
           "company": "Databricks"
         }
       ],
@@ -15992,6 +16885,32 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/weaving-data-financial-fabric-how-nasdaq-uses-databricks-power",
       "body": "Nasdaq is the trusted fabric of the world’s financial system, and data is at the heart of everything we do. Learn how we’re using Databricks to drive insights, support decision-making and deliver industry-leading financial solutions. Using Delta Lake’s open formats and Unity Catalog, we’ve consolidated disparate data stores into a unified corporate data lakehouse to create a single source of truth for enterprise data. We’ll demo how we’re using AgentBricks and Databricks Apps to democratize access to data while maintaining oversight and governance.You’ll also discover how our Capital Access…"
+    },
+    {
+      "title": "Wednesday Keynote",
+      "speakers": [],
+      "type": "Keynote",
+      "track": null,
+      "industry": [],
+      "category": [],
+      "level": null,
+      "areas": [],
+      "duration_min": "180",
+      "url": "https://www.databricks.com/session/wednesday-keynote",
+      "body": "Be first to witness the latest breakthroughs from Databricks and share the success of innovative data and AI companies."
+    },
+    {
+      "title": "Welcome Reception",
+      "speakers": [],
+      "type": "Evening Event",
+      "track": null,
+      "industry": [],
+      "category": [],
+      "level": null,
+      "areas": [],
+      "duration_min": "120",
+      "url": "https://www.databricks.com/session/welcome-reception",
+      "body": "Join us at our Welcome Reception at the Expo to socialize with your fellow data professionals while enjoying food and drinks."
     },
     {
       "title": "What is Databricks Apps?",
@@ -16359,11 +17278,6 @@
     {
       "title": "ZeroETL Was Just the Start: Operational Databases belong in the Medallion Architecture",
       "speakers": [
-        {
-          "name": "Jonathan Katz",
-          "role": "Sr. Staff Product Manager",
-          "company": "Databricks"
-        },
         {
           "name": "Pranav Aurora",
           "role": "Senior Product Manager, Lakebase",
