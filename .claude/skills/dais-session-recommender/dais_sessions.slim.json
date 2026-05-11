@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-10T18:29:22+00:00",
+  "generated_at": "2026-05-11T18:48:33+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
-  "session_count": 635,
+  "session_count": 636,
   "sessions": [
     {
       "title": " Sponsored by: Genpact | Enabling AI-Ready Data",
@@ -2176,7 +2176,7 @@
       "speakers": [
         {
           "name": "Marco Sturm",
-          "role": "Data engineer",
+          "role": "Data & AI Consultant",
           "company": "Daimler Truck AG"
         }
       ],
@@ -2436,6 +2436,39 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/building-ai-database-agentic-gtm-operations",
       "body": "Rippling leverages Databricks to power agentic GTM operations across RevOps, PLG, marketing, sales and account management. Built on Apache Iceberg™-compatible tables and Lakeflow, we ingest and unify large-scale market intelligence data, perform ML-based entity resolution across heterogeneous sources, and apply LLM-driven summarization and classification to generate structured outputs.These enriched profiles power a 360° GTM portal that enables personalized outreach and engagement at scale. Using Databricks AI/BI, we conduct deep performance analysis across campaigns, segments, messaging, and…"
+    },
+    {
+      "title": "Building an AI-ready Customer 360 on Databricks",
+      "speakers": [
+        {
+          "name": "Phil Catterall",
+          "role": "Sr Product Manager",
+          "company": null
+        },
+        {
+          "name": "Patrick Yang",
+          "role": "Software Engineer",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Application Development",
+      "industry": [
+        "Communications, Media & Entertainment"
+      ],
+      "category": [
+        "Lakeflow",
+        "Unity Catalog"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "Customer Data Platform",
+        "Marketing",
+        "Data Lakehouse"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/building-ai-ready-customer-360-databricks",
+      "body": "Learn how data and business teams can turn raw customer data into trusted, business-ready Customer 360 profiles on Databricks. This session will explore best practices for building golden customer records, resolving customer identities, enriching profiles with third-party data, and continuously improving data quality, all while maintaining the security and governance your enterprise depends on with Unity Catalog.In this session, you’ll learn:- How to transform raw data into golden Customer 360 records ready for business and marketing use- How to resolve customer identities and enrich customer…"
     },
     {
       "title": "Building an Explainable AI Research Agent With Databricks Genie",
@@ -3894,7 +3927,7 @@
       "speakers": [
         {
           "name": "Shaurya Rana",
-          "role": "Solutions Architect",
+          "role": "Sr. Solutions Architect",
           "company": "Databricks"
         }
       ],
@@ -4559,7 +4592,7 @@
       "title": "Driving Enterprise Transformation With an AI‑Enabled Field Assistant",
       "speakers": [
         {
-          "name": "thomas raborn",
+          "name": "Thomas Raborn",
           "role": "Exec Director, Lilly US Field Operations",
           "company": "Eli Lilly and Company"
         },
@@ -7143,7 +7176,7 @@
       "speakers": [
         {
           "name": "Jay Yang",
-          "role": "Executive Director",
+          "role": "Executive Director, Crew Lead, RiskLab",
           "company": "UBS"
         },
         {
@@ -9863,7 +9896,7 @@
       "title": "Millisecond Pricing: High-Velocity Feature Serving on the Lakebase",
       "speakers": [
         {
-          "name": "Wawrzyniec Ryszka",
+          "name": "Laurence Ryszka",
           "role": "Senior Solutions Architect",
           "company": "Databricks"
         },
@@ -10236,7 +10269,7 @@
           "company": "Procter & Gamble"
         },
         {
-          "name": "Zhang, Valeria",
+          "name": "Valeria Zhang",
           "role": "Solution Architect",
           "company": "Procter & Gamble"
         }
@@ -10326,9 +10359,9 @@
           "company": "Conde Nast Publications"
         },
         {
-          "name": "arun karthik",
-          "role": "Director",
-          "company": "Conde Nast"
+          "name": "Arun Karthik E",
+          "role": "Director, Data Solutions Engineering",
+          "company": "CondéNast"
         }
       ],
       "type": "Breakout",
@@ -12486,8 +12519,8 @@
           "company": "Santander Group - Getnet"
         },
         {
-          "name": "Christian Diez Girona",
-          "role": "Chief Financial Officer and VP of Global Strategy at Santander Pagonxt",
+          "name": "Christian Diez",
+          "role": "CFO and Head of Strategy, Payments",
           "company": "Santander Group"
         }
       ],
@@ -12713,7 +12746,7 @@
         },
         {
           "name": "Dillon Morrison",
-          "role": null,
+          "role": "Sr Staff Product Manager",
           "company": null
         }
       ],
@@ -15012,7 +15045,7 @@
         {
           "name": "Barr Moses",
           "role": "CEO & Co-Founder",
-          "company": "Monte Carlo"
+          "company": "Monte Carlo Data, Inc"
         }
       ],
       "type": "Breakout",
@@ -15073,7 +15106,7 @@
         {
           "name": "Barr Moses",
           "role": "CEO & Co-Founder",
-          "company": "Monte Carlo"
+          "company": "Monte Carlo Data, Inc"
         }
       ],
       "type": "Lightning Talk",
@@ -17259,6 +17292,11 @@
           "name": "Andy Markus",
           "role": null,
           "company": "AT&T"
+        },
+        {
+          "name": "Omer Farooq",
+          "role": "Sr Director AI CoE",
+          "company": "T-Mobile (Primary)"
         }
       ],
       "type": "Special Interest",
@@ -18321,7 +18359,7 @@
         {
           "name": "Barry Panayi",
           "role": "Group CDO",
-          "company": "Howden Group Holdings"
+          "company": "Howden"
         }
       ],
       "type": "Breakout",
@@ -18399,13 +18437,7 @@
     },
     {
       "title": "Unify Your Data + AI Ecosystem via Databricks Marketplace",
-      "speakers": [
-        {
-          "name": "Stephen Orban",
-          "role": "SVP, Product Ecosystem & Partnerships",
-          "company": "Databricks"
-        }
-      ],
+      "speakers": [],
       "type": "Lightning Talk",
       "track": "Data Sharing & Collaboration",
       "industry": [
