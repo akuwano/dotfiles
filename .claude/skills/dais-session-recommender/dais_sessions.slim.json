@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T18:28:58+00:00",
+  "generated_at": "2026-05-17T18:32:19+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 705,
   "sessions": [
@@ -3211,9 +3211,9 @@
           "company": "Mars Information Services"
         },
         {
-          "name": "Riddhish Kankariya",
-          "role": "Director - Analytics Consulting",
-          "company": "Tiger Analytics"
+          "name": "Vishal Puri",
+          "role": "Vice President (Data & AI Solutions Group)",
+          "company": "Tiger Analytics Inc."
         }
       ],
       "type": "Breakout",
@@ -19105,9 +19105,9 @@
       "title": "The Databridge Platform: Connecting Data Silos Seamlessly With Databricks",
       "speakers": [
         {
-          "name": "Akhmad Muqtafi",
-          "role": "Senior Data Engineer",
-          "company": "Rakuten Group"
+          "name": "Prakash Balraj",
+          "role": "Engineering Manager",
+          "company": "Rakuten"
         }
       ],
       "type": "Breakout",
@@ -19193,12 +19193,12 @@
         {
           "name": "Ben Hazan",
           "role": "Sr. Solutions Engineer",
-          "company": null
+          "company": "Databricks"
         },
         {
           "name": "Guy Livni",
           "role": "Solutions Architect",
-          "company": null
+          "company": "Databricks"
         }
       ],
       "type": "Breakout",
@@ -19402,6 +19402,16 @@
           "name": "Mrinalini Patade",
           "role": "Sr. Director, Data Engineering ",
           "company": "Warner Brothers Discovery"
+        },
+        {
+          "name": "Vageesan Ragunathan",
+          "role": "Staff Data Engineer",
+          "company": "Warner Bros. Discovery"
+        },
+        {
+          "name": "Apratim Tiwari",
+          "role": "Manager, Data Engineering",
+          "company": "Warner Bros. Discovery"
         }
       ],
       "type": "Breakout",
