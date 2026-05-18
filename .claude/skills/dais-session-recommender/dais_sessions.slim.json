@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-17T18:32:19+00:00",
+  "generated_at": "2026-05-18T18:47:43+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
-  "session_count": 705,
+  "session_count": 707,
   "sessions": [
     {
       "title": "“Make Me a Map”: Building a GIS Agent with AgentBricks, MCP, and Lakebase",
       "speakers": [
         {
           "name": "Sam Hashemi",
-          "role": null,
+          "role": "CEO",
           "company": "Felt"
         }
       ],
@@ -1294,14 +1294,19 @@
       "title": "AskPorto — a Unified Agentic AI Solution for Data Analytics and Discovery",
       "speakers": [
         {
-          "name": "THONG LOON TAN",
-          "role": "SENIOR DEPUTY DIRECTOR",
-          "company": "CENTRAL PROVIDENT FUND BOARD"
-        },
-        {
           "name": "Benedict Ho",
           "role": "Senior Deputy Director",
           "company": "CPFB Singapore"
+        },
+        {
+          "name": "Jie Ning  Ng",
+          "role": null,
+          "company": "Central Provident Fund Board"
+        },
+        {
+          "name": "Alex Chen",
+          "role": null,
+          "company": "Central Provident Fund Board"
         }
       ],
       "type": "Breakout",
@@ -1362,7 +1367,7 @@
       "title": "Atlassian's Journey of Using AI/BI Genie From Pilot to Production and What's Next?",
       "speakers": [
         {
-          "name": "preddy preddy",
+          "name": "Prakash Reddy",
           "role": "Head of Data Engineering",
           "company": "Atlassian"
         },
@@ -3832,6 +3837,34 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/cost-management-serverless-compute-notebooks-jobs-and-pipelines",
       "body": "Serverless compute removes infrastructure overhead, but platform teams still need to govern who can use it and how much each workload can spend. This session covers the cost-control model now for serverless Notebooks, Jobs, and Lakeflow Pipelines, current features, recent developments, and the roadmap ahead.We walk through the new primitives: entitlements that grant or revoke serverless access per user, group, or service principal, and per-workload rate limits that cap the spend rate of an individual Job or Pipeline. Attendees leave with a concrete migration path from cluster policies to…"
+    },
+    {
+      "title": "Creating Better Travel Experiences for All — Confronting Airline Pricing Pressures From Legacy Tools",
+      "speakers": [
+        {
+          "name": "Dennis Michon",
+          "role": "Head of Data Product",
+          "company": "easyJet"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Lakebase",
+      "industry": [
+        "Travel & Hospitality"
+      ],
+      "category": [
+        "Unity Catalog",
+        "Databricks Apps",
+        "Lakebase"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Data Applications",
+        "Lakebase"
+      ],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/creating-better-travel-experiences-all-confronting-airline-pricing",
+      "body": "easyJet carried nearly 90 million passengers last year, flying more than 1,200 routes, with a fleet of 300+ planes. Even as one of Europe’s leading low-cost airlines, the company faced mounting pressure to modernize, as traveler expectations necessitate seamless booking, flexible changes and personalized offers. Across Europe, high costs, thin margins and digital-first competitors only raised the stakes for all airlines. With core systems still tied to a decade-old desktop app and one of the region’s largest SQL Server databases, easyJet struggled with frequent engineering bottlenecks,…"
     },
     {
       "title": "Cross-Cloud Delta Sharing: Eliminate Egress cost with Delta Sharing Global Distribution",
@@ -8103,7 +8136,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/how-circle-k-powers-personalized-loyalty-programs-customer-data-scale",
-      "body": "Coming soon!"
+      "body": "Circle K is activating customer data and loyalty insights via their CDP to deliver more relevant, personalized experiences across the customer journey. In this session, Jay Malepati, Global Director of Customer & Marketing Data Science at Circle K, will share how his team is building a stronger customer data foundation to better understand customer behavior, improve loyalty engagement, and automate personalization at scale. Attendees will learn how Circle K approaches customer intelligence, segmentation, and data-driven marketing in a complex, high-volume retail environment."
     },
     {
       "title": "How Data Warehousing Changes in the World of Agents",
@@ -8677,6 +8710,42 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/how-fda-scaling-secure-ai-databricks-government",
       "body": "AI in the public sector has moved from pilot to mission critical, and the agencies leading the way are the ones that have mastered the path from experimentation to production in FedRAMP and IL5 environments.In this session, we will share the best practices customers should follow to get their AWS GovCloud environment ready for the most secure and mission-critical workloads — covering infrastructure-as-code security patterns, governed foundation model access, lineage and auditability, and the networking configurations needed to connect Unity Catalog to the right data sources. The U.S. Food and…"
+    },
+    {
+      "title": "How to agentify contact center at enterprise scale",
+      "speakers": [
+        {
+          "name": "Nicola Giorcelli",
+          "role": "Lead",
+          "company": "Cluster Reply"
+        },
+        {
+          "name": "Delli, Serena",
+          "role": "Head of Data&AI Architectures",
+          "company": "Bludigit, Italgas"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Energy & Utilities",
+        "Communications, Media & Entertainment",
+        "Retail & Consumer Goods"
+      ],
+      "category": [
+        "Unity Catalog",
+        "Databricks Apps",
+        "Lakebase"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "AI Agents",
+        "Data Applications",
+        "Generative AI"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/how-agentify-contact-center-enterprise-scale",
+      "body": "At Europe’s largest gas distributor, the customer contact center handled approximately 120,000 calls per month using a traditional IVR system. This resulted in 22,000 calls dropped during navigation and 10,000 calls resolved through automation. Thus the IVR was replaced with a conversational AI agent built on Databricks. The AI Gateway provides the backbone for real-time agent serving, while MLFlow tracks performance. Data is securely accessed from Unity Catalog, while the tools are served via MCP through a Databricks app. The agent interacts with callers in natural language, gathers…"
     },
     {
       "title": "How To Be an Agentic Analyst",
@@ -9971,7 +10040,7 @@
       "body": "Most enterprises don't struggle to write code — they struggle to consistently deliver production-grade Databricks solutions that are clearly scoped, governed, and built to last. LakeFoundry is Slalom's autonomous, agent-driven delivery platform that transforms ideas, tickets, chats, and draft requirements into a repeatable, auditable path from concept to production — entirely within Databricks.At its core, LakeFoundry operates across three planes: a Control Plane that enforces structured specification and stakeholder alignment before a single line of code is written; an Execution Plane where…"
     },
     {
-      "title": "Language-agnostic UDF Protocol for Spark",
+      "title": "Language-Agnostic UDF Protocol for Spark",
       "speakers": [
         {
           "name": "Haiyang Sun",
@@ -11786,7 +11855,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/optimizing-aibi-dashboard-performance-best-practices-speed-and-scale",
-      "body": "Slow queries, long load times, and inconsistent responsiveness don't just frustrate users — they limit adoption and erode trust in your data. In this session, we'll teach you how to apply the right design patterns and leverage the latest AI/BI Dashboard capabilities — including automatic materialization and the Reyden engine — to deliver consistently fast, interactive performance at scale.You'll walk away knowing how to:- Design datasets and queries for fast, interactive dashboard performance- Leverage caching, query optimization, and warehouse configuration effectively- Use automatic…"
+      "body": "Slow queries, long load times, and inconsistent responsiveness don't just frustrate users — they limit adoption and erode trust in your data. In this session, we'll teach you how to apply the right design patterns and leverage the latest AI/BI Dashboard capabilities — including automatic materialization to deliver consistently fast, interactive performance at scale. You'll walk away knowing how to: - Design datasets and queries for fast, interactive dashboard performance - Leverage caching, query optimization, and warehouse configuration effectively - Use automatic materialization for the…"
     },
     {
       "title": "Performance Tuning the Data Platform at Databricks",
@@ -12061,7 +12130,7 @@
       "speakers": [
         {
           "name": "Tom Anderson",
-          "role": "Director, Digital Core Systems",
+          "role": "Sr. Director, Analytics and AI",
           "company": "Cummins"
         },
         {
@@ -12076,7 +12145,7 @@
         },
         {
           "name": "Srinivasa Gopineedi",
-          "role": "Analytics Manager",
+          "role": "AI Solutions Leader",
           "company": "Cummins"
         }
       ],
@@ -12639,6 +12708,35 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/reimagining-siem-sap-ecss-journey-open-security-lakehouse",
       "body": "SAP Enterprise Cloud Services (ECS) is rethinking the traditional SIEM model by building a Security Data Platform with Lakewatch and Anvilogic shifting to an open, AI-ready foundation for cybersecurity. We’ll walk through how ECS designed and operationalized the platform to replace SIEM-centric workflows with a lakehouse approach that lowers total cost and time to respond using agentic AI. We will discuss the full architecture—routing with Cribl and Kafka, ingestion into Lakewatch, detection engineering in Anvilogic, incident response and reporting. We will close out with agentic AI use cases…"
+    },
+    {
+      "title": "Reinventing Operational Scale through Agentic Underwriting",
+      "speakers": [
+        {
+          "name": "Christopher Mullan",
+          "role": "Head of Data & AI",
+          "company": "CFC"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Financial Services"
+      ],
+      "category": [
+        "AI/BI",
+        "Unity Catalog",
+        "Agent Bricks"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "AI Agents",
+        "Cybersecurity",
+        "Thought Leadership"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/reinventing-operational-scale-through-agentic-underwriting",
+      "body": "CFC as a Lloyd's of London leading Cyber speciality insurer, is globally scaling our business by amplifying every Underwriter. For this we've created the \"Agentic Underwriter\" in production to augment critical steps in the underwriting journey. By combining Databricks' delta lake architecture with modern LLMOps processes and open source frameworks like LangGraph we've rapidly created agents capable of creating fully fledged quotes. The agent is able to intelligently navigate our systems & the complexities of the speciality lines insurance process to deliver ready made quotes for our…"
     },
     {
       "title": "Reliance Jio  Customer Churn Radar and next best action",
@@ -13308,7 +13406,7 @@
       "speakers": [
         {
           "name": "Virginie Marelli",
-          "role": "Principal Generative AI Engineer",
+          "role": "Global GenAI Director",
           "company": "GSK"
         },
         {
@@ -13403,7 +13501,7 @@
       "speakers": [
         {
           "name": "Saad Ali",
-          "role": "Lead Data Engineer - Gross Margin",
+          "role": "Head of Gross Margin Engineering",
           "company": "Octopus Energy"
         }
       ],
@@ -17563,7 +17661,7 @@
       "title": "Sponsored by: Salesforce | Turn Databricks Data into Action with Trusted Context from Salesforce Data 360",
       "speakers": [
         {
-          "name": "Bobby  Brill",
+          "name": "Bobby Brill",
           "role": null,
           "company": "Salesforce"
         },
@@ -18987,7 +19085,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/agentic-stack-founder-conversation-open-infrastructure-powering-ai",
-      "body": "The next great platform shift isn't a model. It's the infrastructure that turns models into autonomous action. Just as cloud produced a layered stack of open technologies, the agentic era is producing its own, defined right now, in the open.This panel brings together the founders building each layer: how agents are constructed, how they collaborate as teams, and how they're governed at scale. Together, they'll discuss what the \"Linux moment\" for agents looks like and what it means when the most consequential software in an enterprise writes itself.The big questions:Where does the open…"
+      "body": "The next great platform shift isn't a model. It's the infrastructure that turns models into autonomous action. Just as cloud produced a layered stack of open technologies, the agentic era is producing its own, defined right now, in the open. This panel brings together the founders building each layer: how agents are constructed, how they collaborate as teams, how context is processed and made agent-ready, and how they're governed at scale. Together, they'll discuss what the \"Linux moment\" for agents looks like and what it means when the most consequential software in an enterprise writes…"
     },
     {
       "title": "The Alpha Advantage: Building the Intelligent Capital Markets Firm with Databricks",
@@ -19410,7 +19508,7 @@
         },
         {
           "name": "Apratim Tiwari",
-          "role": "Manager, Data Engineering",
+          "role": "Manager, Software Engineering",
           "company": "Warner Bros. Discovery"
         }
       ],
@@ -19646,7 +19744,7 @@
           "company": "NOL UNIVERSE"
         },
         {
-          "name": "Youngho Song",
+          "name": "YOUNGHO SONG",
           "role": "Data Engineering Lead",
           "company": "Yanolja NEXT"
         }
@@ -20952,40 +21050,6 @@
       "body": "As your Databricks adoption scales, FinOps teams need full visibility that connects performance, usage, and spend, and tools that turn insight into action.In this session, we’ll show how to operationalize FinOps on Databricks . You’ll see how to enrich workloads with tags, explore cost and performance through dashboards and Genie, and implement proactive alerting across compute types. We’ll also unveil new FinOps-focused features & tools that your team will want to be aware of."
     },
     {
-      "title": "What's New in Apache Spark™ 4.1",
-      "speakers": [
-        {
-          "name": "Daniel Tenedorio",
-          "role": "Sr. Staff Software Engineer",
-          "company": "Databricks"
-        },
-        {
-          "name": "Wenchen Fan",
-          "role": "Senior Staff Software Engineer",
-          "company": "Databricks"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Data Engineering & Streaming",
-      "industry": [
-        "Healthcare & Life Sciences",
-        "Manufacturing",
-        "Financial Services"
-      ],
-      "category": [
-        "Lakeflow"
-      ],
-      "level": "Intermediate",
-      "areas": [
-        "ETL",
-        "Open Source",
-        "Streaming pipelines"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/whats-new-apache-sparktm-41-0",
-      "body": "Apache Spark 4.1 continues the evolution of the world’s leading open-source data engine, accelerating developer productivity and making modern data engineering patterns first-class citizens. Spark 4.1 improvements reduce friction, improve performance, and expand what Spark can express natively.In this session you’ll see how Spark 4.1: Declarative APIs that let you define outcomes while Spark manages pipeline execution, dependencies, and failure handling Real-Time Mode for streaming, enabling continuous, low-latency processing Improved Python performance and ergonomics, including Arrow-native…"
-    },
-    {
       "title": "What’s New in Apache Spark™ 4.1?",
       "speakers": [
         {
@@ -21465,7 +21529,7 @@
       "areas": [
         "Industry Experience"
       ],
-      "duration_min": "0",
+      "duration_min": "40",
       "url": "https://www.databricks.com/session/zero-copy-federated-energy-analytics-adme-databricks-action",
       "body": "Oil and gas companies have standardized on Azure Data Manager for Energy (ADME) as their subsurface system of record, but running analytics and AI on that data has meant copying massive OSDU datasets into downstream platforms, breaking governance and slowing every workflow that follows. In this jointly developed Microsoft and Databricks session, we introduce the ADME connector for Azure Databricks: a zero‑copy, federated path that brings Databricks compute directly to OSDU data, with native Unity Catalog governance and serverless scale. The connector is on track to land as an official…"
     },
