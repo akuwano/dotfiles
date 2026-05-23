@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-22T18:47:40+00:00",
+  "generated_at": "2026-05-23T18:30:22+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
-  "session_count": 717,
+  "session_count": 719,
   "sessions": [
     {
       "title": "“Make Me a Map”: Building a GIS Agent with AgentBricks, MCP, and Lakebase",
@@ -1947,6 +1947,40 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/beyond-dashboard-designing-premium-ai-powered-operations-apps-databricks",
       "body": "Connected systems generate massive operational telemetry, yet most teams still consume it through generic dashboards that can bury insight behind filters and grids. Turning raw signal into decisive action across hundreds of assets is as much a product and design challenge as a data one.This session shows how to deliver branded, business-facing operations experiences on Databricks using Apps, Lakebase, Model Serving, and Genie as a single substrate for data, AI, and product.We follow an operations lead through a custom app built around an aircraft fleet: a top-level overview, deeper insight…"
+    },
+    {
+      "title": "Beyond the Roadmap: What Separates Enterprise AI Leaders from Everyone Else",
+      "speakers": [
+        {
+          "name": "Alivia Rasmussen",
+          "role": null,
+          "company": null
+        },
+        {
+          "name": "Craig Wiley",
+          "role": "VP of AI",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Data Strategy",
+      "industry": [
+        "Enterprise Technology",
+        "Healthcare & Life Sciences"
+      ],
+      "category": [
+        "AI/BI",
+        "Databricks Apps",
+        "Databricks Agents"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Getting started with Databricks",
+        "Thought Leadership"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/beyond-roadmap-what-separates-enterprise-ai-leaders-everyone-else",
+      "body": "Every enterprise has a data strategy. Far fewer have turned it into measurable, board-level performance. In this executive panel, senior leaders from Atlassian and BeOne Medicines join Databricks VP of Product Craig Wiley to share what separates organizations that are generating real outcomes from those still building the case. They'll discuss the architectural decisions that paid off, the organizational obstacles they didn't see coming, and how Lakebase and Genie are accelerating the journey from insight to action. This is a peer-level conversation — not a vendor pitch — for executives who…"
     },
     {
       "title": "Beyond the Sandbox: Scaling Autonomous AI Agents with Anthropic and Edmunds",
@@ -3966,7 +4000,7 @@
         },
         {
           "name": "Bogdan Kyryliuk",
-          "role": "Staff Software Engineer",
+          "role": "Software Engineer",
           "company": "Databricks"
         }
       ],
@@ -4185,7 +4219,7 @@
         }
       ],
       "type": "Breakout",
-      "track": "Data Strategy",
+      "track": "Artificial Intelligence & Agents",
       "industry": [
         "Healthcare & Life Sciences",
         "Public Sector",
@@ -4203,7 +4237,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/data-ai-good-how-nonprofits-are-transforming-mission-impact-databricks",
-      "body": "Nonprofits are tackling some of society’s most urgent challenges, but many are constrained by limited budgets, fragmented data, and limited technical capacity. In this session, we will share how Databricks for Good helps mission-driven organizations overcome these barriers through nonprofit pricing, technical enablement, and hands-on support from Databricks experts.Attendees will learn how nonprofits can use the Databricks Data Intelligence Platform to unify data, strengthen analytics foundations, explore responsible AI, and turn information into insights that support better decisions and…"
+      "body": "Nonprofits are tackling some of society’s most urgent challenges, but many are constrained by limited budgets, fragmented data, and limited technical capacity. In this session, we will share how Databricks for Good helps mission-driven organizations overcome these barriers through nonprofit pricing, technical enablement, and hands-on support from Databricks experts. Attendees will learn how nonprofits can use the Databricks Data Intelligence Platform to unify data, strengthen analytics foundations, explore responsible AI, and turn information into insights that support better decisions and…"
     },
     {
       "title": "Data After Hours",
@@ -6022,6 +6056,11 @@
           "name": "Michael Tran",
           "role": "Managing Director, Head of AI Product",
           "company": "RBC"
+        },
+        {
+          "name": "Arsalan Tavakoli-Shiraji",
+          "role": "Co-founder & SVP of Field Engineering",
+          "company": "Databricks"
         }
       ],
       "type": "Special Interest",
@@ -6886,37 +6925,6 @@
       "body": "At GetYourGuide, we used to run ETL transformations with an internal tool called Rivulus on top of Databricks job clusters. When we standardized on dbt-databricks, we migrated these workloads to DBSQL Serverless and had to rethink how we design and operate our pipelines. We'll walk you through what changed and what we wished to know before we started. What changed for us: Pipelines run ~60% faster and costs dropped ~20% Time to production for new models went from days to minutes, backfills from weeks to hours ~4 months of annual overhead from DBR version upgrades disappeared 100% of our core…"
     },
     {
-      "title": "From Lakehouse to Production App: Building Governed AI Apps with Replit + Databricks",
-      "speakers": [
-        {
-          "name": "Axel Torbenson",
-          "role": "Field Engineer",
-          "company": "Replit"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Application Development",
-      "industry": [
-        "Enterprise Technology",
-        "Consulting & Services",
-        "Financial Services"
-      ],
-      "category": [
-        "Unity Catalog",
-        "Databricks Apps",
-        "Lakebase"
-      ],
-      "level": "Intermediate",
-      "areas": [
-        "AI Agents",
-        "Data Applications",
-        "Data Lakehouse"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/lakehouse-production-app-building-governed-ai-apps-replit-databricks",
-      "body": "Enterprise teams are sitting on years of valuable lakehouse data, but building apps to act on that data has always required scarce engineering resources and weeks of lead time. Replit and Databricks have changed that. With Replit's AI-powered development environment and Databricks AppKit, any team can go from a plain-language prompt to a production-ready app running natively on Databricks Apps, inheriting Unity Catalog governance, enterprise authentication, and observability out of the box. In this session, we'll share how enterprise teams are using this integration to put their Databricks…"
-    },
-    {
       "title": "From Legacy Bottlenecks to High-Performance Platforms—Databricks Makes It Possible",
       "speakers": [
         {
@@ -7228,6 +7236,33 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/repetition-reuse-evolution-apache-sparktm-declarative-pipelines",
       "body": "Learn how to build batch and streaming pipelines faster while improving correctness and reducing operational complexity with Apache Spark™ Declarative Pipelines. Production Spark pipelines often require extensive orchestration code for dependency management, checkpointing, retries, and execution ordering—surrounding a relatively small amount of transformation logic. As pipelines scale, this scaffolding becomes increasingly difficult to maintain and evolve. Introduced in Spark 4.1, Spark Declarative Pipelines (SDP) shifts this model by allowing developers to declare datasets and…"
+    },
+    {
+      "title": "From Reports to Conversations: ModMed’s Lakehouse + AI Analytics Journey",
+      "speakers": [
+        {
+          "name": "Sharan Senthilvasan",
+          "role": "Director, Data Platform Engineering",
+          "company": "Modernizing Medicine Inc"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Analytics & BI",
+      "industry": [
+        "Healthcare & Life Sciences"
+      ],
+      "category": [
+        "Lakebase"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "AI Agents",
+        "Customer Data Platform",
+        "Data Intelligence"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/reports-conversations-modmeds-lakehouse-ai-analytics-journey",
+      "body": "ModMed is modernizing customer reporting for specialty healthcare by moving from static reports and fragmented analytics to conversational, self-service data experiences. Powered by ThoughtSpot and built on a governed Databricks Lakehouse, ModMed is strengthening its data ecosystem to support nearly 50,000 healthcare users. As data growth accelerates, ModMed is making it easier for providers to access, explore, and act on insights directly within their workflows. Learn how ModMed aims to: ● Strengthen its Lakehouse foundation for improved healthcare reporting and analytics ● Use ThoughtSpot’s…"
     },
     {
       "title": "From Search to SQL: How Glean Agents Tap Databricks Genie for Everyday Analytics",
@@ -11559,7 +11594,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/next-generation-data-platform-transformation",
-      "body": "The Move to Cloud initiative represents far more than a technological migration; it marks a milestone in the bank’s digital transformation journey. Delivered through collaboration across data platform, data engineering, infrastructure, architecture and centralized ingestion, it established a new foundation for data. The program migrated 16 petabytes from Cloudera and ScyllaDB environments to a modern, secure and scalable cloud architecture, increasing speed, efficiency and resilience for business growth and data-driven decisions. It also generated USD 40 million in projected cost avoidance…"
+      "body": "The Move to Cloud initiative represents far more than a technological migration; it marks a milestone in the bank’s digital transformation journey. Delivered through collaboration across data platform, data engineering, infrastructure, architecture and centralized ingestion, it established a new foundation for data. The program migrated 16 petabytes from Cloudera and ScyllaDB environments to a modern, secure and scalable cloud architecture, increasing speed, efficiency and resilience for business growth and data-driven decisions. More than a project, it transformed how the bank manages and…"
     },
     {
       "title": "No Code ETL with Lakeflow Designer",
@@ -14646,7 +14681,7 @@
       "speakers": [
         {
           "name": "Wyatt Sullivan",
-          "role": "Solutions Architect & Partner Integrator",
+          "role": "Enterprise Architect & Product Leader",
           "company": "AFS"
         }
       ],
@@ -14674,7 +14709,7 @@
       "speakers": [
         {
           "name": "Jean-Georges Perrin",
-          "role": "Senior Product Manager",
+          "role": "Actian",
           "company": "Actian"
         }
       ],
@@ -15248,7 +15283,7 @@
         },
         {
           "name": "Tushar Sinha",
-          "role": "Senior Director",
+          "role": "Senior Partner - Data and Analytics",
           "company": "Cognizant Technology Solutions (HQ)"
         }
       ],
@@ -17913,6 +17948,37 @@
       "body": "Enterprise AI struggles when customer, product, supplier and other core data remains fragmented across systems. In this lightning talk, Mike Frasca, VP of Product Management at Reltio, will show how Reltio Data Sharing with Databricks gives teams live, governed access to trusted 360 profiles via Delta Sharing — bringing unified entities, relationships, interactions and calculated attributes into Databricks seamlessly. The result is trusted context that improves AI accuracy, accelerates BI, analytics/ML and GenAI workloadsm, and preserves governance, lineage and auditing through Unity Catalog."
     },
     {
+      "title": "Sponsored by: Replit | From Lakehouse to Production App: Building Governed AI Apps with Replit + Databricks",
+      "speakers": [
+        {
+          "name": "Axel Torbenson",
+          "role": "Field Engineer",
+          "company": "Replit"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Application Development",
+      "industry": [
+        "Enterprise Technology",
+        "Consulting & Services",
+        "Financial Services"
+      ],
+      "category": [
+        "Unity Catalog",
+        "Databricks Apps",
+        "Lakebase"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "AI Agents",
+        "Data Applications",
+        "Data Lakehouse"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/sponsored-replit-lakehouse-production-app-building-governed-ai-apps",
+      "body": "Enterprise teams are sitting on years of valuable lakehouse data, but building apps to act on that data has always required scarce engineering resources and weeks of lead time. Replit and Databricks have changed that. With Replit's AI-powered development environment and Databricks AppKit, any team can go from a plain-language prompt to a production-ready app running natively on Databricks Apps, inheriting Unity Catalog governance, enterprise authentication, and observability out of the box. In this session, we'll share how enterprise teams are using this integration to put their Databricks…"
+    },
+    {
       "title": "Sponsored by: Retool | Responding to Signals That Drive High-Stakes Decisions with Databricks Genie",
       "speakers": [
         {
@@ -18098,7 +18164,7 @@
       "speakers": [
         {
           "name": "Nicolas Brisoux",
-          "role": null,
+          "role": "Senior Director Product Management",
           "company": "Salesforce"
         }
       ],
@@ -20538,7 +20604,7 @@
         },
         {
           "name": "Vrinda Bhateja",
-          "role": null,
+          "role": "Senior Data Engineer ",
           "company": "United Airlines"
         }
       ],
@@ -21257,7 +21323,7 @@
         "Data Science",
         "ETL"
       ],
-      "duration_min": "0",
+      "duration_min": "20",
       "url": "https://www.databricks.com/session/versionless-and-environments-notebooks-jobs-pipelines-safe-dbr-upgrades",
       "body": "On classic compute, upgrading a DBR version and stitching together cluster libraries, init scripts, and Spark configs consumes a meaningful share of a platform team's time, and every upgrade risks breaking production pipelines. Serverless eliminates both with versionless runtime and Databricks' Environment model.This session covers the two pieces that make versionless trustworthy at enterprise scale. Lakehouse Replay continuously replays a representative sample of real production workloads to validate Databricks Runtime changes before they ship, catching regressions with zero customer effort.…"
     },
@@ -21831,7 +21897,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/why-vector-stores-are-not-enough-using-lakebase-durable-memory-layer",
-      "body": "We are told that Vector Databases are the 'Memory' for AI Agents. But they give you a probabilistic similarity score. In enterprise workflows, 'probably' isn't good enough. Agents need deterministic, transactional state. We will use Lakebase as a memory layer for agents, enabling them to remember actions, lock resources, and handle concurrency. We will build a 'Stateful Worker' agent live with: The 'Two-Phase Commit' Prompt: Forcing an LLM to lock a row in Lakebase before calling an external API, preventing hallucinated actions. Time Travel for Agents: Leveraging Lakebase Branching to create…"
+      "body": "We're often told that Vector Databases are the \"memory\" for AI Agents. But vector search only gives you a probabilistic similarity score. In enterprise workflows, \"probably\" isn't good enough. Agents need deterministic, transactional state—and they need the ability to compound their knowledge over time. In this session, we'll move beyond stateless \"goldfish\" chatbots and build a truly self-improving agent system using Databricks Apps, Databricks Jobs, and Lakebase Autoscaling. We'll demonstrate how to build a production-ready \"Stateful Worker\" agent, featuring asynchronous batch \"dreaming\"…"
     },
     {
       "title": "Women in Data + AI",
