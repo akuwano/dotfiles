@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T18:30:22+00:00",
+  "generated_at": "2026-05-24T18:32:15+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 719,
   "sessions": [
@@ -2337,7 +2337,7 @@
         },
         {
           "name": "Phoenix U Majumder",
-          "role": "Senior Director, Data and AI",
+          "role": "Senior Director,  AI Engg. & Platforms",
           "company": "Workday"
         }
       ],
@@ -6500,6 +6500,11 @@
           "name": "Jonathan Bauman",
           "role": "CTO",
           "company": "DealSumm"
+        },
+        {
+          "name": "Andrew Ray",
+          "role": "Director",
+          "company": "JLL"
         }
       ],
       "type": "Breakout",
@@ -6841,6 +6846,11 @@
       "speakers": [
         {
           "name": "Erin Leonhard Zhang",
+          "role": "Staff Software Engineer",
+          "company": "Afresh Technologies"
+        },
+        {
+          "name": "Mary Keenan",
           "role": "Staff Software Engineer",
           "company": "Afresh Technologies"
         }
@@ -19342,7 +19352,7 @@
         },
         {
           "name": "Phoenix U Majumder",
-          "role": "Senior Director, Data and AI",
+          "role": "Senior Director,  AI Engg. & Platforms",
           "company": "Workday"
         }
       ],
