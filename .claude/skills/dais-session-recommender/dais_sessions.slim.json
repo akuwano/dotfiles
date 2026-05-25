@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T18:32:15+00:00",
+  "generated_at": "2026-05-25T18:44:37+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 719,
   "sessions": [
@@ -1310,7 +1310,7 @@
       "speakers": [
         {
           "name": "Alex Chen",
-          "role": null,
+          "role": "Data Engineer",
           "company": "Central Provident Fund Board"
         },
         {
@@ -3089,7 +3089,7 @@
         },
         {
           "name": "Anish Roy",
-          "role": null,
+          "role": "Senior Director, Product Data Science",
           "company": "MiQ Digital"
         }
       ],
@@ -6503,7 +6503,7 @@
         },
         {
           "name": "Andrew Ray",
-          "role": "Director",
+          "role": "Executive Director",
           "company": "JLL"
         }
       ],
@@ -7610,7 +7610,7 @@
       "speakers": [
         {
           "name": "Swetha Kolli",
-          "role": null,
+          "role": "Senior Director Solutions Architecture",
           "company": "Bright Data"
         }
       ],
@@ -11838,11 +11838,6 @@
           "name": "Curt Roehricht",
           "role": "Data Engineering Manager",
           "company": "Fonterra"
-        },
-        {
-          "name": "Divya Perumal",
-          "role": "Senior Data Engineer",
-          "company": "Fonterra"
         }
       ],
       "type": "Breakout",
@@ -12740,7 +12735,7 @@
         },
         {
           "name": "Molly Just-Behr",
-          "role": null,
+          "role": "Global Head of Public Sector, GTM",
           "company": "Databricks"
         },
         {
@@ -15940,6 +15935,11 @@
           "name": "Traci Gusher",
           "role": "Partner, Americas AI & Data",
           "company": "E&Y (HQ)"
+        },
+        {
+          "name": "Ron Carroll",
+          "role": "Chief Data & AI Officer",
+          "company": "New York Power Authority"
         }
       ],
       "type": "Breakout",
@@ -16401,6 +16401,11 @@
           "name": "Ed Anuff",
           "role": "CPO, Data, IBM Software",
           "company": "IBM"
+        },
+        {
+          "name": "Erik Duffield",
+          "role": "Partner - Americas Data Leader",
+          "company": "IBM (HQ)"
         }
       ],
       "type": "Breakout",
@@ -17180,31 +17185,6 @@
       "duration_min": "20",
       "url": "https://www.databricks.com/session/sponsored-monte-carlo-why-your-agents-keep-failing-and-what-do-about-it",
       "body": "Every company is shipping AI agents right now. Most of them are failing, and nobody knows until a customer or an exec calls it out. The problem isn't the models. It's that teams are building agents on top of data they don't monitor, running them without observability, and trusting outputs no one has tested. In this session, I'll walk through the three places agents actually break in production: the data going in, the agent's own behavior, and what comes out the other side. I'll share a framework for catching these failures before your users do. The goal is simple: stop shipping pilots that…"
-    },
-    {
-      "title": "Sponsored by: Moveworks | The end of standalone analytics: How AI is merging insight and action ",
-      "speakers": [
-        {
-          "name": "Florian Schouten",
-          "role": "GVP of Product Management",
-          "company": "ServiceNow"
-        }
-      ],
-      "type": "Lightning Talk",
-      "track": "Analytics & BI",
-      "industry": [
-        "Enterprise Technology"
-      ],
-      "category": [
-        "Delta Sharing"
-      ],
-      "level": "Beginner",
-      "areas": [
-        "AI Agents"
-      ],
-      "duration_min": "20",
-      "url": "https://www.databricks.com/session/sponsored-moveworks-end-standalone-analytics-how-ai-merging-insight-and",
-      "body": "Analytics as a standalone category is changing fast. As AI closes the distance between systems of intelligence and systems of action, the old model — generate insight, hand it off, hope someone acts — is breaking down. In this session, Florian Schouten, GVP of Product Management for Workflow Analytics at ServiceNow, explores what comes next: a world where AI continuously surfaces insights from your Databricks data and triggers automated workflows before a human even opens a dashboard. See how ServiceNow and Pyramid Analytics are making this vision real — combining governed, AI-powered…"
     },
     {
       "title": "Sponsored by: Nagarro | The Agentic Enterprise: What has to be True Before AI can Act Autonomously",
@@ -18291,6 +18271,31 @@
       "body": "Databricks is one of the most cost-effective data platforms on the market. After working with over 250 companies on cloud data platform cost optimization, we've refined a 6-part framework — visibility, attribution, controls, alerts, insights, and automations — that optimizes cost management on Databricks. In this talk, we'll walk through each area with practical examples — from calculating fully loaded workload costs and attributing spend to teams, to building guardrails and automations that continuously optimize your environment. We'll also share hard-won lessons on why decentralizing cost…"
     },
     {
+      "title": "Sponsored by: Service Now | The end of standalone analytics: How AI is merging insight and action ",
+      "speakers": [
+        {
+          "name": "Juan Sequeda",
+          "role": null,
+          "company": "ServiceNow"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Analytics & BI",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Delta Sharing"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "AI Agents"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/sponsored-service-now-end-standalone-analytics-how-ai-merging-insight",
+      "body": "Analytics as a standalone category is changing fast. As AI closes the distance between systems of intelligence and systems of action, the old model — generate insight, hand it off, hope someone acts — is breaking down. In this session, Florian Schouten, GVP of Product Management for Workflow Analytics at ServiceNow, explores what comes next: a world where AI continuously surfaces insights from your Databricks data and triggers automated workflows before a human even opens a dashboard. See how ServiceNow and Pyramid Analytics are making this vision real — combining governed, AI-powered…"
+    },
+    {
       "title": "Sponsored by: Sigma | How Sigma Makes Databricks AI Safe and Scalable for Every Business User",
       "speakers": [
         {
@@ -18623,9 +18628,9 @@
       "title": "Sponsored by: Tiger Analytics | From Data Potential to Business Value: Scaling Commercial & Consumer Products at PepsiCo",
       "speakers": [
         {
-          "name": "Parag Shah",
-          "role": "Director, Client Partner",
-          "company": "Tiger Analytics"
+          "name": "Petr Gazaryan",
+          "role": "Sr. Director, Data Engineering",
+          "company": "PepsiCo Inc."
         }
       ],
       "type": "Lightning Talk",
