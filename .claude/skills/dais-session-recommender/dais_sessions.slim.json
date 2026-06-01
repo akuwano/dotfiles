@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-31T18:34:54+00:00",
+  "generated_at": "2026-06-01T19:46:34+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
-  "session_count": 756,
+  "session_count": 759,
   "sessions": [
     {
-      "title": "“Make Me a Map”: Building a GIS Agent with AgentBricks, MCP, and Lakebase",
+      "title": "“Make Me a Map”: Building a GIS Agent with Agent Bricks, MCP, and Lakebase",
       "speakers": [
         {
           "name": "Sam Hashemi",
@@ -31,8 +31,8 @@
         "Lakebase"
       ],
       "duration_min": "20",
-      "url": "https://www.databricks.com/session/make-me-map-building-gis-agent-agentbricks-mcp-and-lakebase",
-      "body": "Geospatial workflows are complex—querying spatial databases and generating visualizations requires specialized expertise. We built an AI agent that takes a Slack message and returns a fully functional map application. What started as an internal tool for Solution Architects—replacing hours of manual data prep—is now used by customers too. The architecture: Lakebase serves as the spatial backend (Postgres-compatible with PostGIS), while our MCP server exposes Felt's mapping capabilities to AgentBricks. Users ask for a map in Slack, the agent queries Lakebase, connects to Felt, and posts back a…"
+      "url": "https://www.databricks.com/session/make-me-map-building-gis-agent-agent-bricks-mcp-and-lakebase",
+      "body": "Geospatial workflows are complex—querying spatial databases and generating visualizations requires specialized expertise. We built an AI agent that takes a Slack message and returns a fully functional map application. What started as an internal tool for Solution Architects—replacing hours of manual data prep—is now used by customers too. The architecture: Lakebase serves as the spatial backend (Postgres-compatible with PostGIS), while our MCP server exposes Felt's mapping capabilities to Agent Bricks. Users ask for a map in Slack, the agent queries Lakebase, connects to Felt, and posts back…"
     },
     {
       "title": "0 to 100 AI/BI Apps in 120 Days: Building an Enterprise Data and AI Platform From Scratch @ Alpura",
@@ -919,7 +919,7 @@
         {
           "name": "Sebastian Seiffert",
           "role": "VP / Global Director Data & AI",
-          "company": "Hays"
+          "company": "Hays plc"
         }
       ],
       "type": "Breakout",
@@ -1170,7 +1170,7 @@
         {
           "name": "Brad Walker",
           "role": "General Manager Data and AI",
-          "company": "Alinta Servco Pty Ltd"
+          "company": "Alinta Energy"
         }
       ],
       "type": "Lightning Talk",
@@ -2082,6 +2082,11 @@
           "name": "Craig Wiley",
           "role": "VP of AI",
           "company": "Databricks"
+        },
+        {
+          "name": "Ana Trueba",
+          "role": "Vice President - Head of IT",
+          "company": "Munich Re Group"
         }
       ],
       "type": "Breakout",
@@ -2111,6 +2116,11 @@
           "name": "Greg Rokita",
           "role": "VP, Technology",
           "company": "Edmunds.com, Inc."
+        },
+        {
+          "name": "Josh Weimer",
+          "role": "Member of Technical Staff",
+          "company": "Anthropic"
         }
       ],
       "type": "Breakout",
@@ -3512,7 +3522,7 @@
       "title": "Building With Community Connectors: Custom Data Sources, Managed Reliability",
       "speakers": [
         {
-          "name": "Peter Pogorski ",
+          "name": "Peter Pogorski",
           "role": "Staff Product Manager",
           "company": "Databricks.com"
         }
@@ -4868,6 +4878,33 @@
       "body": "In this hands-on course, you’ll learn how to optimize workloads and physical layout with Spark and Delta Lake and and analyze the Spark UI to assess performance and debug applications. We’ll cover topics like streaming, liquid clustering, data skipping, caching, Photon, and more. Note: Hands-on training courses will be updated to reflect the newest product and feature announcements from Data + AI Summit in June 2026. Prerequisites Basic Databricks development skills, including creating clusters, running notebooks, and importing repos from Git Intermediate PySpark experience, including data…"
     },
     {
+      "title": "Databricks SQL Integration With Excel and Google Sheets",
+      "speakers": [
+        {
+          "name": "Toussaint Webb",
+          "role": "Sr. Product Manager",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Data Warehousing",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Databricks SQL"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "Data Lakehouse",
+        "Lakehouse Implementation",
+        "Architecture & Interoperability"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/databricks-sql-integration-excel-and-google-sheets",
+      "body": "Many business users still live in Excel and Google Sheets—but keeping data fresh and consistent can be a challenge. This 20-minute lightning session introduces how Databricks SQL integrates with Excel and Google Sheets to bring governed, up-to-date data directly into familiar tools. You’ll learn what the integration enables, common beginner use cases, and how teams get started with minimal setup. Ideal for analytics teams looking to meet users where they work without duplicating data or workflows."
+    },
+    {
       "title": "Decathlon’s Race to Unified Governance: Securing Interoperability at Scale",
       "speakers": [
         {
@@ -5867,7 +5904,7 @@
         {
           "name": "Brad Walker",
           "role": "General Manager Data and AI",
-          "company": "Alinta Servco Pty Ltd"
+          "company": "Alinta Energy"
         },
         {
           "name": "Doug Way",
@@ -5951,7 +5988,7 @@
       "speakers": [
         {
           "name": "Dino Selimbasic",
-          "role": null,
+          "role": "VP of Engineering and Delivery",
           "company": "HTEC"
         }
       ],
@@ -6339,6 +6376,11 @@
           "name": "Dave Conte",
           "role": "CFO",
           "company": "Databricks"
+        },
+        {
+          "name": "Rahul Deshpande",
+          "role": "Executive Vice President, Global R&D",
+          "company": "Mastercard"
         }
       ],
       "type": "Special Interest",
@@ -6387,40 +6429,6 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/fireside-chat-practical-conversation-ai-data-stacks-and-what-matters",
-      "body": "There is no shortage of AI predictions. There is a critical shortage of honest conversations about what enterprise leaders should actually do next. In this no-slides, no-hype fireside chat, Databricks SVP of Product David Meyer and zeb.co VP of Data + AI Architecture Josue Bogran — one of the most followed voices in the Databricks community — dissect what is genuinely changing in data stacks and enterprise AI adoption over the next 24 months. They'll surface the most persistent misconceptions leaders have about the modern data stack, reveal what separates organizations generating real returns…"
-    },
-    {
-      "title": "Fireside Chat: No Hype, No Slides: The 24-Month Data and AI Decisions That Actually Matter",
-      "speakers": [
-        {
-          "name": "Dmitry Luchnik",
-          "role": "Enterprise Architecture / Data&AI",
-          "company": "adidas"
-        },
-        {
-          "name": "Niclas Schlautkoetter",
-          "role": "Chief Technology Architect",
-          "company": "SAP SE"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Artificial Intelligence & Agents",
-      "industry": [
-        "Enterprise Technology"
-      ],
-      "category": [
-        "AI/BI",
-        "Delta Sharing",
-        "Unity Catalog"
-      ],
-      "level": "Intermediate",
-      "areas": [
-        "Data Lakehouse",
-        "Lakehouse Implementation",
-        "Architecture & Interoperability"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/fireside-chat-no-hype-no-slides-24-month-data-and-ai-decisions-actually",
       "body": "There is no shortage of AI predictions. There is a critical shortage of honest conversations about what enterprise leaders should actually do next. In this no-slides, no-hype fireside chat, Databricks SVP of Product David Meyer and zeb.co VP of Data + AI Architecture Josue Bogran — one of the most followed voices in the Databricks community — dissect what is genuinely changing in data stacks and enterprise AI adoption over the next 24 months. They'll surface the most persistent misconceptions leaders have about the modern data stack, reveal what separates organizations generating real returns…"
     },
     {
@@ -6959,6 +6967,33 @@
       "duration_min": "20",
       "url": "https://www.databricks.com/session/data-platform-app-platform-building-production-apps-lakebase",
       "body": "Your lakehouse handles analytics beautifully. But the moment someone needs low-latency reads, transactional writes or an app serving layer, you're stitching together external databases and sync pipelines. Lakebase offers a different path — this session shows you how to build on it. A Databricks MVP will walk through practical patterns for building production apps where Lakebase serves as the operational layer, fully integrated with Unity Catalog governance and Lakehouse analytics. We'll cover architecture patterns, the interplay between Lakebase and Databricks Apps, latency and scaling…"
+    },
+    {
+      "title": "From Data Portability to Governance Portability: The Next Frontier for the Open Lakehouse",
+      "speakers": [
+        {
+          "name": "Alex Jiang",
+          "role": "Product Manager",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Governance & Security",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "Lakeflow"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Catalogs",
+        "Open Source",
+        "Architecture & Interoperability"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/data-portability-governance-portability-next-frontier-open-lakehouse",
+      "body": "Your enterprise runs Unity Catalog, Snowflake, Lake Formation, BigQuery — and probably one or two more. PII gets tagged in one catalog, masked in another, and ignored in a third. Open table formats gave us data portability, but governance metadata is still stuck inside each catalog’s policy engine and identity model. This talk explores labels exchange: carrying catalog metadata (e.g. governance tags, business metadata) through Apache Iceberg REST catalogs. We’ll cover why cross-engine governance is becoming the next federated data pain point, how Unity Catalog is pushing this pattern, what is…"
     },
     {
       "title": "From Data Silos to Patient 360: Building Real-Time Cohort Analytics With Zero-ETL Graph Technology",
@@ -8260,6 +8295,25 @@
       "body": "Declarative pipelines are becoming the default way teams scale production data pipelines in Spark. Maximizing their value requires understanding the execution model, tradeoffs, and best practices. In this 90-minute-deep dive, distinguished engineer Michael Armbrust explores how to get the most out of Lakeflow Spark Declarative Pipelines (SDP), drawing on real-world usage and the latest platform advancements. You’ll learn how to: Apply proven design patterns for building reliable, maintainable pipelines Use SDP effectively across batch and streaming workloads Avoid common pitfalls as pipeline…"
     },
     {
+      "title": "Global Ecosystem Manager - Edge and Cloud",
+      "speakers": [
+        {
+          "name": "Francisco Javier Franco Espinoza",
+          "role": null,
+          "company": "Siemens AG"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": null,
+      "industry": [],
+      "category": [],
+      "level": null,
+      "areas": [],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/global-ecosystem-manager-edge-and-cloud",
+      "body": "Industrial AI often stalls due to fragmented data, disconnected systems, and lack of scalable infrastructure to manage data integration and local AI execution. In this session, Siemens and Databricks show how an edge-to-cloud architecture enables an AI-ready data foundation by streaming contextualized shopfloor data to the cloud in near-real time, training models centrally, and deploying them back to the edge—unlocking scalable, production-grade AI across global operations."
+    },
+    {
       "title": "Global Toymaker ZURU Fuels AI-Driven Innovation with Crisp Retail Data in Databricks",
       "speakers": [
         {
@@ -9362,7 +9416,7 @@
         },
         {
           "name": "Nan Chulpaibul",
-          "role": "Senior Solution Engineer",
+          "role": "Senior Solutions Engineer",
           "company": "Databricks"
         }
       ],
@@ -11059,7 +11113,7 @@
       "speakers": [
         {
           "name": "Bryce Macher",
-          "role": null,
+          "role": "Vice President, AI Engineering",
           "company": "FanDuel"
         },
         {
@@ -11142,7 +11196,7 @@
       "speakers": [
         {
           "name": "Ashok Chandrashekar",
-          "role": "Group VP, Machine Learning, Warner Bros. Discovery",
+          "role": "Group VP, Machine Learning",
           "company": "Warner Bros. Discovery"
         },
         {
@@ -11169,11 +11223,6 @@
           "name": "Khushboo Beniwal",
           "role": "Industry GTM, Media & Advertising",
           "company": "Databricks"
-        },
-        {
-          "name": "Nibedita Baral",
-          "role": "CTO",
-          "company": "2K"
         },
         {
           "name": "Sean Muzzy",
@@ -13111,7 +13160,7 @@
         },
         {
           "name": "Erin Mills",
-          "role": "Financial Systems Analyst",
+          "role": "Data Operations Branch Chief",
           "company": "U.S. Dept. of War"
         },
         {
@@ -13652,7 +13701,7 @@
       "speakers": [
         {
           "name": "Daniel Zhou",
-          "role": null,
+          "role": "Senior Staff Software Engineer",
           "company": "Coinbase"
         }
       ],
@@ -14390,14 +14439,14 @@
           "company": "Santander Group"
         },
         {
-          "name": "Jennifer Miller",
-          "role": "GTM Leader Banking and Payments",
-          "company": "Databricks"
-        },
-        {
           "name": "Joel Castaneda",
           "role": "Chief Risk Officer",
           "company": "Vantage Bank Texas"
+        },
+        {
+          "name": "Laila Kurati",
+          "role": "CDO & Platform Head",
+          "company": "Santander Brazil"
         }
       ],
       "type": "Breakout",
@@ -15184,7 +15233,7 @@
         },
         {
           "name": "Chintan Shah",
-          "role": "Group Manager",
+          "role": "Senior Manager",
           "company": "Avanade"
         }
       ],
@@ -15216,7 +15265,7 @@
         {
           "name": "Shyam Thyagaraj",
           "role": "Senior Managing Director",
-          "company": "Accenture (alliances)"
+          "company": "Accenture"
         }
       ],
       "type": "Breakout",
@@ -19123,6 +19172,40 @@
       "body": "Your data platform is powerful, but data alone doesn’t drive outcomes. To operationalize AI and deliver real-time customer experiences, teams need trusted context: governed data, business logic, and unified customer intelligence. In this session, discover how Salesforce Data 360 connects directly to your Databricks lakehouse to activate data without moving or duplicating it. Using Zero Copy access, you can unify customer profiles, power real-time personalization, and ground Agentforce agents in trusted enterprise data so they act accurately at scale. We’ll explore three practical use cases:…"
     },
     {
+      "title": "Sponsored by: SAP | From SAP to the Lakehouse: adidas’ Blueprint for AI-Powered Enterprise Data",
+      "speakers": [
+        {
+          "name": "Dmitry Luchnik",
+          "role": "Enterprise Architecture / Data&AI",
+          "company": "adidas"
+        },
+        {
+          "name": "Niclas Schlautkoetter",
+          "role": "Chief Technology Architect",
+          "company": "SAP SE"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "AI/BI",
+        "Delta Sharing",
+        "Unity Catalog"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Data Lakehouse",
+        "Lakehouse Implementation",
+        "Architecture & Interoperability"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/sponsored-sap-sap-lakehouse-adidas-blueprint-ai-powered-enterprise-data",
+      "body": "Discover how adidas simplified its data architecture by connecting SAP applications to the Databricks Lakehouse using SAP Business Data Cloud (BDC). Learn how teams bring SAP data into the Lakehouse with minimal setup, accelerate analysis using Intelligent Applications across SAP SuccessFactors and SAP Integrated Business Planning, and enable bidirectional data flows between IBP and the Lakehouse. See how sharing reference data into planning and publishing plans back to the Lakehouse supports stronger planning, richer analytics, and scalable AI."
+    },
+    {
       "title": "Sponsored by: SAP | SAP and Databricks Turn SAP Data Into AI-Driven Business Outcomes",
       "speakers": [
         {
@@ -21274,6 +21357,11 @@
           "name": "Youngjin Kim",
           "role": "CTO",
           "company": "NOL UNIVERSE"
+        },
+        {
+          "name": "SOOYOUNG LEE",
+          "role": "Head of Data",
+          "company": "NOL UNIVERSE"
         }
       ],
       "type": "Breakout",
@@ -21687,7 +21775,7 @@
       "speakers": [
         {
           "name": "John Whiston",
-          "role": "Executive, DAta and Analytics",
+          "role": "Executive, Data and Analytics",
           "company": "NAB"
         },
         {
@@ -21817,7 +21905,7 @@
       "title": "Under the Hood: Scalable Ingestion Strategies for Databases, Applications, and File Sources",
       "speakers": [
         {
-          "name": "Peter Pogorski ",
+          "name": "Peter Pogorski",
           "role": "Staff Product Manager",
           "company": "Databricks.com"
         },
