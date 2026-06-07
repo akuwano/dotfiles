@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T18:37:23+00:00",
+  "generated_at": "2026-06-07T18:38:25+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 781,
   "sessions": [
@@ -147,6 +147,38 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/800tb-zero-pipelines-how-ensemble-health-partners-built-ai-ready-revenue",
       "body": "Ensemble Health Partners manages revenue cycle operations for 30+ health systems, processing 25 billion+ transactions across 800TB of healthcare financial data. Legacy SQL Server sprawl —1 5 individual databases with separate schemas —c reated silos that blocked cross-client insights and slowed AI innovation in an industry where providers operate on 1% margins. This session shows how Ensemble consolidated onto Databricks Lakebase as their AI-ready transactional layer, eliminating brittle pipelines and enabling self-service pods to materialize views directly from harmonized Delta tables. The…"
+    },
+    {
+      "title": "A Different Way to Compete: How Great Southern Bank Went All In on Data and AI",
+      "speakers": [
+        {
+          "name": "James McNiff",
+          "role": "Senior Solutions Architect",
+          "company": "Databricks"
+        },
+        {
+          "name": "Matt Cammack",
+          "role": "Head of Customer Technology Data and AI",
+          "company": "Great Southern Bank"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Analytics & BI",
+      "industry": [
+        "Financial Services"
+      ],
+      "category": [
+        "Genie"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "Data Science",
+        "Industry Experience",
+        "Lakehouse Implementation"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/different-way-compete-how-great-southern-bank-went-all-data-and-ai",
+      "body": "Great Southern Bank (GSB) has successfully migrated from SAS to Databricks - unlocking higher model accuracy, faster insights, and the ability to democratise data at scale using Genie and AI/BI. Importantly, GSB achieved this with a much smaller team than the major banks, demonstrating practical expertise and delivery experience that other organisations can learn from. To date, GSB has migrated and integrated 85% of its enterprise data onto the Databricks platform and is on track to shut down its legacy warehouse by 2026. Databricks AI capabilities are already delivering material value across…"
     },
     {
       "title": "A Simple, Managed Platform - Modern Feature Engineering on Databricks",
@@ -4528,7 +4560,7 @@
       "speakers": [
         {
           "name": "Hubert Dudek",
-          "role": "data architect",
+          "role": "Data Architect",
           "company": "Databricks MVP community"
         }
       ],
@@ -4552,7 +4584,7 @@
       ],
       "duration_min": "20",
       "url": "https://www.databricks.com/session/dabs-do-pro-all-best-tips-and-tricks",
-      "body": "This session is a live, practical deep dive into Databricks Asset Bundles (DABs) — focused on how to use them like a pro in real projects, not just in docs. Instead of theory, I’ll run a live demo showing the most valuable patterns, shortcuts and real-world tricks that dramatically improve how you build, deploy and manage Databricks workflows. The session combines: proven techniques from my articles on Databrickster (Medium) battle-tested practices from real projects hidden features and non-obvious behaviors you won’t find in basic tutorials"
+      "body": "This session is a live, practical deep dive into Declarative Automation Bundles (DABs) — focused on how to use them like a pro in real projects, not just in docs. Instead of theory, I’ll run a live demo showing the most valuable patterns, shortcuts and real-world tricks that dramatically improve how you build, deploy and manage Databricks workflows. The session combines: proven techniques from my articles on Databrickster (Medium) battle-tested practices from real projects hidden features and non-obvious behaviors you won’t find in basic tutorials"
     },
     {
       "title": "Data + AI for Good: How Nonprofits Are Transforming Mission Impact with Databricks",
@@ -12747,6 +12779,11 @@
           "name": "Scott Haines",
           "role": "Staff Developer Advocate & OSS Engineer",
           "company": "Databricks"
+        },
+        {
+          "name": "Jaz Ku",
+          "role": "Solution Architect",
+          "company": "PuppyGraph"
         }
       ],
       "type": "Lightning Talk",
@@ -13606,7 +13643,7 @@
         },
         {
           "name": "Venu Boppana",
-          "role": "Strategy & Innovation Leader",
+          "role": "Strategy and Innovation Leader",
           "company": "US FDA"
         }
       ],
@@ -22591,6 +22628,11 @@
           "name": "Prashant Singh",
           "role": "Sr. Solutions Architect",
           "company": "Databricks"
+        },
+        {
+          "name": "Musreen Azwan Mustafa",
+          "role": "Head of Production & Operations Data",
+          "company": "PETRONAS"
         }
       ],
       "type": "Breakout",
@@ -22739,38 +22781,6 @@
       "duration_min": "90",
       "url": "https://www.databricks.com/session/unity-catalog-advanced-field-proven-patterns-experts",
       "body": "Join us for a real-world exploration of Databricks Unity Catalog designed for data leaders scaling their platforms. We will tackle the challenge of governance at scale, demonstrating how to balance centralized management with decentralized, domain-driven operating models. Learn field-tested strategies for catalog organization that establish structured guardrails. These patterns will allow your teams to innovate rapidly without traditional bottlenecks. We will also cover how to accelerate metadata curation to empower true data discovery and a frictionless self-service experience. Leave with…"
-    },
-    {
-      "title": "Unlock Business Value with Databricks Leveraging GenAI, ML and Genie",
-      "speakers": [
-        {
-          "name": "James McNiff",
-          "role": "Senior Solutions Architect",
-          "company": "Databricks"
-        },
-        {
-          "name": "Matt Cammack",
-          "role": "Head of Customer Technology Data and AI",
-          "company": "Great Southern Bank"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Analytics & BI",
-      "industry": [
-        "Financial Services"
-      ],
-      "category": [
-        "Genie"
-      ],
-      "level": "Beginner",
-      "areas": [
-        "Data Science",
-        "Industry Experience",
-        "Lakehouse Implementation"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/unlock-business-value-databricks-leveraging-genai-ml-and-genie",
-      "body": "Great Southern Bank (GSB) has successfully migrated from SAS to Databricks—unlocking higher model accuracy, faster insights, and the ability to democratise data at scale using Genie and AI/BI. Importantly, GSB achieved this with a much smaller team than the major banks, demonstrating practical expertise and delivery experience that other organisations can learn from. To date, GSB has migrated and integrated 85% of its enterprise data onto the Databricks platform and is on track to shut down its legacy warehouse by 2026. Databricks AI capabilities are already delivering material value across…"
     },
     {
       "title": "Unlock radical speed-to-market with agentic execution powered by Celonis Process Intelligence",
