@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-14T18:40:51+00:00",
+  "generated_at": "2026-06-15T19:29:03+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
-  "session_count": 806,
+  "session_count": 805,
   "sessions": [
     {
       "title": "“Make Me a Map”: Building a GIS Agent with Agent Bricks, MCP, and Lakebase",
@@ -1740,7 +1740,7 @@
           "company": "Atlassian"
         },
         {
-          "name": "preddy preddy",
+          "name": "Prakash Reddy",
           "role": "Head of Data Engineering",
           "company": "Atlassian"
         }
@@ -6062,33 +6062,6 @@
       "body": "Hertz is executing a multi-phase transformation to decommission its 15-year-old legacy ecosystem and establish a modern data platform that powers BI and analytics across global reservations, rentals, billing, fleet management and enterprise operations. Hertz’s Databricks-powered data platform enables real-time analytics and enterprise-scale AI while improving data governance and significantly lowering operational expenses. In this talk, we walk through Hertz’s data landscape and our approach migrating from legacy systems."
     },
     {
-      "title": "Detecting and Reducing Manipulative AI Outputs With Interpretable Governance Signals",
-      "speakers": [
-        {
-          "name": "Julia Jose",
-          "role": "PhD Candidate",
-          "company": "New York University"
-        }
-      ],
-      "type": "Lightning Talk",
-      "track": "Governance & Security",
-      "industry": [
-        "Communications, Media & Entertainment",
-        "Public Sector"
-      ],
-      "category": [
-        "AI/BI"
-      ],
-      "level": "Intermediate",
-      "areas": [
-        "AI Agents",
-        "Generative AI"
-      ],
-      "duration_min": "20",
-      "url": "https://www.databricks.com/session/detecting-and-reducing-manipulative-ai-outputs-interpretable-governance",
-      "body": "Large language models are increasingly embedded in data platforms and decision workflows, yet they can generate manipulative and propagandistic content at scale, often without obvious policy violations. In this talk, I present a production-oriented approach to detecting and mitigating manipulation in generative AI systems using interpretable, data-driven signals. Drawing on real-world pipelines I’ve built, I show how manipulative techniques can be operationalized as measurable indicators within AI evaluation workflows. I demonstrate how these signals can be used to monitor model behavior,…"
-    },
-    {
       "title": "DevConnect Meetup",
       "speakers": [
         {
@@ -6685,8 +6658,8 @@
       "title": "Engineering Velocity Under Constraints: How Lakebase Database Branching Helped Us Deliver Faster in a Regulated Industry",
       "speakers": [
         {
-          "name": "Dino Selimbasic",
-          "role": "VP of Engineering and Delivery",
+          "name": "Darko Todorovic",
+          "role": "CTO",
           "company": "HTEC"
         }
       ],
@@ -6709,7 +6682,7 @@
           "company": "Google Cloud"
         },
         {
-          "name": "Bhadrinath Pani",
+          "name": "Bhadri Pani",
           "role": "Senior Machine Learning Engineer",
           "company": "HG Insights"
         },
@@ -7419,11 +7392,6 @@
       "title": "Freddy AI at Scale: How Freshworks Democratized Data Intelligence for 70,000 Customers on a Governed Lakehouse",
       "speakers": [
         {
-          "name": "Prem Kumar Patturaj",
-          "role": "Director of Engineering",
-          "company": "Freshworks"
-        },
-        {
           "name": "Sreedhar Gade",
           "role": "VP - Engg & Data",
           "company": "Freshworks"
@@ -7611,6 +7579,11 @@
         {
           "name": "SATHIYA KESAVAN",
           "role": "Principal Software Engineer",
+          "company": "Comcast"
+        },
+        {
+          "name": "Varghese Pathisseril",
+          "role": "Exec. Dir Software Dev and Engineering",
           "company": "Comcast"
         }
       ],
@@ -8238,7 +8211,7 @@
         },
         {
           "name": "Shyam J Dadala",
-          "role": "Lead Data & AI Platforms Architect",
+          "role": "AI & Data Platforms Arch and Strategy",
           "company": "Takeda Pharmaceuticals"
         }
       ],
@@ -9105,7 +9078,7 @@
           "company": "AkzoNobel"
         },
         {
-          "name": "Peter Jan Snoep",
+          "name": "Peter Snoep",
           "role": "Domain architect data & analytics",
           "company": "AkzoNobel"
         }
@@ -10431,7 +10404,7 @@
           "company": "TK Elevator"
         }
       ],
-      "type": "Lightning Talk",
+      "type": "Breakout",
       "track": "Data Strategy",
       "industry": [
         "Manufacturing",
@@ -10448,7 +10421,7 @@
         "Data Intelligence",
         "Architecture & Interoperability"
       ],
-      "duration_min": "20",
+      "duration_min": "40",
       "url": "https://www.databricks.com/session/how-tk-elevator-turning-fragmented-data-digital-data-driven-service",
       "body": "Harnessing a decade of data capture to enhance customer service and improve operational efficiency. TKE had amassed a deep but fragmented data lake previously impossible to comprehensively analyze. The Azure Databricks Intelligence Platform enabled consolidation of the data, and by using Medallion architecture concept and Unity Catalog, TKE was able to create a trusted data foundation that connects management reporting with operational execution in the field. A key element of this transformation has been TKE’s Digital Operations Centers, which help turn insights from IoT data and service…"
     },
@@ -12855,7 +12828,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/mission-critical-inference-powering-high-scale-ai-production",
-      "body": "You've shipped your model. Now it needs to serve millions of requests a day without blinking — at the right latency, the right cost, and with zero downtime. The architecture that handled your prototype won't cut it in production, and most teams learn that the hard way.This session walks through the architecture, tuning knobs, and operational patterns that let Databricks Custom Model Serving handle the world's most demanding inference workloads. You'll see how GPU autoscaling matches capacity to traffic, how request batching drives down cost per call, how traffic splitting enables safe…"
+      "body": "The explosive growth in token consumption has made deploying LLMs at scale increasingly complex. Teams must balance latency, cost, and reliability. Databricks Model Serving is designed to absorb these operational challenges across the full model spectrum: proprietary APIs, open-source foundation models, fine-tuned variants, and fully custom architectures. In this talk, we'll go under the hood of how we built token- and cache-aware routing, intelligent scheduling, and autoscaling to deliver efficient, resilient inference at scale. We'll then show how we extended this infrastructure with…"
     },
     {
       "title": "Mo’ Agents Mo’ Problems: How We Simplified Lakehouse Threat Hunting as a Service at Scale",
@@ -13598,6 +13571,11 @@
     {
       "title": "Open for Business: Building the Open Lakehouse for the Agentic Age with Unity Catalog Open Source and Open Sharing",
       "speakers": [
+        {
+          "name": "Michelle Leon",
+          "role": "Senior Staff Product Manager",
+          "company": "Databricks"
+        },
         {
           "name": "Robert Pack",
           "role": "Staff Developer Advocate",
@@ -16004,37 +15982,6 @@
       "body": "Energy & Utilities (E&U) face a perfect storm: surging OT/ICS ransomware, strict NERC CIP/TSA regulations, and an explosion of IT/OT telemetry. Traditional SIEMs, hampered by ingest-based pricing and data silos, can no longer keep pace. Enter Lakewatch: Databricks’ open, AI-native SIEM, built natively on the Lakehouse. This session provides insights from Energy Queensland's journey of navigating the challenges of traditional SIEM and the impact a security lakehouse on Databricks can deliver. We'll discuss how Databricks Lakewatch, the lakehouse-native SIEM, eliminates \"ingest taxes\" and…"
     },
     {
-      "title": "Security at Anthropic: Building D&R for an AI-Native Company",
-      "speakers": [
-        {
-          "name": "Jackie Bow",
-          "role": "Lead, Defense Platforms ",
-          "company": "Anthropic"
-        },
-        {
-          "name": "Keegan Dubbs",
-          "role": "Staff Product Manager",
-          "company": "Databricks"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Cybersecurity",
-      "industry": [
-        "Enterprise Technology"
-      ],
-      "category": [
-        "Databricks SQL",
-        "Lakewatch"
-      ],
-      "level": "Beginner",
-      "areas": [
-        "SQL"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/security-anthropic-building-dr-ai-native-company",
-      "body": "As AI systems become critical infrastructure, security teams face a new challenge: how do you defend an AI-native company at the speed and scale that modern threats demand? In this session, Jackie Bow, Technical Lead of Threat Detection Engineering at Anthropic, shares how her team thinks about building detection and response capabilities purpose-built for an AI company including the architectural decisions, tradeoffs, and lessons learned along the way.Jackie will offer a practitioner's perspective on what it takes to operate a security function inside one of the world's leading AI labs,…"
-    },
-    {
       "title": "Self-Healing Product Catalogs: Drift-Aware Computer Vision for Retail & CPG on Databricks",
       "speakers": [
         {
@@ -16130,7 +16077,7 @@
         },
         {
           "name": "Santosh Dandey",
-          "role": "Enterprise Architect",
+          "role": "Senior Manager",
           "company": "Deloitte"
         }
       ],
@@ -16477,36 +16424,6 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/sponsored-accenture-pipelines-agents-rethinking-data-engineering",
       "body": "The next evolution of data engineering isn’t incremental—it’s autonomous. In this session, we challenge the traditional notion of pipelines and introduce an agentic model where data systems can reason, adapt, and act. Using Databricks as the foundation, we explore how agentic AI enables dynamic orchestration, intelligent error handling, and continuous optimization across the data lifecycle to build and run a complete data intelligence platform. We’ll share practical design patterns, lessons learned, and the trade-offs organizations must navigate as they move toward self-evolving data…"
-    },
-    {
-      "title": "Sponsored by: Accenture | Reinventing Talent for the Human + AI Era",
-      "speakers": [
-        {
-          "name": "Shyam Thyagaraj",
-          "role": "Senior Managing Director",
-          "company": "Accenture"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Artificial Intelligence & Agents",
-      "industry": [
-        "Enterprise Technology",
-        "Consulting & Services"
-      ],
-      "category": [
-        "AI/BI",
-        "Unity Catalog",
-        "Databricks Agents"
-      ],
-      "level": "Intermediate",
-      "areas": [
-        "Data Intelligence",
-        "Generative AI",
-        "Thought Leadership"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/sponsored-accenture-reinventing-talent-human-ai-era",
-      "body": "Join Accenture and industry leaders for an executive panel exploring how organizations are harnessing AI and data to transform talent strategies and unlock workforce potential. As enterprises modernize their data foundations, new opportunities are emerging to reskill talent, enhance decision-making, and drive innovation at scale. Panelists will share how they are embedding AI into talent ecosystems—redefining roles, accelerating skills development, and aligning workforce strategy to business outcomes. The discussion will also address key challenges, including change management, data…"
     },
     {
       "title": "Sponsored by: Accenture | Securing America’s Scientific Future",
@@ -19345,6 +19262,30 @@
       "body": "Most companies have shipped AI by now: copilots, dashboards, recommendation engines. The models work, the data platforms exist, yet AI still usually sits behind a human. It advises, but rarely acts. That gap comes down to orchestration, governance and organization design. This session will explore what must be in place before AI can run autonomously, and what changes when it does. We’ll walk through enterprise scenarios where agentic AI runs on a Databricks backbone, and the architecture and governance choices that made it possible. We’ll also cover where human oversight still belongs and…"
     },
     {
+      "title": "Sponsored by: Nagarro | The Agentic Enterprise: What has to be True Before AI can Act Autonomously",
+      "speakers": [],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Enterprise Technology",
+        "Financial Services"
+      ],
+      "category": [
+        "AI/BI",
+        "Unity Catalog",
+        "Databricks Agents"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "AI Agents",
+        "Security & Compliance",
+        "Data Lakehouse"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/sponsored-nagarro-agentic-enterprise-what-has-be-true-ai-can-act-0",
+      "body": "Most companies have shipped AI by now: copilots, dashboards, recommendation engines. The models work, the data platforms exist, yet AI still usually sits behind a human. It advises, but rarely acts. That gap comes down to orchestration, governance and organization design. This session will explore what must be in place before AI can run autonomously, and what changes when it does. We’ll walk through enterprise scenarios where agentic AI runs on a Databricks backbone, and the architecture and governance choices that made it possible. We’ll also cover where human oversight still belongs and…"
+    },
+    {
       "title": "Sponsored by: Neo4j | Teaching Genie to See Connections: Graph Intelligence for the Databricks Lakehouse",
       "speakers": [
         {
@@ -20474,7 +20415,7 @@
       "speakers": [
         {
           "name": "Bobby Brill",
-          "role": null,
+          "role": "Sr. Director Product Managment",
           "company": "Salesforce"
         },
         {
@@ -21215,6 +21156,29 @@
       "duration_min": "20",
       "url": "https://www.databricks.com/session/sponsored-west-monroe-operational-intelligence-point-decision-clonal-and",
       "body": "Organizations are investing in Databricks for analytics and AI, but struggle to turn insights into real-time action across CRM, service, and frontline workflows. This session introduces Clonal, an operational intelligence platform that activates Databricks data at the point of decision. Clonal creates a live operational model by unifying data from core systems and Databricks, processes events in milliseconds, and orchestrates actions across systems. While Databricks powers data engineering, analytics, and AI, Clonal translates those outputs into context-aware applications embedded directly…"
+    },
+    {
+      "title": "Sponsored by: WisdomAI | Why Data Analysts are the Future of AI: The Rise of AI Context Engineers",
+      "speakers": [],
+      "type": "Breakout",
+      "track": "Analytics & BI",
+      "industry": [
+        "Enterprise Technology",
+        "Manufacturing",
+        "Financial Services"
+      ],
+      "category": [
+        "AI/BI"
+      ],
+      "level": "Beginner",
+      "areas": [
+        "AI Agents",
+        "Data Intelligence",
+        "Generative AI"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/sponsored-wisdomai-why-data-analysts-are-future-ai-rise-ai-context",
+      "body": "AI analytics projects struggle to scale beyond demos because AI understands code but lacks critical business context—details like defining churn or explaining anomalies. Without this knowledge, AI produces wrong answers. The essential context is held by data analysts, who are currently underutilized. In this session, Kapil Chhabra introduces the AI Context Engineer, a vital new role merging analytics, data engineering, governance, and business strategy. Learn why this role is critical for building trusted AI on modern lakehouse platforms like Databricks. You will learn: why AI analytics…"
     },
     {
       "title": "Sponsored by: WisdomAI | Your AI Doesn't Know Your Business. Your Data Analysts Do. Why the Future Belongs to AI Context Engineers",
@@ -22193,7 +22157,7 @@
         },
         {
           "name": "Mairi McKinnon",
-          "role": "Senior Business Intelligence Consultant",
+          "role": "Data Consultant",
           "company": "Blend360 EMEA"
         }
       ],
@@ -24114,7 +24078,7 @@
       "title": "Weaving Data Into the Financial Fabric: How Nasdaq Uses Databricks to Power the Innovation Economy",
       "speakers": [
         {
-          "name": "Angie ruan",
+          "name": "Angie Ruan",
           "role": "CTO, Capital Access Platforms",
           "company": "Nasdaq"
         },
