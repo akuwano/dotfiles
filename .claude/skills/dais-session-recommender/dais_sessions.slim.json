@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T19:01:12+00:00",
+  "generated_at": "2026-06-18T18:59:21+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 803,
   "sessions": [
@@ -1548,7 +1548,7 @@
           "company": "Databricks"
         }
       ],
-      "type": "Hands-on Learning",
+      "type": "Deep Dive",
       "track": null,
       "industry": [],
       "category": [],
@@ -3401,8 +3401,8 @@
       "speakers": [
         {
           "name": "John Kutay",
-          "role": null,
-          "company": null
+          "role": "Director of Engineering, Growth Eng",
+          "company": "Rippling"
         }
       ],
       "type": "Breakout",
@@ -3637,6 +3637,40 @@
       "duration_min": "240",
       "url": "https://www.databricks.com/session/building-data-pipelines-lakeflow-spark-declarative-pipelines",
       "body": "This hands-on course introduces users to the essential concepts and skills needed to build data pipelines using Lakeflow Spark Declarative Pipelines (SDP) in Databricks for incremental batch or streaming ingestion and processing through multiple streaming tables and materialized views. Designed for data engineers new to Spark Declarative Pipelines, the course provides a comprehensive overview of core components such as incremental data processing, streaming tables, materialized views, and temporary views, highlighting their specific purposes and differences. Note: Hands-on training courses…"
+    },
+    {
+      "title": "Building End-to-End ingestion with Lakeflow Connect",
+      "speakers": [
+        {
+          "name": "Peter Pogorski",
+          "role": "Staff Product Manager",
+          "company": "Databricks"
+        },
+        {
+          "name": "Sonia Bendre",
+          "role": "Associate Product Manager",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Data Engineering & Streaming",
+      "industry": [
+        "Healthcare & Life Sciences",
+        "Retail & Consumer Goods",
+        "Financial Services"
+      ],
+      "category": [
+        "Lakeflow"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Data Applications",
+        "Data Ingestion",
+        "Data Formats"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/building-end-end-ingestion-lakeflow-connect",
+      "body": "Data engineers spend far too much time maintaining fragile pipelines across a fragmented landscape of databases, SaaS applications, and file sources. In this technical session, we'll build a complete ingestion platform live on stage, while spotlighting new features and best practices for security, performance, and operational simplicity. We'll dive into: Application ingestion: SaaS sources like Salesforce and Workday, plus how community connectors extend Lakeflow Connect to sources with no out-of-the-box connector. Database ingestion: On-premises and cloud databases like Oracle — from…"
     },
     {
       "title": "Building End-to-End ML Systems With Genie Code",
@@ -7284,7 +7318,7 @@
         },
         {
           "name": "Rohan Varma",
-          "role": null,
+          "role": "Product Manager",
           "company": "OpenAI"
         }
       ],
@@ -8624,7 +8658,7 @@
       "speakers": [
         {
           "name": "Joel McKelvey",
-          "role": "VP of Product Marketing",
+          "role": "VP of Technical Product Marketing",
           "company": "Glean"
         }
       ],
@@ -9291,7 +9325,7 @@
           "company": "Databricks"
         }
       ],
-      "type": "Hands-on Learning",
+      "type": "Deep Dive",
       "track": null,
       "industry": [],
       "category": [],
@@ -14674,8 +14708,8 @@
         },
         {
           "name": "Sumit Sirwani",
-          "role": "Data Engineer",
-          "company": "Abridge"
+          "role": "Data Engineering Leader",
+          "company": "Abridge AI"
         }
       ],
       "type": "Breakout",
@@ -16236,6 +16270,31 @@
       "body": "Industrial AI often stalls due to fragmented data, disconnected systems, and lack of scalable infrastructure to manage data integration and local AI execution. In this session, Siemens and Databricks show how an edge-to-cloud architecture enables an AI-ready data foundation by streaming contextualized shopfloor data to the cloud in near-real time, with Siemens Industrial Edge apps and FFT DataBridge app, training models centrally, and deploying them back to the edge—unlocking scalable, production-grade AI across global operations."
     },
     {
+      "title": "Software Development Is Changing Faster Than Your Org Chart",
+      "speakers": [
+        {
+          "name": "John  Obrien",
+          "role": "Co Head Engineering, Asynchronous Agents",
+          "company": "Cursor"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Artificial Intelligence & Agents",
+      "industry": [
+        "Enterprise Technology"
+      ],
+      "category": [
+        "AI/BI"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "AI Agents"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/software-development-changing-faster-your-org-chart",
+      "body": "Drawing on conversations with leaders at over half of the Fortune 500, this presentation reveals an emerging pattern: software development is changing in ways most businesses aren't prepared for, extending well beyond AI tools and productivity gains into fundamental shifts in who builds software, how decisions get made, and how work happens. As software escapes the boundaries of engineering teams, leaders across finance, operations, product, and strategy are rethinking who can safely build and modify software, how development velocity is governed, and what \"good\" productivity even means."
+    },
+    {
       "title": "Spark DSV2: Growing Up Fast",
       "speakers": [
         {
@@ -16638,11 +16697,6 @@
           "name": "Janene Ward",
           "role": "Enterprise Data Quality Lead",
           "company": "General Motors"
-        },
-        {
-          "name": "Janene Ward",
-          "role": "Enterprise Data Quality Lead",
-          "company": "General Motors"
         }
       ],
       "type": "Lightning Talk",
@@ -16670,8 +16724,8 @@
       "title": "Sponsored by: Artefact | The Workforce You Won't Recognise: Building the Hybrid Organization with AI Agents",
       "speakers": [
         {
-          "name": "Ghadi Hobeika",
-          "role": "CEO & Managing Partner, Artefact US",
+          "name": "Harry Morphakis",
+          "role": "Partner",
           "company": "Artefact"
         }
       ],
@@ -17768,9 +17822,9 @@
       "title": "Sponsored by: Eclerx | From Legacy Workflows to Intelligent Retail Decisioning on Databricks",
       "speakers": [
         {
-          "name": "Sanjay Kukreja",
-          "role": "CIO/ CTO",
-          "company": "Eclerx"
+          "name": "Rajasi Behere",
+          "role": "Associate Principal",
+          "company": "eClerx"
         }
       ],
       "type": "Lightning Talk",
@@ -21727,7 +21781,7 @@
       "body": "Open table formats such as Iceberg allow organizations to run multiple engines on shared data, but this openness makes governance difficult. Unity Catalog already supports universal table-level access control for external engines like Starburst via credential vending, but that alone cannot support fine-grained policies like column masking or row filtering. UC’s move to server-side scan planning, built on Iceberg REST Catalog Scan APIs, allows enforcement of fine-grained access control in Starburst: policies are defined and applied server-side, and Starburst uses the filtered scan plan from UC…"
     },
     {
-      "title": "Tech Industry Forum | Sponsored by Entrada ",
+      "title": "Tech and AI Industry Forum | Sponsored by Entrada ",
       "speakers": [
         {
           "name": "Daniel Cane",
@@ -21801,7 +21855,7 @@
         "Data Formats"
       ],
       "duration_min": "90",
-      "url": "https://www.databricks.com/session/tech-industry-forum-sponsored-entrada",
+      "url": "https://www.databricks.com/session/tech-and-ai-industry-forum-sponsored-entrada",
       "body": "As the first wave of AI experimentation matures, leaders are facing a new bottleneck: the “Architectural Tax” of fragmented stacks. To move beyond universal foundation models and build production-grade AI applications, an interoperable foundation is essential. This foundation must unify governance, data and model choice to power high-frequency data and governed intelligence from a single location. This 90-minute Tech Industry Forum joins leaders from the top AI innovators to bridge the gap between AI ambition and operational reality. We will move past the hype to address the foundational…"
     },
     {
@@ -23308,40 +23362,6 @@
       "body": "Historically, achieving sub-second query latencies across massive concurrent workloads required moving data out of the core lakehouse. This session deep-dives into Lakehouse//RT, a new real-time warehouse purpose-built to eliminate this architectural compromise. We will deliver a deep technical exploration of Lakehouse//RT’s underlying architecture, demonstrating how it maintains ultra-low latency without sacrificing resource efficiency. This session will analyze the specific engineering mechanisms that allow the engine to handle thousands of concurrent queries simultaneously."
     },
     {
-      "title": "Under the Hood: Scalable Ingestion Strategies for Databases, Applications, and File Sources",
-      "speakers": [
-        {
-          "name": "Peter Pogorski",
-          "role": "Staff Product Manager",
-          "company": "Databricks"
-        },
-        {
-          "name": "Sonia Bendre",
-          "role": "Associate Product Manager",
-          "company": "Databricks"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Data Engineering & Streaming",
-      "industry": [
-        "Healthcare & Life Sciences",
-        "Retail & Consumer Goods",
-        "Financial Services"
-      ],
-      "category": [
-        "Lakeflow"
-      ],
-      "level": "Intermediate",
-      "areas": [
-        "Data Applications",
-        "Data Ingestion",
-        "Data Formats"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/under-hood-scalable-ingestion-strategies-databases-applications-and-file",
-      "body": "Data engineers spend far too much time maintaining fragile scripts for a fragmented landscape of databases, applications, and file sources. In this technical session, we’ll explore how Lakeflow Connect allows you to build robust pipelines without the operational burden of DIY infrastructure. We’ll dive into: Database ingestion: A look under the hood at efficient CDC for sources like Oracle, MySQL, and Postgres, alongside query-based ingestion for sources like Teradata, Redshift, and Synapse. Application and file ingestion: What’s new—and happening behind the scenes—across our newest…"
-    },
-    {
       "title": "Underwriting the Future: How Leading Insurers Turn Proprietary Data into Competitive Advantage with Databricks",
       "speakers": [
         {
@@ -24495,6 +24515,11 @@
           "name": "Nancy Wang",
           "role": null,
           "company": null
+        },
+        {
+          "name": "Amritansh Raghav",
+          "role": "CTO",
+          "company": "Asana"
         }
       ],
       "type": "Breakout",
@@ -24778,36 +24803,6 @@
       "duration_min": "60",
       "url": "https://www.databricks.com/session/women-data-and-ai-reception",
       "body": "Join us for a dynamic panel on Wednesday, June 17 at YBCA Forum + East Garden, featuring senior women leaders in data and AI as they share reflections on their inspiring career journeys and how they’re navigating the next wave of technological transformation. The conversation will offer both practical insights and personal reflections — followed by a networking reception designed to connect and further build this global community."
-    },
-    {
-      "title": "You Built That with Databricks Apps?! A Customer Showcase of What’s Possible",
-      "speakers": [
-        {
-          "name": "Ashwin Pothukuchi",
-          "role": "Sr. Solutions Engineer",
-          "company": "Databricks"
-        },
-        {
-          "name": "Tushar Madan",
-          "role": "Product Adoption, Databricks Apps",
-          "company": "Databricks"
-        }
-      ],
-      "type": "Breakout",
-      "track": "Application Development",
-      "industry": [
-        "Communications, Media & Entertainment"
-      ],
-      "category": [
-        "Databricks Apps"
-      ],
-      "level": "Beginner",
-      "areas": [
-        "Data Applications"
-      ],
-      "duration_min": "40",
-      "url": "https://www.databricks.com/session/you-built-databricks-apps-customer-showcase-whats-possible",
-      "body": "You’ve seen Databricks Apps used for simple dashboards and internal tools—but that’s just the starting line. In this breakout, we’ll showcase some of the most creative, high-impact apps real customers have built on Databricks, from agentic workflows and decision copilots to line-of-business apps that entire organizations now run on every day. We’ll walk through a curated set of customer stories, each answering three questions: What problem were they stuck on? What did they build on Databricks Apps? What changed in their business as a result? Along the way, you’ll see patterns for building AI…"
     },
     {
       "title": "Your AI Strategy is Only as Good as Your People Strategy",
