@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T18:59:21+00:00",
+  "generated_at": "2026-06-19T18:48:08+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 803,
   "sessions": [
@@ -12344,11 +12344,6 @@
       "title": "Making Agents Work: How the Ecosystem Unlocks Enterprise Value",
       "speakers": [
         {
-          "name": "Harsha Dronamraju",
-          "role": "VP, Product",
-          "company": "Celonis"
-        },
-        {
           "name": "James French",
           "role": "Director of Process Intelligence",
           "company": "ARM"
@@ -22857,13 +22852,7 @@
     },
     {
       "title": "Three Steps to Red Team Your LLMs on Databricks (Using Tools You Didn't Know You Had)",
-      "speakers": [
-        {
-          "name": "Gavita Regunath",
-          "role": "Chief AI Officer",
-          "company": "Advancing Analytics"
-        }
-      ],
+      "speakers": [],
       "type": "Lightning Talk",
       "track": "Governance & Security",
       "industry": [
