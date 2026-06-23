@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T19:15:16+00:00",
+  "generated_at": "2026-06-23T18:53:30+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 803,
   "sessions": [
@@ -22852,7 +22852,13 @@
     },
     {
       "title": "Three Steps to Red Team Your LLMs on Databricks (Using Tools You Didn't Know You Had)",
-      "speakers": [],
+      "speakers": [
+        {
+          "name": "Gavi Regunath",
+          "role": "Chief AI Officer",
+          "company": "Advancing Analytics"
+        }
+      ],
       "type": "Lightning Talk",
       "track": "Governance & Security",
       "industry": [
