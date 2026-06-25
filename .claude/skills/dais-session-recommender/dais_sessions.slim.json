@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T18:44:50+00:00",
+  "generated_at": "2026-06-25T18:55:09+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 803,
   "sessions": [
@@ -11666,7 +11666,7 @@
       "body": "Teams today struggle with pipeline fragility, brittle orchestration, and tool sprawl that slows delivery and increases maintenance costs. Lakeflow eliminates that friction by unifying ingestion, transformation, and orchestration on the Data Intelligence Platform, with reliability and governance built into the foundation. This session shows how Databricks Lakeflow turns Spark into the most advanced execution engine for data engineering on the planet— with agentic data pipelines underpinned by managed ingestion connectors, declarative transformations, native orchestration, and intelligent…"
     },
     {
-      "title": "Karthic, CTO of Etihad Airlines",
+      "title": "Karthic, CTO of Etihad Airways",
       "speakers": [
         {
           "name": "Amber Roberts",
@@ -11693,7 +11693,7 @@
       "level": null,
       "areas": [],
       "duration_min": "5",
-      "url": "https://www.databricks.com/session/karthic-cto-etihad-airlines",
+      "url": "https://www.databricks.com/session/karthic-cto-etihad-airways",
       "body": "Hear from Etihad Airlines' CTO, Karthic Sundararaj, on how they use Databricks and Genie."
     },
     {
@@ -12453,11 +12453,6 @@
       "title": "Marketing Forum",
       "speakers": [
         {
-          "name": "Bryce Macher",
-          "role": "Vice President, AI Engineering",
-          "company": "FanDuel"
-        },
-        {
           "name": "Chris Wissing",
           "role": "Chief Product Officer",
           "company": "Epsilon"
@@ -12486,6 +12481,21 @@
           "name": "Scott Brinker",
           "role": "Analyst & Advisor",
           "company": "chiefmartec"
+        },
+        {
+          "name": "Jayashankar Malepati",
+          "role": "Global Director of Data Science",
+          "company": "Circle K"
+        },
+        {
+          "name": "Elizabeth Dobbs",
+          "role": "AVP, Marketing Technology, Data + Growth",
+          "company": "Databricks"
+        },
+        {
+          "name": "Michael Trapani",
+          "role": "Sr. Director - Product Marketing",
+          "company": "Databricks"
         }
       ],
       "type": "Special Interest",
