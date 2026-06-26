@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-25T18:55:09+00:00",
+  "generated_at": "2026-06-26T18:47:16+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
-  "session_count": 803,
+  "session_count": 805,
   "sessions": [
     {
       "title": "“Make Me a Map”: Building a GIS Agent with Agent Bricks, MCP, and Lakebase",
@@ -5100,6 +5100,30 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/cross-cloud-delta-sharing-eliminate-egress-cost-delta-sharing-global",
       "body": "Cross-cloud and cross-region data sharing introduces egress costs that grow with recipient query volume, creating a scaling challenge for large-scale data providers. This session covers best practices for architecting cost-efficient OpenSharing deployments across clouds and regions, and introduces a new Databricks capability designed to change how providers manage cross-cloud/region delivery at scale."
+    },
+    {
+      "title": "Customer Spotlight: Supercell",
+      "speakers": [
+        {
+          "name": "Ari Kaplan",
+          "role": "Global Head of Evangelism",
+          "company": "Databricks"
+        },
+        {
+          "name": "Boris Nechaev",
+          "role": "Head of Data Platform",
+          "company": "Supercell"
+        }
+      ],
+      "type": "Virtual",
+      "track": null,
+      "industry": [],
+      "category": [],
+      "level": null,
+      "areas": [],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/customer-spotlight-supercell",
+      "body": "Supercell makes popular mobile games Clash of Clans, Clash Royale, and Brawl Stars. Hear from Boris Nachaev, one of their first employees, on how they operate at global scale, support 300M monthly players, and build better internal data capabilities through Databricks."
     },
     {
       "title": "Customer Successes by Industry: Financial Services, Healthcare, Public Sector",
@@ -14762,6 +14786,35 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/real-time-context-engineering-ai-databricks",
       "body": "Just like we don’t put crude oil in a car, we refine it into gasoline. AI can’t run on raw data either. It needs continuous, refined context. Serving fresh context is the missing architectural layer for reliable AI. In this session, learn how Confluent Intelligence and Databricks turn operational data into low-latency context for AI agents and applications. See how Confluent’s fully managed streaming platform feeds trusted data into the Databricks lakehouse for Agent Bricks and AI/BI. We’ll demo real-time architectures for anomaly detection, product personalization, and AI-powered data…"
+    },
+    {
+      "title": "Real-Time Intelligence: High-Performance Analytics with Reyden",
+      "speakers": [
+        {
+          "name": "Jason Pohl",
+          "role": "Head of BuiltOn Field Engineering",
+          "company": "Databricks"
+        },
+        {
+          "name": "Maria Zervou",
+          "role": "Chief AI Officer - EMEA",
+          "company": "Databricks"
+        },
+        {
+          "name": "Shant Hovsepian",
+          "role": "Dream Granter",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Virtual",
+      "track": null,
+      "industry": [],
+      "category": [],
+      "level": null,
+      "areas": [],
+      "duration_min": "0",
+      "url": "https://www.databricks.com/session/real-time-intelligence-high-performance-analytics-reyden",
+      "body": "Hear about the latest Lakehouse RT and Reyden announcements. Shant, Distinguished Engineer at Databricks, gives an in-depth discussion of achieving millisecond performance at massive scale - directly on your lake. Also Pramod Sadalage from Thoughtworks will add his thoughts on the impact of Lakebase on software development."
     },
     {
       "title": "Real-Time ML Features for Payment Fraud: Architecture Patterns at Scale",
@@ -24518,8 +24571,8 @@
         },
         {
           "name": "Nancy Wang",
-          "role": null,
-          "company": null
+          "role": "CTO",
+          "company": "1Password"
         },
         {
           "name": "Amritansh Raghav",
