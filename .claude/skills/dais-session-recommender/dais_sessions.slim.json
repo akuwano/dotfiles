@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T18:51:23+00:00",
+  "generated_at": "2026-06-30T18:48:14+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 805,
   "sessions": [
@@ -38,7 +38,7 @@
       "title": "[CustomerLake] How Circle K Powers Personalized Loyalty Programs with Customer Data at Scale",
       "speakers": [
         {
-          "name": "Jayashankar Malepati",
+          "name": "Jay Malepati",
           "role": "Global Director of Data Science",
           "company": "Circle K"
         }
@@ -12507,7 +12507,7 @@
           "company": "chiefmartec"
         },
         {
-          "name": "Jayashankar Malepati",
+          "name": "Jay Malepati",
           "role": "Global Director of Data Science",
           "company": "Circle K"
         },
