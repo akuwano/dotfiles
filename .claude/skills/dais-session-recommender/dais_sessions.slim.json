@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T19:39:52+00:00",
+  "generated_at": "2026-07-14T19:37:36+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
-  "session_count": 804,
+  "session_count": 805,
   "sessions": [
     {
       "title": "“Make Me a Map”: Building a GIS Agent with Agent Bricks, MCP, and Lakebase",
@@ -11690,7 +11690,7 @@
       "body": "Teams today struggle with pipeline fragility, brittle orchestration, and tool sprawl that slows delivery and increases maintenance costs. Lakeflow eliminates that friction by unifying ingestion, transformation, and orchestration on the Data Intelligence Platform, with reliability and governance built into the foundation. This session shows how Databricks Lakeflow turns Spark into the most advanced execution engine for data engineering on the planet— with agentic data pipelines underpinned by managed ingestion connectors, declarative transformations, native orchestration, and intelligent…"
     },
     {
-      "title": "Karthic, CTO of Etihad Airways",
+      "title": "Karthic, VP Technology and Architecture Etihad Airways",
       "speakers": [
         {
           "name": "Amber Roberts",
@@ -11717,7 +11717,7 @@
       "level": null,
       "areas": [],
       "duration_min": "5",
-      "url": "https://www.databricks.com/session/karthic-cto-etihad-airways",
+      "url": "https://www.databricks.com/session/karthic-vp-technology-and-architecture-etihad-airways",
       "body": "Hear from Etihad Airlines' CTO, Karthic Sundararaj, on how they use Databricks and Genie."
     },
     {
@@ -14756,6 +14756,41 @@
       "duration_min": "40",
       "url": "https://www.databricks.com/session/rate-hype-nl-sql-and-governance-without-vendor-tax",
       "body": "Every year the modern data/AI landscape gets more crowded. Honest opinions about what's worth building are rare. We took some of the loudest trends (open table formats, semantic layers, MCP servers, vector databases, data mesh, and data governance) and rated each one: Adopt Now, Experiment, Watch, or Ignore. Not based on vendor pitches but on what we've deployed at Abridge, an AI-native healthcare company where we process clinical conversations under HIPAA in real time. Then we will prove it. We will present a natural language to SQL interface that 10xed data-to-insight speed for our…"
+    },
+    {
+      "title": "Real-Time Analytics on Live Postgres Data",
+      "speakers": [
+        {
+          "name": "Ippokratis Pandis",
+          "role": "Distinguished Engineer",
+          "company": "Databricks"
+        },
+        {
+          "name": "Jonathan Katz",
+          "role": "Sr. Staff Product Manager",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Breakout",
+      "track": "Lakebase",
+      "industry": [
+        "Enterprise Technology",
+        "Communications, Media & Entertainment",
+        "Financial Services"
+      ],
+      "category": [
+        "Databricks SQL",
+        "Lakebase"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Data Applications",
+        "Performance & Cost Optimizations",
+        "Lakebase"
+      ],
+      "duration_min": "40",
+      "url": "https://www.databricks.com/session/real-time-analytics-live-postgres-data",
+      "body": "Teams want to run analytics on fresh transactional data without building fragile ETL pipelines or maintaining fleets of read replicas. Lakebase addresses this by separating Postgres storage from compute. In this session, you'll see how the lakebase architecture takes this one step further, for powering low-latency operational analytics for use cases including fraud detection, real-time dashboards, all without duplicating data or slowing down production systems."
     },
     {
       "title": "Real-Time Context Engineering for AI With Databricks",
