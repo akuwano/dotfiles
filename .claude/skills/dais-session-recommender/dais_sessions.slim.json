@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T00:09:18+00:00",
+  "generated_at": "2026-08-07T19:06:40+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 805,
   "sessions": [
@@ -2076,7 +2076,7 @@
       ],
       "duration_min": "20",
       "url": "https://www.databricks.com/session/behind-curtain-key-learnings-building-genie",
-      "body": "As organizations scale, the real challenge isn't just single talk AI — but designing a system like Genie that can coordinate multiple agents, domains, MCP connections, structured data, unstructured data, etc. while keeping the user experience effortless.We've introduces a unified, multi-agent interface that allows anyone to ask complex questions across their entire data and agent estate and get answers without needing to understand how the system works underneath.In this session, we’ll pull back the curtain on how Genie was designed and share the best practices we developed to make…"
+      "body": "As organizations scale, the real challenge isn't just single talk AI — but designing a system like Genie that can coordinate multiple agents, domains, MCP connections, structured data, unstructured data, etc. while keeping the user experience effortless. We've introduces a unified, multi-agent interface that allows anyone to ask complex questions across their entire data and agent estate and get answers without needing to understand how the system works underneath. In this session, we’ll pull back the curtain on how Genie was designed and share the best practices we developed to make…"
     },
     {
       "title": "Benchmarks Don't Lie: Inside Lakebase Performance Engineering",
@@ -2896,7 +2896,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/bridging-transactional-speed-and-analytical-depth-aibi-genies-lakebase",
-      "body": "Discover how Databricks transformed a basic Gradio app into GTM Hub 2.0, an enterprise-grade platform serving 10,000+ global users (Sales, Marketing, XDR) with personalized insights. Core Architecture & Achievements: Databricks Apps (Enterprise Scale): Built a React/FastAPI application serving 10k+ concurrent users with AI/BI Dashboards: Embedded dynamic dashboards with global filters, bookmarkable states, and usage tracking for optimized analytics. Genie (Conversational AI): Integrated multi-agent support. A supervisor agent (via MLFlow) routes natural language queries across specialized…"
+      "body": "Discover how Databricks transformed a basic Gradio app into GTM Hub 2.0, an enterprise-grade platform serving 10,000+ global users (Sales, Marketing, XDR) with personalized insights. Core Architecture & Achievements: Databricks Apps (Enterprise Scale): Built a React/FastAPI application serving 10k+ concurrent users with <3s load times. Features include RBAC, multi-persona views, and seamless cross-origin embedding. AI/BI Dashboards: Embedded dynamic dashboards with global filters, bookmarkable states, and usage tracking for optimized analytics. Genie (Conversational AI): Integrated…"
     },
     {
       "title": "Bringing Agents to Data: How Workday Architects Governed Agentic AI with Iceberg and Unity Catalog",
@@ -9169,7 +9169,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/genie-code-data-science-work-speed-your-ideas",
-      "body": "What if you could go from a raw dataset to a trained model in a single conversation?Data scientists spend a lot of time on the repetitive parts of the lifecycle: finding data, wrangling it, writing features, tuning hyperparameters, and not enough time on the creative work that actually moves the needle. Genie Code is an autonomous AI partner built into Databricks that changes the equation. Tell it what you want to explore, and it writes the code, runs the analysis, and iterates with you.In this session, we’ll walk through how to apply Genie Code across the data science lifecycle. We’ll…"
+      "body": "What if you could go from a raw dataset to a trained model in a single conversation? Data scientists spend a lot of time on the repetitive parts of the lifecycle: finding data, wrangling it, writing features, tuning hyperparameters, and not enough time on the creative work that actually moves the needle. Genie Code is an autonomous AI partner built into Databricks that changes the equation. Tell it what you want to explore, and it writes the code, runs the analysis, and iterates with you. In this session, we’ll walk through how to apply Genie Code across the data science lifecycle. We’ll…"
     },
     {
       "title": "Genie Code: Accelerating Development for Data and AI Teams",
