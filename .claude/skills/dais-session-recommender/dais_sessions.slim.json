@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T02:07:41+00:00",
+  "generated_at": "2026-08-29T01:42:32+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 805,
   "sessions": [
@@ -9144,7 +9144,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/genie-scale-best-practices-enterprise-rollout",
-      "body": "As organizations adopt agentic AI at scale, getting access, governance, and deployment right is more critical than ever. Rolling out Genie and AI/BI across thousands of users demands clear policies for user access, data governance, and content distribution to ensure secure, consistent, and scalable adoption—including on mobile devices under enterprise policies.We’ll walk through best practices for deploying Genie and AI/BI at scale, helping you move from isolated use cases to organization-wide impact.Topics include:- Onboarding and provisioning users efficiently across business teams-…"
+      "body": "As organizations adopt agentic AI at scale, getting access, governance, and deployment right is more critical than ever. Rolling out Genie and AI/BI across thousands of users demands clear policies for user access, data governance, and content distribution to ensure secure, consistent, and scalable adoption—including on mobile devices under enterprise policies. We’ll walk through best practices for deploying Genie and AI/BI at scale, helping you move from isolated use cases to organization-wide impact. Topics include: - Onboarding and provisioning users efficiently across business teams -…"
     },
     {
       "title": "Genie Code for data science: Work at the speed of your ideas",
@@ -9447,7 +9447,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/getting-most-out-ai-bi-dashboard-creation-intelligent-insights",
-      "body": "AI is rapidly reshaping business intelligence but for many teams, it’s still unclear how to move beyond isolated features to real, end-to-end impact.In Databricks, AI is embedded across the entire BI workflow. From using Genie Code to build and maintain dashboards, to applying AI-driven capabilities like forecasting and key driver analysis, to enabling conversational exploration directly within dashboards, AI becomes part of how analytics is created, delivered, and used.This shift allows teams to move faster, reduce manual work, and unlock deeper insights without adding complexity.In this…"
+      "body": "AI is rapidly reshaping business intelligence but for many teams, it’s still unclear how to move beyond isolated features to real, end-to-end impact. In Databricks, AI is embedded across the entire BI workflow. From using Genie Code to build and maintain dashboards, to applying AI-driven capabilities like forecasting and key driver analysis, to enabling conversational exploration directly within dashboards, AI becomes part of how analytics is created, delivered, and used. This shift allows teams to move faster, reduce manual work, and unlock deeper insights without adding complexity. In this…"
     },
     {
       "title": "Getting the Most Out of Spark Declarative Pipelines: Deep Dive on What’s New and Best Practices",
