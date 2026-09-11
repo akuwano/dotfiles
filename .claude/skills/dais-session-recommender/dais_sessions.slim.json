@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T20:45:25+00:00",
+  "generated_at": "2026-09-11T20:52:04+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 805,
   "sessions": [
@@ -5190,35 +5190,6 @@
       "duration_min": "15",
       "url": "https://www.databricks.com/session/customer-successes-industry-telco-and-manufacturing",
       "body": "Each industry has its uniqueness, and Databricks provides solutions and use cases tailored to core AI-driven industries. Hear from some of our key customers in Telco and Manufacturing about solution accelerators and use cases across popular industries."
-    },
-    {
-      "title": "Customer Zero: How Databricks' Own Finance Team Runs on Databricks",
-      "speakers": [
-        {
-          "name": "Michael Schaaf",
-          "role": "Sr. Director, Finance",
-          "company": "Databricks"
-        }
-      ],
-      "type": "Lightning Talk",
-      "track": "Data Strategy",
-      "industry": [
-        "Enterprise Technology",
-        "Manufacturing",
-        "Financial Services"
-      ],
-      "category": [
-        "Unity Catalog",
-        "Databricks Agents"
-      ],
-      "level": "Intermediate",
-      "areas": [
-        "Data Intelligence",
-        "Getting started with Databricks"
-      ],
-      "duration_min": "20",
-      "url": "https://www.databricks.com/session/customer-zero-how-databricks-own-finance-team-runs-databricks",
-      "body": "The most credible proof of a platform's power is how the company that built it uses it to run its own business. Databricks' Office of the CFO has gone all-in on the Databricks platform to unify transactional data from ERP, CRM, HRIS, and planning systems into a single, governed source of financial truth, eliminating the 'which number is right?' debate that costs enterprises countless hours in every close cycle. In this fast-paced, demo-forward lightning talk, you'll see how Genie and AI/BI enable natural language financial analytics and forecasting, how Unity Catalog ensures SOX compliance…"
     },
     {
       "title": "Customer Zero: How Retool Scaled 1 Million Databases on Databricks Lakebase",
@@ -11220,6 +11191,35 @@
       "duration_min": "20",
       "url": "https://www.databricks.com/session/inside-adobes-near-real-time-cloud-spend-monitoring-system",
       "body": "Cloud costs are rising faster than budgets, yet teams often discover expensive operations only after the spend has occurred. We moved from reactive cost reporting to proactive, near real-time monitoring—reducing SQL warehouse costs by 51% and Serverless compute by 14% in less than 30 days. This talk covers how we built a production-grade monitoring system managing millions in annual Databricks spend across petabyte-scale data, 94,000+ jobs, and millions of compute hours, with 15-minute monitoring cycles and zero infrastructure cost. The key challenge was attribution: Databricks assigns SQL…"
+    },
+    {
+      "title": "Inside Databricks Finance: How the Office of the CFO Uses Data and AI",
+      "speakers": [
+        {
+          "name": "Michael Schaaf",
+          "role": "Sr. Director, Finance",
+          "company": "Databricks"
+        }
+      ],
+      "type": "Lightning Talk",
+      "track": "Data Strategy",
+      "industry": [
+        "Enterprise Technology",
+        "Manufacturing",
+        "Financial Services"
+      ],
+      "category": [
+        "Unity Catalog",
+        "Databricks Agents"
+      ],
+      "level": "Intermediate",
+      "areas": [
+        "Data Intelligence",
+        "Getting started with Databricks"
+      ],
+      "duration_min": "20",
+      "url": "https://www.databricks.com/session/customer-zero-how-databricks-own-finance-team-runs-databricks",
+      "body": "The most credible proof of a platform's power is how the company that built it uses it to run its own business. Databricks' Office of the CFO has gone all-in on the Databricks platform to unify transactional data from ERP, CRM, HRIS, and planning systems into a single, governed source of financial truth, eliminating the 'which number is right?' debate that costs enterprises countless hours in every close cycle. In this fast-paced, demo-forward lightning talk, you'll see how Genie and AI/BI enable natural language financial analytics and forecasting, how Unity Catalog ensures SOX compliance…"
     },
     {
       "title": "Inside Nav-AI: Accenture's No-Code Agent Factory, Powered by Databricks Apps and Lakebase",
