@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T20:52:04+00:00",
+  "generated_at": "2026-09-12T20:27:50+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 805,
   "sessions": [
@@ -11219,7 +11219,7 @@
       ],
       "duration_min": "20",
       "url": "https://www.databricks.com/session/customer-zero-how-databricks-own-finance-team-runs-databricks",
-      "body": "The most credible proof of a platform's power is how the company that built it uses it to run its own business. Databricks' Office of the CFO has gone all-in on the Databricks platform to unify transactional data from ERP, CRM, HRIS, and planning systems into a single, governed source of financial truth, eliminating the 'which number is right?' debate that costs enterprises countless hours in every close cycle. In this fast-paced, demo-forward lightning talk, you'll see how Genie and AI/BI enable natural language financial analytics and forecasting, how Unity Catalog ensures SOX compliance…"
+      "body": "Inside Databricks Finance: How the Office of the CFO Uses Data and AI Databricks’ Office of the CFO uses the Databricks Data Intelligence Platform to unify financial and transactional data, establish a governed source of truth, and bring AI into everyday Finance and FP&A workflows. Data from ERP, CRM, HRIS, planning and other enterprise systems can be brought together on a common data foundation, governed with Unity Catalog, and made accessible through AI-powered tools such as Genie. For Databricks’ Finance organization, this approach has helped simplify financial workflows, expand…"
     },
     {
       "title": "Inside Nav-AI: Accenture's No-Code Agent Factory, Powered by Databricks Apps and Lakebase",
