@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T21:13:53+00:00",
+  "generated_at": "2026-09-18T20:48:29+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 805,
   "sessions": [
@@ -11080,7 +11080,7 @@
       ],
       "duration_min": "20",
       "url": "https://www.databricks.com/session/how-we-built-agent-mode-genie",
-      "body": "Agentic analytics promises to go beyond answering questions enabling AI to investigate, reason, and synthesize insights across complex data. But building systems that do this reliably is far from simple.Genie Agent Mode introduces a new approach to conversational analytics, where AI can explore multiple hypotheses, interact with data iteratively, and generate structured explanations. Under the hood, this requires careful orchestration of planning, validation, and context management to ensure results are both accurate and trustworthy.In this session, we’ll go behind the scenes to explore how…"
+      "body": "Agentic analytics promises to go beyond answering questions enabling AI to investigate, reason, and synthesize insights across complex data. But building systems that do this reliably is far from simple. Genie Agent Mode introduces a new approach to conversational analytics, where AI can explore multiple hypotheses, interact with data iteratively, and generate structured explanations. Under the hood, this requires careful orchestration of planning, validation, and context management to ensure results are both accurate and trustworthy. In this session, we’ll go behind the scenes to explore how…"
     },
     {
       "title": "Human-in-the-Loop Compliance at Global Scale: Databricks Apps + Lakebase Casework + SME Labeling",
