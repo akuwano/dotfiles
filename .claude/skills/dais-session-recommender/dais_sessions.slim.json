@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:08:21+00:00",
+  "generated_at": "2026-10-01T22:35:22+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 805,
   "sessions": [
@@ -617,7 +617,7 @@
       ],
       "duration_min": "20",
       "url": "https://www.databricks.com/session/accelerating-speed-value-analytics-databricks-aibi-agents",
-      "body": "After migrating from Snowflake, Addepar ventured deep into Databricks' native AI/BI suite. This talk shares our practitioner's roadmap for accelerating \"speed to value\" by building analytics directly where data lives. We explore why we chose AI/BI over external tools and how we serve as early adopters pushing the platform's limits.Key takeaways:- The AI-Assisted Analyst: Leveraging Databricks Assistant to chat through notebook discovery, bypass syntax struggles, and cure \"analyst's block\" with AI-suggested Dashboard visuals.- Metadata as Code: Why rich Unity Catalog metadata is the critical…"
+      "body": "After migrating from Snowflake, Addepar ventured deep into Databricks' native AI/BI suite. This talk shares our practitioner's roadmap for accelerating \"speed to value\" by building analytics directly where data lives. We explore why we chose AI/BI over external tools and how we serve as early adopters pushing the platform's limits. Key takeaways: The AI-Assisted Analyst: Leveraging Databricks Assistant to chat through notebook discovery, bypass syntax struggles, and cure \"analyst's block\" with AI-suggested Dashboard visuals. Metadata as Code: Why rich Unity Catalog metadata is the critical UI…"
     },
     {
       "title": "Activating Alpha Generation With Multi Agent AI for Fund Screening",
@@ -1475,7 +1475,7 @@
       ],
       "duration_min": "20",
       "url": "https://www.databricks.com/session/aichemy-how-mcp-powered-agents-cut-drug-discovery-research-weeks-minutes",
-      "body": "Drug discovery demands sifting through millions of compounds, thousands of papers, and dozens of databases—a process that costs the industry an average of $2.6B and over 10 years per approved drug. Researchers spend days cross-referencing OpenTargets for genetic evidence, PubChem for chemical properties, and PubMed for supporting literature. What if agents could do it in minutes?Meet AiChemy, a multi-agent assistant that combines external MCP servers like OpenTargets, PubChem, and PubMed with your own chemical libraries on Databricks. Add Agent Skills to find druggable targets, drug…"
+      "body": "Drug discovery demands sifting through millions of compounds, thousands of papers, and dozens of databases—a process that costs the industry an average of $2.6B and over 10 years per approved drug. Researchers spend days cross-referencing OpenTargets for genetic evidence, PubChem for chemical properties, and PubMed for supporting literature. What if agents could do it in minutes? Meet AiChemy, a multi-agent assistant that combines external MCP servers like OpenTargets, PubChem, and PubMed with your own chemical libraries on Databricks. Add Agent Skills to find druggable targets, drug…"
     },
     {
       "title": "Alinta Energy’s Data Platform: From Platform Migration to Enterprise Ready AI-Driven Energy Ops",
