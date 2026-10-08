@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T22:59:38+00:00",
+  "generated_at": "2026-10-08T23:14:11+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 805,
   "sessions": [
@@ -6142,6 +6142,11 @@
     {
       "title": "Destination Databricks: Hertz’s Data Platform Modernization Journey",
       "speakers": [
+        {
+          "name": "Gaurav Rastogi",
+          "role": "Senior Director, Data Operations and Infrastructure",
+          "company": "Hertz"
+        },
         {
           "name": "Lakshmi Nagesh Chinta",
           "role": "Solution Architect & Delivery Manager",
