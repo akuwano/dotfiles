@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:30:20+00:00",
+  "generated_at": "2026-10-13T22:34:12+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 805,
   "sessions": [
@@ -6092,7 +6092,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/designing-beautiful-effective-dashboards-best-practices-visual-story",
-      "body": "A great dashboard isn’t just fast and accurate. It’s intuitive, engaging, and easy to act on. Yet many fall short, cluttered with too many visuals, unclear layouts, and designs that don’t translate across devices.AI/BI Dashboards make it easier to build polished, interactive experiences, but strong design still depends on thoughtful choices around layout, hierarchy, and usability. With rising expectations for mobile access, dashboards need to deliver the same clarity whether viewed on a large screen or in the palm of your hand.We’ll cover practical design best practices to help you create…"
+      "body": "A great dashboard isn’t just fast and accurate. It’s intuitive, engaging, and easy to act on. Yet many fall short, cluttered with too many visuals, unclear layouts, and designs that don’t translate across devices. AI/BI Dashboards make it easier to build polished, interactive experiences, but strong design still depends on thoughtful choices around layout, hierarchy, and usability. With rising expectations for mobile access, dashboards need to deliver the same clarity whether viewed on a large screen or in the palm of your hand. We’ll cover practical design best practices to help you create…"
     },
     {
       "title": "Designing Data Models and Architectures",
@@ -6956,7 +6956,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/enterprise-reporting-and-embedded-analytics-aibi-dashboards",
-      "body": "Modern BI isn't just about ad hoc exploration—it's about delivering trusted data to internal teams and external users, wherever they work. Yet many organizations still rely on fragmented tools, leading to inconsistent metrics, duplicated data, and added cost.AI/BI Dashboards bring enterprise reporting and embedded analytics directly into the Databricks Platform—with no separate BI infrastructure and no licenses. From scheduled delivery to Slack and Teams to embedded dashboards and Genie experiences, teams can deliver governed insights at scale.We'll dive into how to design, deploy, and scale…"
+      "body": "Modern BI isn't just about ad hoc exploration—it's about delivering trusted data to internal teams and external users, wherever they work. Yet many organizations still rely on fragmented tools, leading to inconsistent metrics, duplicated data, and added cost. AI/BI Dashboards bring enterprise reporting and embedded analytics directly into the Databricks Platform—with no separate BI infrastructure and no licenses. From scheduled delivery to Slack and Teams to embedded dashboards and Genie experiences, teams can deliver governed insights at scale. We'll dive into how to design, deploy, and…"
     },
     {
       "title": "Enterprise Resiliency Strategies with Lakebase",
@@ -16193,7 +16193,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/semantic-modeling-best-practices-bi-and-ai",
-      "body": "AI is making self-service data real, but it creates a new challenge: ensuring humans and AI interpret data the same way. When logic is fragmented across tools, inconsistencies emerge, trust erodes, and AI insights become unreliable.Databricks addresses this with a unified approach to semantics across BI and AI. UC Business Semantics provide governed definitions, AI/BI Dashboards add local semantics, and the Genie Knowledge Store adds domain context to improve how AI answers. Together, these layers enable consistent BI and accurate AI. We’ll cover best practices for designing and…"
+      "body": "AI is making self-service data real, but it creates a new challenge: ensuring humans and AI interpret data the same way. When logic is fragmented across tools, inconsistencies emerge, trust erodes, and AI insights become unreliable. Databricks addresses this with a unified approach to semantics across BI and AI. UC Business Semantics provide governed definitions, AI/BI Dashboards add local semantics, and the Genie Knowledge Store adds domain context to improve how AI answers. Together, these layers enable consistent BI and accurate AI. We’ll cover best practices for designing and…"
     },
     {
       "title": "Serverless at Bank Scale: NAB's Complete Workload Migration to Serverless at Enterprise Scale",
