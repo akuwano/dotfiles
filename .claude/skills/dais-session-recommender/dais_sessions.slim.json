@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T21:45:42+00:00",
+  "generated_at": "2026-10-13T00:30:20+00:00",
   "source_url": "https://www.databricks.com/dataaisummit/agenda",
   "session_count": 805,
   "sessions": [
@@ -2349,7 +2349,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/beyond-simple-qa-building-agent-orchestrator-enterprise-analytics",
-      "body": "What does it take to go from multiple separate Genie spaces to a single agent that can coordinate across them all? How do you ensure they reference context from your unstructured data, pull up relevant BI reports, and loop in downstream reporting agents? In this breakout session, we’ll share how the World Bank built a multi-agent system that coordinates Genie spaces, document retrieval, and downstream reporting behind a single interface.What we'll cover:Orchestrator architecture: Designing a LangGraph-based orchestrator that routes natural-language questions to the right domain Genie,…"
+      "body": "What does it take to go from multiple separate Genie spaces to a single agent that can coordinate across them all? How do you ensure they reference context from your unstructured data, pull up relevant BI reports, and loop in downstream reporting agents? In this breakout session, we’ll share how the World Bank built a multi-agent system that coordinates Genie spaces, document retrieval, and downstream reporting behind a single interface. What we'll cover: Orchestrator architecture: Designing a LangGraph-based orchestrator that routes natural-language questions to the right domain Genie,…"
     },
     {
       "title": "Beyond Tables: How Musinsa Built a Self-Optimizing Semantic Layer on Databricks",
@@ -6528,7 +6528,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/embedded-analytics-databricks-aibi",
-      "body": "We often focus on using Databricks AI/BI to power internal business intelligence, but what about delivering those same insights directly to your customers?In this hands-on session, you’ll learn how to embed Databricks AI/BI Dashboards and Genie into external, customer-facing applications. Discover how to seamlessly integrate analytics and conversational AI to turn your apps into data-driven experiences that empower users to make informed decisions right within their workflow.Workshop topics:-Overview of Embedded Analytics with Databricks AI/BI-Embedding Dashboards with iframe-based and…"
+      "body": "We often focus on using Databricks AI/BI to power internal business intelligence, but what about delivering those same insights directly to your customers? In this hands-on session, you’ll learn how to embed Databricks AI/BI Dashboards and Genie into external, customer-facing applications. Discover how to seamlessly integrate analytics and conversational AI to turn your apps into data-driven experiences that empower users to make informed decisions right within their workflow. Workshop topics: Overview of Embedded Analytics with Databricks AI/BI Embedding Dashboards with iframe-based and…"
     },
     {
       "title": "Embracing Serverless SQL at Riot Games",
@@ -12125,7 +12125,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/latest-innovations-bi-and-ai-business-users",
-      "body": "Databricks is setting a new standard for BI—combining unified semantics with AI-powered agents to truly deliver on the promise of Agentic Business Intelligence.Whether through natural language with Genie, AI/BI Dashboards, or a combination of both, users can move seamlessly between conversational and visual analysis in a single, integrated experience.In this session, we’ll cover:- An end-to-end walkthrough of agentic BI on Databricks- The latest innovations and customizations capabilities to simplify access for business users- How unified semantics power consistent, trusted answers across…"
+      "body": "Databricks is setting a new standard for BI—combining unified semantics with AI-powered agents to truly deliver on the promise of Agentic Business Intelligence. Whether through natural language with Genie, AI/BI Dashboards, or a combination of both, users can move seamlessly between conversational and visual analysis in a single, integrated experience. In this session, we’ll cover: An end-to-end walkthrough of agentic BI on Databricks The latest innovations and customizations capabilities to simplify access for business users How unified semantics power consistent, trusted answers across…"
     },
     {
       "title": "Latest innovations in Genie Code: The Future of Agentic Data Work",
@@ -23287,7 +23287,7 @@
       ],
       "duration_min": "40",
       "url": "https://www.databricks.com/session/turning-data-requests-self-service-building-ai-powered-analytics-product",
-      "body": "Ticketmaster's operations team was drowning in data requests. Every \"how many fans showed up to buy tickets last week?\" question cost engineering hours. We were spending over 8 weeks/year being human query engines. We needed to give users the power to answer their own questions.We built OMT Wizard: a conversational analytics tool that lets non-technical users ask questions in plain English and get instant answers. Powered by Databricks Genie, it launched to 500+ users and achieved high stickiness. The users who try it keep coming back. This session shares product lessons from building…"
+      "body": "Ticketmaster's operations team was drowning in data requests. Every \"how many fans showed up to buy tickets last week?\" question cost engineering hours. We were spending over 8 weeks/year being human query engines. We needed to give users the power to answer their own questions. We built OMT Wizard: a conversational analytics tool that lets non-technical users ask questions in plain English and get instant answers. Powered by Databricks Genie, it launched to 500+ users and achieved high stickiness. The users who try it keep coming back. This session shares product lessons from building…"
     },
     {
       "title": "UC Governance, Enterprise Context, and Ontology",
